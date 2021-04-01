@@ -17,7 +17,7 @@ export default {};
 .menu-item a {
 	@apply text-black
   text-nav
-  font-medium
+  font-semibold
   hover:text-opacity-70
   transition;
 }
