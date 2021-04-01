@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="bg-white border-b border-black border-opacity-5">
-			<div class="container mx-auto h-16 items-center flex justify-between relative">
+			<div class="container mx-auto py-5 items-center flex justify-between relative">
 				<a href="/" aria-label="CodeKit for WordPress" title="Company" class="inline-flex items-center">
 					<headerLogo />
 				</a>

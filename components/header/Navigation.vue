@@ -13,14 +13,12 @@
 export default {};
 </script>
 
-<style lang="scss">
-.menu-item {
-	a {
-		@apply text-black
-    text-nav
-    font-medium
-    hover:text-opacity-70
-    transition;
-	}
+<style>
+.menu-item a {
+	@apply text-black
+  text-nav
+  font-medium
+  hover:text-opacity-70
+  transition;
 }
 </style>
