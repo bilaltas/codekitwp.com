@@ -1,10 +1,10 @@
 <template>
 	<nav class="main-nav">
 		<ul class="flex items-center hidden space-x-10 lg:flex">
-			<li class="menu-item"><a href="/" aria-label="Our product" title="Our product">Features</a></li>
-			<li class="menu-item"><a href="/" aria-label="Our product" title="Our product">Pricing</a></li>
-			<li class="menu-item"><a href="/" aria-label="Product pricing" title="Product pricing">Testimonials</a></li>
-			<li class="menu-item"><a href="/" aria-label="About us" title="About us">Support</a></li>
+			<li class="menu-item"><a href="/" aria-label="Pricing" title="Features">Features</a></li>
+			<li class="menu-item"><a href="/" aria-label="Pricing" title="Pricing">Pricing</a></li>
+			<li class="menu-item"><a href="/" aria-label="Use Cases" title="Use Cases">Use Cases</a></li>
+			<li class="menu-item"><a href="/" aria-label="Support" title="Support">Support</a></li>
 		</ul>
 	</nav>
 </template>
