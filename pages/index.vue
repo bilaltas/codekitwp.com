@@ -204,7 +204,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .heading {
 	font-size: 54px;
 	line-height: 1.15;
@@ -225,7 +225,6 @@ export default {
 	background: #e01f3d;
 }
 .hero {
-	//background: url("~static/hero-bg.png"), #f8fafd;
 	background: #f8fafd;
 	background-size: contain;
 	background-position: center center;
