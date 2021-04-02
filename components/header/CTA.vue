@@ -1,9 +1,9 @@
 <template>
 	<ul class="flex items-center hidden space-x-8 lg:flex">
 		<li>
-			<a href="/" class="inline-flex items-center justify-center h-10 px-6 font-bold text-red-main transition rounded text-nav border-2 border-red-main rounded focus:shadow-outline focus:outline-none" aria-label="Sign up" title="Sign up">
+			<a href="/" class="inline-flex items-center justify-center h-9 px-4 font-bold text-red-main hover:bg-red-main hover:text-white transition transition rounded text-nav border-2 border-red-main rounded focus:shadow-outline focus:outline-none" aria-label="Sign up" title="Sign up">
 				Buy Pro
-				<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
+				<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
 					<path d="M4 12h16" />
 					<path d="M13 5l7 7-7 7" />
 				</svg>

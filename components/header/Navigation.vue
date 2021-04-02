@@ -1,6 +1,6 @@
 <template>
 	<nav class="main-nav">
-		<ul class="flex items-center hidden space-x-10 lg:flex">
+		<ul class="flex items-center hidden space-x-8 lg:flex">
 			<li class="menu-item"><a href="/" aria-label="Pricing" title="Features">Features</a></li>
 			<li class="menu-item"><a href="/" aria-label="Pricing" title="Pricing">Pricing</a></li>
 			<li class="menu-item"><a href="/" aria-label="Use Cases" title="Use Cases">Use Cases</a></li>
@@ -18,7 +18,7 @@ export default {};
 	@apply text-black
   text-nav
   font-semibold
-  hover:text-opacity-70
+  hover:text-red-main
   transition;
 }
 </style>
