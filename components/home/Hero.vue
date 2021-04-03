@@ -2,7 +2,7 @@
 	<div class="hero relative overflow-hidden py-10">
 		<div class="container mx-auto py-32 grid grid-cols-2 gap-4">
 			<div class="w-full">
-				<h1 class="text-black text-6xl tracking-tight leading-tight heading">
+				<h1 class="text-black text-5xl tracking-tight leading-tight heading">
 					Complete <br />Code Editor<br />
 					for WordPress.
 				</h1>
