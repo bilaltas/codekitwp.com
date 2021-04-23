@@ -14,6 +14,7 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
+	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 h1,
 h2,

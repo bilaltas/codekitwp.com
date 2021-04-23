@@ -10,13 +10,11 @@
 					<span class="xl:hidden">by the creators of Tailwind CSS</span>
 				</p>
 				<div class="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex items-center">
-					<a href="/documentation" class="hover:text-gray-900 text-gray-600">
-						<abbr class="sm:hidden" title="Documentation">Docs</abbr>
+					<a href="/features" class="hover:text-gray-900 text-gray-600">
 						<span class="hidden sm:inline">Features</span>
 					</a>
 					<a href="/pricing" class="mx-6 hover:text-gray-900 text-gray-600">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></a>
-					<a href="/documentation" class="hover:text-gray-900 text-gray-600 mr-6">
-						<abbr class="sm:hidden" title="Documentation">Docs</abbr>
+					<a href="/support" class="hover:text-gray-900 text-gray-600 mr-6">
 						<span class="hidden sm:inline">Support</span>
 					</a>
 					<a href="/login" class="inline-flex items-center justify-center h-9 px-4 font-bold text-white bg-gray-900 hover:bg-cc-main hover:text-white transition text-xs border-2 border-transparent rounded-full focus:shadow-outline focus:outline-none" aria-label="Sign up" title="Sign up">
@@ -34,7 +32,7 @@
 					Complete <br />code editor<br />
 					for WordPress.
 				</h1>
-				<p class="text-lg text-white text-opacity-50 leading-relaxed mt-3 mb-6">
+				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
 					Finally, a simple, intuitive interface and easy workflow <br />
 					for WordPress custom codes.
 				</p>
@@ -71,7 +69,8 @@ export default {};
 	letter-spacing: -0.025em;
 	font-weight: 700;
 }
-.hero {
+.hero,
+.cta {
 	box-shadow: rgb(0 20 56 / 6%) 0px 1px 0px 0px;
 	background: rgb(248, 250, 252);
 	background: #080a0c;
