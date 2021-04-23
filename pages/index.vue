@@ -11,7 +11,7 @@
 			</div>
 		</div>
 
-		<div class="testimonials py-32 bg-black">
+		<div class="testimonials py-32 bg-gray-900">
 			<div class="container mx-auto">
 				<div class="section-title text-center mb-10">
 					<span class="font-sans bg-red-main uppercase font-bold rounded-full text-white py-1 px-3 text-xs mb-4 inline-flex">Testimonials</span>
@@ -26,7 +26,7 @@
 				</div>
 				<div class="grid grid-cols-2 gap-5">
 					<div class="mt-8">
-						<div class="testimonial bg-white bg-opacity-5 border border-white border-opacity-5 text-white py-10 px-6 rounded flex my-4">
+						<div class="testimonial bg-white bg-opacity-5 text-white py-10 px-6 rounded flex my-4">
 							<div class="w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
 								<img src="https://secure.gravatar.com/avatar/abbe76cde539f82ee7741908f5d74ac5?s=100&d=retro&r=g" alt="profile image" class="w-full h-full object-cover" />
 							</div>
@@ -220,33 +220,6 @@ export default {
 </script>
 
 <style>
-.heading {
-	font-size: 60px;
-	line-height: 1.2;
-	letter-spacing: -0.015em;
-	color: #000000;
-	font-weight: 700;
-}
-.screen {
-	position: absolute;
-	/* right: -100px; */
-	top: 140px;
-	bottom: auto;
-	/* left: 0; */
-	margin-left: -10px;
-	width: 1000px;
-}
-.button-buy {
-	background: #e01f3d;
-}
-.hero {
-	background: linear-gradient(90deg, #f7f7f7 55%, rgba(0, 0, 0, 1) 55%);
-
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: top center;
-}
-
 .testimonial {
 	box-sizing: border-box;
 	box-shadow: 0px 4px 4px rgba(52, 77, 151, 0.05);

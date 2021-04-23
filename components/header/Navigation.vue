@@ -16,9 +16,10 @@ export default {};
 <style>
 .menu-item a {
 	@apply text-black
-  text-nav
-  font-semibold
-  hover:text-red-main
+  text-sm
+  font-medium
+  text-cc-nav
+  hover:text-cc-main
   transition;
 }
 </style>
