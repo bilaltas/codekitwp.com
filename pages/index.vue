@@ -2,7 +2,7 @@
 	<div>
 		<homeHero />
 
-		<div class="features py-32">
+		<div class="features py-24">
 			<div class="container mx-auto">
 				<homeFeature-1 />
 				<homeFeature-2 />

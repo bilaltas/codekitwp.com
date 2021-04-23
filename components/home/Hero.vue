@@ -30,11 +30,11 @@
 		</header>
 		<div class="container mx-auto py-40 grid grid-cols-2 gap-4">
 			<div class="w-full">
-				<h1 class="text-gray-900 text-5xl tracking-tight leading-tight heading">
+				<h1 class="text-white text-5xl tracking-tight leading-tight heading">
 					Complete <br />code editor<br />
 					for WordPress.
 				</h1>
-				<p class="text-lg text-gray-500 leading-relaxed mt-3 mb-6">
+				<p class="text-lg text-white text-opacity-50 leading-relaxed mt-3 mb-6">
 					Finally, a simple, intuitive interface and easy workflow <br />
 					for WordPress custom codes.
 				</p>
@@ -74,6 +74,7 @@ export default {};
 .hero {
 	box-shadow: rgb(0 20 56 / 6%) 0px 1px 0px 0px;
 	background: rgb(248, 250, 252);
+	background: #080a0c;
 }
 .screen {
 	position: absolute;
