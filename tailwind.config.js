@@ -8,7 +8,7 @@ module.exports = {
     },
     fontSize: {
       'xs': '.75rem',
-      'nav': '.8rem',
+      'nav': '.825rem',
       'sm': '.875rem',
       'tiny': '.875rem',
       'base': '1rem',
@@ -42,7 +42,7 @@ module.exports = {
           'nav': '#2d4665',
           'sub': '#92a0b3',
           'dark': '#080a0c',
-          'main': '#1d69ef',
+          'main': '#c33030',
         },
       },
     },
