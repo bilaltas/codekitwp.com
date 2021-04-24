@@ -60,4 +60,26 @@ h6 {
 	color: #fff;
 	background-color: #35495e;
 }
+
+.hero,
+.cta {
+	box-shadow: rgb(0 20 56 / 6%) 0px 1px 0px 0px;
+	background: rgb(248, 250, 252);
+	background: #080a0c;
+}
+
+.heading {
+	font-size: 64px;
+	line-height: 1.2;
+	letter-spacing: -0.025em;
+	font-weight: 700;
+}
+
+.container {
+	@apply px-8;
+}
+
+br {
+	@apply lg:hidden xl:flex;
+}
 </style>
