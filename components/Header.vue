@@ -5,11 +5,11 @@
 				<headerLogo />
 			</a>
 			<div class="hidden lg:block text-sm text-gray-500 font-medium xl:border-l xl:border-gray-100 xl:border-opacity-40 ml-6 xl:ml-6 xl:pl-6 xl:py-0.5">
-				<a href="/features" class="hover:text-gray-900 text-gray-600">
+				<a href="/features" class="hover:text-cc-main text-gray-600 transition">
 					<span class="hidden sm:inline">Features</span>
 				</a>
-				<a href="/pricing" class="hover:text-gray-900 text-gray-600 mx-6 ">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></a>
-				<a href="/support" class="hover:text-gray-900 text-gray-600">Support</a>
+				<a href="/pricing" class="hover:text-cc-main text-gray-600 transition mx-6 ">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></a>
+				<a href="/support" class="hover:text-cc-main text-gray-600 transition">Support</a>
 			</div>
 			<div class="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex items-center">
 				<a href="/pricing" class="inline-flex items-center justify-center h-10 px-4 font-semibold border text-gray-600 border-gray-100 border-opacity-50 hover:border-opacity-100 hover:text-gray-800 hover:shadow-sm transition text-nav rounded-full focus:shadow-outline focus:outline-none mx-3">My Account</a>
