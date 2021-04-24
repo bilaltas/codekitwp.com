@@ -8,7 +8,7 @@ module.exports = {
     },
     fontSize: {
       'xs': '.75rem',
-      'nav': '0.825em',
+      'nav': '.8rem',
       'sm': '.875rem',
       'tiny': '.875rem',
       'base': '1rem',
@@ -41,6 +41,7 @@ module.exports = {
           'text': '#445b78',
           'nav': '#2d4665',
           'sub': '#92a0b3',
+          'dark': '#080a0c',
           'main': '#1d69ef',
         },
       },
@@ -50,7 +51,7 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         '.container': {
-          maxWidth: '1100px',
+          maxWidth: '1140px',
           '@screen sm': {
             maxWidth: '600px',
           },
@@ -58,10 +59,10 @@ module.exports = {
             maxWidth: '720px',
           },
           '@screen lg': {
-            maxWidth: '1100px',
+            maxWidth: '1140px',
           },
           '@screen xl': {
-            maxWidth: '1100px',
+            maxWidth: '1140px',
           },
         }
       })
