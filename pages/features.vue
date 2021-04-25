@@ -46,7 +46,7 @@
 									</svg>
 									Wide-range of language support
 								</h5>
-								<p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p class="text-gray-600 mt-2">Custom codes is the one and only plugin that supports more than 10+ languages in a single plugin. Do range of improvements without worrying about compilers and compatibility.</p>
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
@@ -56,7 +56,7 @@
 									</svg>
 									Device specific development
 								</h5>
-								<p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p class="text-gray-600 mt-2">Still not tired of writing media queries? Give it a try to editor device tabs for device-specific development. They are pre-configured according to the standards but you can always change it in the settings.</p>
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
@@ -68,7 +68,7 @@
 									</svg>
 									Basic code deployment
 								</h5>
-								<p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p class="text-gray-600 mt-2">Sometimes all we want to deploy a simple code block to single page. This is where Code Locations come in to play. Easily select the location/page and deploy your code on that.</p>
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
@@ -78,7 +78,7 @@
 									</svg>
 									Customizable IDE
 								</h5>
-								<p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p class="text-gray-600 mt-2">We all know that developers are loyal to their IDE’s because all of the extensions, the interface, the colors and even typography. With Custom Codes, you can customize your integrated IDE easily and make it more like your local IDE.</p>
 							</div>
 						</div>
 					</div>
@@ -108,42 +108,43 @@
 									</svg>
 									Extended language support
 								</h5>
-								<p class="text-white text-opacity-50 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p class="text-white text-opacity-50 mt-2">Keep developing and adding code snippets with the language you’re comfortable with. Extended language supports wider range of languages which make you feel home when developing with out-of-box languages.</p>
 							</div>
 							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Grid">
-										<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
-										<rect x="3" y="14" width="7" height="7" rx="1" />
-										<rect x="14" y="3" width="7" height="7" rx="1" />
-										<rect x="14" y="14" width="7" height="7" rx="1" stroke="#c33030" />
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
+										<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
+										<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
 									</svg>
-									Advanced code deployment
+									Code includes
 								</h5>
-								<p class="text-white text-opacity-50 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								<p class="text-white text-opacity-50 mt-2">Bootstrap lover? Maybe Tailwind? Maybe you just want to include a font, or icon pack through CDN? You can practically include any type of code, to your existing code snippet with few clicks.</p>
 							</div>
 						</div>
 					</div>
 					<div class="flex-1">
 						<div class="feature-block my-10 text-white">
 							<h5 class="title font-medium text-xl tracking-tight flex items-center">
-								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
-									<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
-									<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
+								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Grid">
+									<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
+									<rect x="3" y="14" width="7" height="7" rx="1" />
+									<rect x="14" y="3" width="7" height="7" rx="1" />
+									<rect x="14" y="14" width="7" height="7" rx="1" stroke="#c33030" />
 								</svg>
-								Code includes
+								Advanced code deployment
 							</h5>
-							<p class="text-white text-opacity-50 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							<p class="text-white text-opacity-50 mt-2">Deploy your code on not just front-end or admin area, but all the pages, custom post types, taxonomies, archives and templates. This is the place where you have all the control over your code deployment.</p>
 						</div>
+
 						<div class="feature-block my-10 text-white">
 							<h5 class="title font-medium text-xl tracking-tight flex items-center">
 								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
 									<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
 									<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
 								</svg>
-								Auto-complete & Emmet
+								Code Hints, Folding & Groups
 							</h5>
-							<p class="text-white text-opacity-50 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas tortor et lorem commodo tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							<p class="text-white text-opacity-50 mt-2">Tidy up all of your code snippets into groups, fold them, get hints while you developing. The perfect developer suite for who hates the spagetti codes.</p>
 						</div>
 					</div>
 				</div>
