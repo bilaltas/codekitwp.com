@@ -25,8 +25,14 @@
 					Try Free Version
 				</button>
 			</div>
-			<div class="hidden xl:flex">
+			<div class="hidden xl:flex z-10">
 				<img class="screen" src="~static/ccsc.png" alt="" />
+			</div>
+			<div class="absolute -right-56 top-20">
+				<svg width="1934" height="1690" viewBox="0 0 1934 1690" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="845" cy="845" r="845" fill="white" fill-opacity="0.05" />
+					<circle cx="1089" cy="845" r="845" fill="white" fill-opacity="0.05" />
+				</svg>
 			</div>
 		</div>
 	</div>
