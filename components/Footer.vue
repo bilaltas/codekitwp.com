@@ -12,15 +12,15 @@
 			</nav>
 		</div>
 		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
-			<div class="w-full flex-none mt-1 lg:mt-4 sm:mt-0 sm:w-auto sm:mr-auto flex items-center text-xs">
-				<span class="text-gray-500">@2021 Copyright.</span>
-				<a href="/privacy-policy" class="hover:text-cc-main text-gray-600 transition mx-4">
+			<nav class="w-full mt-1 lg:mt-4 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-6 items-center text-xs">
+				<span class="text-gray-500">&copy;2021 Copyright.</span>
+				<NuxtLink to="/privacy-policy">
 					<span class="hidden sm:inline">Privacy Policy</span>
-				</a>
-				<a href="/terms-of-service" class="hover:text-cc-main text-gray-600 transition">
+				</NuxtLink>
+				<NuxtLink to="/terms-of-service">
 					<span class="hidden sm:inline">Terms of Service</span>
-				</a>
-			</div>
+				</NuxtLink>
+			</nav>
 			<div class="w-full lg:mt-4 sm:mt-0 sm:w-auto sm:ml-auto text-xs">
 				<span class="text-gray-500">
 					<span class="lg:inline-block md:hidden">A product by PressX.</span>
