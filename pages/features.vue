@@ -89,6 +89,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section id="pro" class="relative bg-black py-16 sm:py-20 md:pt-24 md:pb-24 text-left overflow-hidden">
 			<div class="container mx-auto">
 				<div class="section-title">
@@ -149,6 +150,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section id="comparison" class="relative bg-white py-14 sm:py-24 md:pt-24 md:pb-20 text-left overflow-hidden">
 			<div class="container mx-auto">
 				<div class="section-title text-center mb-14">
