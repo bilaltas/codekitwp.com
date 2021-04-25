@@ -11,7 +11,7 @@
 				<NuxtLink to="/support">Support</NuxtLink>
 			</nav>
 		</div>
-		<div class="container mx-auto flex items-center flex-wrap sm:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
+		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
 			<div class="w-full flex-none mt-1 lg:mt-4 sm:mt-0 sm:w-auto sm:mr-auto flex items-center text-xs">
 				<span class="text-gray-500">@2021 Copyright.</span>
 				<a href="/privacy-policy" class="hover:text-cc-main text-gray-600 transition mx-4">
@@ -21,9 +21,9 @@
 					<span class="hidden sm:inline">Terms of Service</span>
 				</a>
 			</div>
-			<div class="w-full flex-none lg:mt-4 sm:mt-0 sm:w-auto sm:ml-auto text-xs">
+			<div class="w-full lg:mt-4 sm:mt-0 sm:w-auto sm:ml-auto text-xs">
 				<span class="text-gray-500">
-					<span class="inline-block">A product by PressX.</span>
+					<span class="lg:inline-block md:hidden">A product by PressX.</span>
 					<span class="inline-block">
 						Engineered with
 						<svg class="inline-flex" width="10" height="10" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">
