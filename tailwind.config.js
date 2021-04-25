@@ -41,7 +41,7 @@ module.exports = {
           'text': '#445b78',
           'nav': '#2d4665',
           'sub': '#92a0b3',
-          'dark': '#080a0c',
+          'dark': '#121519',
           'main': '#c33030',
         },
       },

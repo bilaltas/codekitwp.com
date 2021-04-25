@@ -1,5 +1,5 @@
 <template>
-	<header class="flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-3">
+	<header class="main-header flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-3">
 		<div class="container mx-auto flex items-center flex-wrap sm:flex-nowrap ">
 			<a href="/" class="flex-none">
 				<headerLogo />

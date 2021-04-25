@@ -65,7 +65,7 @@ h6 {
 .cta {
 	box-shadow: rgb(0 20 56 / 6%) 0px 1px 0px 0px;
 	background: rgb(248, 250, 252);
-	background: #080a0c;
+	background: #121519;
 }
 
 .heading {
