@@ -19,7 +19,7 @@
 		<div class="container mx-auto flex items-center flex-wrap sm:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
 			<div class="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:mr-auto flex items-center text-xs">
 				<span class="text-gray-500">@2021 Copyright.</span>
-				<a href="/features" class="hover:text-cc-main text-gray-600 transition mx-4">
+				<a href="/privacy-policy" class="hover:text-cc-main text-gray-600 transition mx-4">
 					<span class="hidden sm:inline">Privacy Policy</span>
 				</a>
 				<a href="/features" class="hover:text-cc-main text-gray-600 transition">
