@@ -1,5 +1,5 @@
 <template>
-	<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-20 my-20">
+	<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 		<div class="align-center items-center flex">
 			<div class="flex-1">
 				<iconsCode />

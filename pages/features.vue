@@ -2,7 +2,7 @@
 	<div>
 		<Header />
 		<div class="hero relative">
-			<div class="container mx-auto text-center py-24">
+			<div class="container mx-auto text-center py-14 lg:py-24">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
 					#1 Code Editor for WordPress. Period.
 				</h1>
@@ -32,7 +32,7 @@
 
 		<section id="core" class="relative bg-gray-50 py-16 sm:py-20 md:pt-24 md:pb-24 text-left overflow-hidden">
 			<div class="container mx-auto">
-				<div class="flex flex-row">
+				<div class="flex flex-col lg:flex-row">
 					<div class="flex-1">
 						<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
 						<h2 class="font-bold text-4xl leading-tight tracking-tight">
@@ -83,7 +83,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="flex-1">
+					<div class="hidden lg:block flex-1">
 						<img class="absolute ml-14" style="max-width: 1000px;" src="~static/feature-ss-1.png" alt="" />
 					</div>
 				</div>
@@ -99,7 +99,7 @@
 						do more on your website
 					</h2>
 				</div>
-				<div class="flex flex-row gap-24">
+				<div class="flex flex-col lg:flex-row lg:gap-24">
 					<div class="flex-1">
 						<div class="feature-wrapper">
 							<div class="feature-block my-10 text-white">

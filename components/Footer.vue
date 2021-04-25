@@ -5,7 +5,7 @@
 				<headerLogo />
 			</a>
 			<div class="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex items-center">
-				<a href="/pricing" class="hover:text-cc-main text-gray-600 transition mx-6">Home</a>
+				<a href="/pricing" class="hover:text-cc-main text-gray-600 transition lg:mx-6">Home</a>
 				<a href="/features" class="hover:text-cc-main text-gray-600 transition">
 					<span class="hidden sm:inline">Features</span>
 				</a>
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div class="container mx-auto flex items-center flex-wrap sm:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
-			<div class="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:mr-auto flex items-center text-xs">
+			<div class="w-full flex-none mt-1 lg:mt-4 sm:mt-0 sm:w-auto sm:mr-auto flex items-center text-xs">
 				<span class="text-gray-500">@2021 Copyright.</span>
 				<a href="/privacy-policy" class="hover:text-cc-main text-gray-600 transition mx-4">
 					<span class="hidden sm:inline">Privacy Policy</span>
@@ -26,7 +26,7 @@
 					<span class="hidden sm:inline">Terms of Service</span>
 				</a>
 			</div>
-			<div class="w-full flex-none mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex items-center text-xs">
+			<div class="w-full flex-none lg:mt-4 sm:mt-0 sm:w-auto sm:ml-auto flex items-center text-xs">
 				<span class="text-gray-500 items-center">
 					A product by PressX. Engineered with
 					<svg class="inline-flex" width="10" height="10" viewBox="0 0 7 7" fill="none" xmlns="http://www.w3.org/2000/svg">

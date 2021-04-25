@@ -2,7 +2,7 @@
 	<div>
 		<Header />
 		<homeHero />
-		<div class="features py-24">
+		<div class="features py-14 lg:py-24">
 			<div class="container mx-auto">
 				<homeFeature-1 />
 				<homeFeature-2 />

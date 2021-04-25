@@ -2,7 +2,7 @@
 	<div>
 		<Header />
 		<div class="hero relative">
-			<div class="container mx-auto text-left pt-24 pb-16">
+			<div class="container mx-auto text-left pt-14 pb-14 lg:pt-24 lg:pb-16">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
 					Privacy Policy
 				</h1>

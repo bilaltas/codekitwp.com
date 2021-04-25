@@ -1,5 +1,5 @@
 <template>
-	<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-20 my-20 sm:flex-col-reverse">
+	<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 		<div>
 			<img src="~static/feature-2.png" alt="" />
 		</div>

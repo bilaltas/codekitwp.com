@@ -2,7 +2,7 @@
 	<div>
 		<Header />
 		<div class="hero">
-			<div class="container mx-auto text-center py-24">
+			<div class="container mx-auto text-center py-14 lg:py-24">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
 					Simple pricing, for everyone.
 				</h1>
@@ -73,7 +73,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="border border-white border-opacity-10 rounded-xl flex flex-col lg:pt-14 lg:pb-[5.25rem] lg:px-12">
+							<div class="border border-white border-opacity-10 rounded-xl flex flex-col pt-14 pb-[5.25rem] px-12 w-full lg:w-auto">
 								<h2 class="text-white font-semibold uppercase tracking-wide text-center mb-2">Single Site</h2>
 								<dl class="text-white flex flex-col items-center mb-auto">
 									<div class="mb-6">
@@ -123,7 +123,7 @@
 								<a href="/checkout/0ed326ca-c1fc-440b-b1ba-bdfb01c43185" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Get this package</a>
 								<div class="lg:hidden h-0.5 mx-3 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-30 mt-12"></div>
 							</div>
-							<div class="border border-white border-opacity-10 flex flex-col rounded-xl lg:order-1 lg:pt-14 pb-[5.25rem] lg:px-12">
+							<div class="border border-white border-opacity-10 rounded-xl flex flex-col pt-14 pb-[5.25rem] px-12 w-full lg:w-auto">
 								<h2 class="text-white font-semibold uppercase tracking-wide text-center mb-2">Up to 3 Sites</h2>
 								<dl class="text-white flex flex-col items-center mb-auto">
 									<div class="mb-6">

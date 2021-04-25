@@ -1,6 +1,6 @@
 <template>
 	<div class="hero home relative overflow-hidden">
-		<div class="container mx-auto py-40 grid grid-cols-1 xl:grid-cols-2 gap-4">
+		<div class="container mx-auto py-20 lg:py-40 grid grid-cols-1 xl:grid-cols-2 gap-4">
 			<div class="w-full">
 				<h1 class="text-white text-5xl xl:text-6xl lg:text-5xl tracking-tight leading-tight font-bold">
 					Complete <br />Code Editor<br class="md:hidden xl:flex" />
