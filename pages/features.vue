@@ -24,8 +24,8 @@
 				<div class="flex justify-around">
 					<a class="hover:text-cc-main text-gray-600 transition" href="#core">Core Features</a>
 					<a class="hover:text-cc-main text-gray-600 transition inline-flex items-center" href="#pro">Pro Features</a>
-					<a class="hover:text-cc-main text-gray-600 transition" href="#">Comparison</a>
-					<a class="hover:text-cc-main text-gray-600 transition" href="#">Testimonials</a>
+					<a class="hover:text-cc-main text-gray-600 transition" href="#comparison">Comparison</a>
+					<a class="hover:text-cc-main text-gray-600 transition" href="#testimonials">Testimonials</a>
 				</div>
 			</div>
 		</div>
@@ -183,7 +183,7 @@
 									<p>
 										<span class="text-4xl font-extrabold text-gray-900">Free</span>
 									</p>
-									<p class="mt-4 mb-16 text-sm text-gray-500">Share public documents on the web and collaborate with the Datapane community.</p>
+									<p class="mt-4 mb-16 text-sm text-gray-500">Add custom SASS, CSS, JS, PHP and HTML codes to your WordPress websites.</p>
 									<a href="/accounts/signup/" class="absolute bottom-0 w-full bg-gray-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-blue-700">Download Free</a>
 								</div>
 							</td>
@@ -194,7 +194,7 @@
 
 										<span class="text-base font-medium text-gray-500">/year</span>
 									</p>
-									<p class="mt-4 mb-16 text-sm text-gray-500">Secure report sharing and app building for companies big and small.</p>
+									<p class="mt-4 mb-16 text-sm text-gray-500">Extra Languages, Editor Enhancements, Advanced Code Release Locations, Includes GUI, and more.</p>
 									<a href="#contact-form" class="absolute bottom-0 flex-grow w-full bg-cc-main border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-purple-700">Buy Pro Now</a>
 								</div>
 							</td>
@@ -203,211 +203,344 @@
 							<th class="bg-gray-50 py-3 pl-6 text-sm font-medium text-gray-900 text-left" colspan="3" scope="colgroup">Supported Languages</th>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Monthly Credits</th>
-							<td class="py-5 px-6">
-								<span class="block text-sm text-gray-700">100</span>
-								<span class="sr-only">Included in Basic</span>
-							</td>
-							<td class="py-5 px-6">
-								<span class="block text-sm text-gray-700">1,000</span>
-								<span class="sr-only">Included in Essential</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Additional Credits</th>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Not included in Basic</span>
-							</td>
-							<td class="py-5 px-6">
-								<span class="block text-sm text-gray-700">$0.05</span>
-								<span class="sr-only">Included in Essential</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="bg-gray-50 py-3 pl-6 text-sm font-medium text-gray-900 text-left" colspan="3" scope="colgroup">Document Sharing</th>
-						</tr>
-						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Public Sharing</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">CSS</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Basic</span>
+								<span class="sr-only">Included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Private Sharing</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">SCSS</th>
 							<td class="py-5 px-6">
-								<span class="block text-sm text-gray-700">Email-only</span>
-								<span class="sr-only">Not included in Basic</span>
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Secure Embed</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">JavaScript</th>
 							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
+								<span class="sr-only">Included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Org and Client Groups</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">HTML</th>
 							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
-							</td>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Not included in Essential</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Whitelabel Embedding</th>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Not included in Basic</span>
-							</td>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Not included in Essential</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="bg-gray-50 py-3 pl-6 text-sm font-medium text-gray-900 text-left" colspan="3" scope="colgroup">Data science Apps</th>
-						</tr>
-						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Jupyter Notebook and Python Script Deployment</th>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Included in Basic</span>
+								<span class="sr-only">Included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Scheduling</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">PHP</th>
 							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
+								<span class="sr-only">Included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">End-user forms</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">LESS</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
+								<span class="sr-only">Not included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Custom pip dependencies and local library deployment</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Stylus</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
+								<span class="sr-only">Not included in Free</span>
 							</td>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Custom cached Docker image</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">CoffeeScript</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
+								<span class="sr-only">Not included in Free</span>
 							</td>
 							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Essential</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Secrets Management API</th>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Not included in Basic</span>
-							</td>
-							<td class="py-5 px-6">
-								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-								</svg>
-								<span class="sr-only">Not included in Essential</span>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Blob Storage API</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">PUG</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Basic</span>
+								<span class="sr-only">Not included in Free</span>
 							</td>
 							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+
+						<tr>
+							<th class="bg-gray-50 py-3 pl-6 text-sm font-medium text-gray-900 text-left" colspan="3" scope="colgroup">Editor Features</th>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Save with Cmd/Ctrl + S</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Emmet Abbreviations</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Various Device Media Query Editors</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Basic Code Release Locations <br />
+								<i class="text-xs">Frontend, Backend, Login Screen, Everywhere, Nowhere</i>
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Advanced Code Release Locations <br />
+								<i class="text-xs">Page, Posts, Post Type, Categories / Terms, Archives / Taxonomies, Templates</i>
+							</th>
+							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
 								</svg>
-								<span class="sr-only">Not included in Essential</span>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Code Folding
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Code Hints
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Code Includes
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Code Groups/Categories
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+
+						<tr>
+							<th class="bg-gray-50 py-3 pl-6 text-sm font-medium text-gray-900 text-left" colspan="3" scope="colgroup">Support</th>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Email & Help Center</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Priority Email
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
+								Chat Support
+							</th>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="py-5 px-6">
+								<svg class="h-5 w-5 text-green-500" x-description="Heroicon name: solid/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+									<path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+								</svg>
+								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
 					</tbody>
@@ -436,7 +569,7 @@ export default {
 			}
 		],
 		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
-	},
+	}
 };
 </script>
 

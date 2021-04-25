@@ -1,5 +1,5 @@
 <template>
-	<div class="testimonials py-24">
+	<div id="testimonials" class="testimonials py-24">
 		<div class="container mx-auto">
 			<div class="section-title text-center mb-10">
 				<span class="font-mono uppercase rounded-full text-gray-200 py-1 px-4 text-xs inline-flex font-semibold tracking-wider">Testimonials</span>
