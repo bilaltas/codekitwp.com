@@ -18,8 +18,9 @@
 					<div class="max-w-md mx-auto space-y-4 lg:max-w-3xl">
 						<div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
 							<div class="flex-1 flex flex-col justify-between px-6 py-8 bg-white space-y-6 sm:p-10">
-								<form method="POST" action="https://feedr.dk/contact">
-									<input type="hidden" name="_token" value="zVxFKx65Ib7Te07ZnLVEcBf7RWloVUP53a9hiNZy" />
+								<form method="POST" action="https://formsubmit.co/f895792a5da22345f54b88f52312e9de">
+									<input type="hidden" name="_next" value="/thank-you" />
+									<input type="text" name="_honey" style="display:none" />
 									<div>
 										<label for="name" class="block text-sm font-medium text-gray-700">Name</label>
 										<div class="mt-1.5">

@@ -1,5 +1,5 @@
 <template>
-	<div class="hero relative overflow-hidden">
+	<div class="hero home relative overflow-hidden">
 		<div class="container mx-auto py-40 grid grid-cols-1 xl:grid-cols-2 gap-4">
 			<div class="w-full">
 				<h1 class="text-white text-5xl xl:text-6xl lg:text-5xl tracking-tight leading-tight font-bold">
@@ -28,12 +28,6 @@
 			<div class="hidden xl:flex z-10">
 				<img class="screen" src="~static/ccsc.png" alt="" />
 			</div>
-			<div class="absolute -right-56 top-20">
-				<svg width="1934" height="1690" viewBox="0 0 1934 1690" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<circle cx="845" cy="845" r="845" fill="white" fill-opacity="0.05" />
-					<circle cx="1089" cy="845" r="845" fill="white" fill-opacity="0.05" />
-				</svg>
-			</div>
 		</div>
 	</div>
 </template>
@@ -48,5 +42,11 @@ export default {};
 	bottom: -30px;
 	margin-left: 0px;
 	width: 1000px;
+}
+.hero.home {
+	background-image: url("~static/light5.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 </style>
