@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<Header />
+	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-left pt-14 pb-14 lg:pt-24 lg:pb-16">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
@@ -86,9 +85,7 @@
 				<p>CodeKitWP does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
 			</div>
 		</div>
-
-		<Footer />
-	</div>
+	</main>
 </template>
 
 <script>

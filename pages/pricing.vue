@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<Header />
+	<main>
 		<div class="hero">
 			<div class="container mx-auto text-center py-14 lg:py-24">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
@@ -198,9 +197,7 @@
 		</section>
 
 		<FAQ />
-
-		<Footer />
-	</div>
+	</main>
 </template>
 
 <script>

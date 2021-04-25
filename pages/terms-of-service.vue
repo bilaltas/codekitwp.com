@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<Header />
+	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-left pt-14 pb-14 lg:pt-24 lg:pb-16">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
@@ -59,9 +58,7 @@
 				<p>Any claim related to PressX's Website shall be governed by the laws of tr without regards to its conflict of law provisions.</p>
 			</div>
 		</div>
-
-		<Footer />
-	</div>
+	</main>
 </template>
 
 <script>

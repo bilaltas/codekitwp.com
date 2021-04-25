@@ -1,6 +1,5 @@
 <template>
-	<div>
-		<Header />
+	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-20">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
@@ -33,9 +32,7 @@
 		</div>
 
 		<FAQ />
-
-		<Footer />
-	</div>
+	</main>
 </template>
 
 <script>
