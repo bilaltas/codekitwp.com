@@ -68,7 +68,7 @@
 export default {};
 </script>
 
-<style>
+<style lang="postcss">
 .testimonials {
 	background: #f8fafc;
 }

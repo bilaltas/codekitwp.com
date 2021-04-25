@@ -12,4 +12,4 @@
 	</svg>
 </template>
 
-<style></style>
+<style lang="postcss"></style>

@@ -109,7 +109,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss">
 .policy-page p {
 	@apply text-gray-600 leading-relaxed my-3;
 }

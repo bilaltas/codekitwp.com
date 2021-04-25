@@ -36,7 +36,7 @@
 export default {};
 </script>
 
-<style>
+<style lang="postcss">
 .screen {
 	position: absolute;
 	bottom: -30px;

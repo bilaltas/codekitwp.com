@@ -573,4 +573,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="postcss"></style>
