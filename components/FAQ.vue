@@ -3,318 +3,109 @@
 		<div class="container mx-auto">
 			<h2 class="text-center text-3xl font-extrabold tracking-tight text-gray-900 mb-14 text-heading">Frequently asked questions</h2>
 			<div id="team-pricing" class="text-sm flex -mx-2 -mt-4">
-				<div class="flex-none px-2 w-full md:hidden">
+				<div class="flex-none px-2 w-1/3 hidden lg:block">
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">How do I purchase a license for my entire team?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Can I change the language of the editor while I am writing codes in another language?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>You can purchase a license that you can share with your entire team for $599 USD (+$107.82 tax) here:</p>
-							<p><a href="/checkout/e2a8b5bf-59fd-4b1c-8c01-93521d05fa42">Buy a team license for $599 USD (+$107.82 tax)&nbsp;→</a></p>
-							<p>Team licenses use a <strong>shared account</strong> (at least for now), so use an email address like "team@yourcompany.com" when creating an account, and share those credentials with your team.</p>
-							<p>For more information on team licensing specifics, <a href="/license">read through our license</a>.</p>
+							<p>Yes, you can change the language of the editor. Previous editor contents will be stored to be able to switch back.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "lifetime access" mean exactly?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">How can I see the output of my codes?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Tailwind UI is a <strong>one-time purchase, with no recurring subscription</strong>. When you purchase a Tailwind UI package, you have access to all of the content in that package forever.</p>
+							<p>You can use the Output function. The Output button is at the bottom-right side of the IDE.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What JS framework does Tailwind UI use?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">How do I get more information about the shortcuts?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>All of the examples in Tailwind UI are provided in three formats: React, Vue, and vanilla HTML.</p>
-							<p>The React and Vue examples are fully functional out-of-the-box, and are powered by <a href="https://headlessui.dev">Headless UI</a> — a library of unstyled components we designed to integrate perfectly with Tailwind CSS.</p>
-							<p>The vanilla HTML examples <strong>do not include any JavaScript</strong> and are designed for people who prefer to write any necessary JavaScript themselves.</p>
-							<p>Most of the components do not rely on JS at all, but for the ones that do (dropdowns, modals, etc.) we've provided some simple comments in the HTML to explain things like what classes you need use for different states (like a toggle switch being on or off), or what classes we recommend for transitioning elements on to or off of the screen (like a modal opening).</p>
-							<p>To get a better idea of how this looks in practice, <a href="/documentation#integrating-with-javascript-frameworks">check out our documentation</a>.</p>
+							<p>Simply hover over the “?” icon while adding/editing your code blocks.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What version of Tailwind CSS is used?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Will my custom codes be deleted after uninstalling the plugin?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>The components in Tailwind UI are authored using Tailwind CSS v2.0.</p>
-							<p>Learn more about this in our <a href="/documentation">getting started documentation</a>.</p>
+							<p>No, it will not unless you uncheck the "Store custom CSS/JS after uninstall" option on settings.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "free updates" include?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">A red cross appears when I try to save. What is the problem?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>We regularly add new Marketing and Application UI components whenever we have new ideas and all new components added to those categories will be always be totally free for existing customers.</p>
-							<p>To see what our previous updates have looked like, <a href="/changelog">check out our changelog</a>.</p>
-							<p>We do plan to work on new component kits in the future that will be sold separately (email templates and e-commerce are ideas we've tossed around), but any components we design and build that belong in an existing kit will always be added as a free update.</p>
+							<p>Just mouseover the cross sign and see the error message.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What browsers does Tailwind UI support?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">I am experiencing a different issue that is not covered here. How can I reach you?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>The components in Tailwind UI are designed to work in the latest, stable releases of all major browsers, including Chrome, Firefox, Safari, and Edge.</p>
-							<p>We don't support Internet Explorer 11.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Does Tailwind UI include Figma, Sketch, or Adobe XD files?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Tailwind UI includes an expertly crafted complete Figma kit that takes advantage of modern Figma features like Variants and Auto Layout.</p>
-							<p>If you'd like a sample of what's included, <a href="https://www.figma.com/community/file/958381589801778722/">download a free preview</a> from the Figma community.</p>
-							<p>We don't include assets for other design tools like Sketch or Adobe XD.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "community access" mean?</h3>
-						<div class="prose prose-sm leading-5"><p>Any purchase of Tailwind UI includes access to our private Discord server where you can suggest new component ideas, ask your peers for help with any problems you run into, and talk with other users about building things with Tailwind UI.</p></div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "unlimited projects" mean?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Unlike most other templates/themes, you don't have to buy a new Tailwind UI license every time you want to use it on a new project.</p>
-							<p>As long as what you're building will be owned by the Tailwind UI license holder, you can build as many sites as you want without ever having to buy an additional license.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI for client projects?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Yes! You can use Tailwind UI for basically anything — the only thing we disallow is using it to create derivative competing products.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI for my own commercial projects?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Absolutely! Your license gives you permission to build as many of your own projects as you like, whether those are simple public websites or SaaS applications that end users need to pay to access.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI in open source projects?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Yep! As long as what you're building is some sort of actual website and not a derivative component library, theme builder, or other product where the primary purpose is clearly to repackage and redistribute our components, it's totally okay for that project to be open source.</p>
-							<p>For more information and examples of what is and isn't okay, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I sell templates/themes I build with Tailwind UI?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>No, you cannot use Tailwind UI to create derivative products like themes, UI kits, page builders, or anything else where you would be repackaging and redistributing our components for someone else to use to build their own sites.</p>
-							<p>For more information and examples of what is and isn't okay, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What is your refund policy?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>If you're unhappy with your purchase for any reason, email us at <a href="mailto:support@tailwindui.com">support@tailwindui.com</a> within 90 days and we'll refund you in full, no questions asked.</p>
-						</div>
-					</div>
-				</div>
-				<div class="flex-none px-2 w-1/2 hidden md:block lg:hidden">
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "lifetime access" mean exactly?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Tailwind UI is a <strong>one-time purchase, with no recurring subscription</strong>. When you purchase a Tailwind UI package, you have access to all of the content in that package forever.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What JS framework does Tailwind UI use?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>All of the examples in Tailwind UI are provided in three formats: React, Vue, and vanilla HTML.</p>
-							<p>The React and Vue examples are fully functional out-of-the-box, and are powered by <a href="https://headlessui.dev">Headless UI</a> — a library of unstyled components we designed to integrate perfectly with Tailwind CSS.</p>
-							<p>The vanilla HTML examples <strong>do not include any JavaScript</strong> and are designed for people who prefer to write any necessary JavaScript themselves.</p>
-							<p>Most of the components do not rely on JS at all, but for the ones that do (dropdowns, modals, etc.) we've provided some simple comments in the HTML to explain things like what classes you need use for different states (like a toggle switch being on or off), or what classes we recommend for transitioning elements on to or off of the screen (like a modal opening).</p>
-							<p>To get a better idea of how this looks in practice, <a href="/documentation#integrating-with-javascript-frameworks">check out our documentation</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What version of Tailwind CSS is used?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>The components in Tailwind UI are authored using Tailwind CSS v2.0.</p>
-							<p>Learn more about this in our <a href="/documentation">getting started documentation</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "free updates" include?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>We regularly add new Marketing and Application UI components whenever we have new ideas and all new components added to those categories will be always be totally free for existing customers.</p>
-							<p>To see what our previous updates have looked like, <a href="/changelog">check out our changelog</a>.</p>
-							<p>We do plan to work on new component kits in the future that will be sold separately (email templates and e-commerce are ideas we've tossed around), but any components we design and build that belong in an existing kit will always be added as a free update.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What browsers does Tailwind UI support?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>The components in Tailwind UI are designed to work in the latest, stable releases of all major browsers, including Chrome, Firefox, Safari, and Edge.</p>
-							<p>We don't support Internet Explorer 11.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Does Tailwind UI include Figma, Sketch, or Adobe XD files?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Tailwind UI includes an expertly crafted complete Figma kit that takes advantage of modern Figma features like Variants and Auto Layout.</p>
-							<p>If you'd like a sample of what's included, <a href="https://www.figma.com/community/file/958381589801778722/">download a free preview</a> from the Figma community.</p>
-							<p>We don't include assets for other design tools like Sketch or Adobe XD.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "community access" mean?</h3>
-						<div class="prose prose-sm leading-5"><p>Any purchase of Tailwind UI includes access to our private Discord server where you can suggest new component ideas, ask your peers for help with any problems you run into, and talk with other users about building things with Tailwind UI.</p></div>
-					</div>
-				</div>
-				<div class="flex-none px-2 w-1/2 hidden md:block lg:hidden">
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">How do I purchase a license for my entire team?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>You can purchase a license that you can share with your entire team for $599 USD (+$107.82 tax) here:</p>
-							<p><a href="/checkout/e2a8b5bf-59fd-4b1c-8c01-93521d05fa42">Buy a team license for $599 USD (+$107.82 tax)&nbsp;→</a></p>
-							<p>Team licenses use a <strong>shared account</strong> (at least for now), so use an email address like "team@yourcompany.com" when creating an account, and share those credentials with your team.</p>
-							<p>For more information on team licensing specifics, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "unlimited projects" mean?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Unlike most other templates/themes, you don't have to buy a new Tailwind UI license every time you want to use it on a new project.</p>
-							<p>As long as what you're building will be owned by the Tailwind UI license holder, you can build as many sites as you want without ever having to buy an additional license.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI for client projects?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Yes! You can use Tailwind UI for basically anything — the only thing we disallow is using it to create derivative competing products.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI for my own commercial projects?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Absolutely! Your license gives you permission to build as many of your own projects as you like, whether those are simple public websites or SaaS applications that end users need to pay to access.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI in open source projects?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>Yep! As long as what you're building is some sort of actual website and not a derivative component library, theme builder, or other product where the primary purpose is clearly to repackage and redistribute our components, it's totally okay for that project to be open source.</p>
-							<p>For more information and examples of what is and isn't okay, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I sell templates/themes I build with Tailwind UI?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>No, you cannot use Tailwind UI to create derivative products like themes, UI kits, page builders, or anything else where you would be repackaging and redistributing our components for someone else to use to build their own sites.</p>
-							<p>For more information and examples of what is and isn't okay, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What is your refund policy?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>If you're unhappy with your purchase for any reason, email us at <a href="mailto:support@tailwindui.com">support@tailwindui.com</a> within 90 days and we'll refund you in full, no questions asked.</p>
+							<p>We highly recommend you to create a ticket on the support forum where we are trying to solve problems as quickly as possible. For further inquiries and feedbacks, feel free to contact us at info@pressx.co.</p>
 						</div>
 					</div>
 				</div>
 				<div class="flex-none px-2 w-1/3 hidden lg:block">
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "lifetime access" mean exactly?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">I'm unable to access to the site because of a PHP custom code error. How can I fix it?</h3>
+						<div class="prose prose-sm leading-5"><p>Custom Codes has a "Safe Mode" feature which you can enter the site without Custom Codes customizations. You can simply add "codes_safemode" query string to any URL to disable them temporarily. So, you can fix the error online.</p></div>
+					</div>
+					<div class="bg-gray-50 p-6 rounded-md mt-4">
+						<h3 class="font-semibold text-gray-900 mb-2">How can I see all Pro features and grab my license?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Tailwind UI is a <strong>one-time purchase, with no recurring subscription</strong>. When you purchase a Tailwind UI package, you have access to all of the content in that package forever.</p>
+							<p>Simply install Custom Codes and click the *Upgrade >* button where you can learn more about the latest Pro features and grab your license!</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What JS framework does Tailwind UI use?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Is there a setup fee?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>All of the examples in Tailwind UI are provided in three formats: React, Vue, and vanilla HTML.</p>
-							<p>The React and Vue examples are fully functional out-of-the-box, and are powered by <a href="https://headlessui.dev">Headless UI</a> — a library of unstyled components we designed to integrate perfectly with Tailwind CSS.</p>
-							<p>The vanilla HTML examples <strong>do not include any JavaScript</strong> and are designed for people who prefer to write any necessary JavaScript themselves.</p>
-							<p>Most of the components do not rely on JS at all, but for the ones that do (dropdowns, modals, etc.) we've provided some simple comments in the HTML to explain things like what classes you need use for different states (like a toggle switch being on or off), or what classes we recommend for transitioning elements on to or off of the screen (like a modal opening).</p>
-							<p>To get a better idea of how this looks in practice, <a href="/documentation#integrating-with-javascript-frameworks">check out our documentation</a>.</p>
+							<p>No. There are no setup fees on any of our plans.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What version of Tailwind CSS is used?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Can I cancel my account at any time?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>The components in Tailwind UI are authored using Tailwind CSS v2.0.</p>
-							<p>Learn more about this in our <a href="/documentation">getting started documentation</a>.</p>
+							<p>Yes, if you ever decide that Custom Codes isn't the best plugin for your business, simply cancel your account from your Account panel. You'll still be able to use the plugin without updates or support.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "free updates" include?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">What's the time span for your contracts?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>We regularly add new Marketing and Application UI components whenever we have new ideas and all new components added to those categories will be always be totally free for existing customers.</p>
-							<p>To see what our previous updates have looked like, <a href="/changelog">check out our changelog</a>.</p>
-							<p>We do plan to work on new component kits in the future that will be sold separately (email templates and e-commerce are ideas we've tossed around), but any components we design and build that belong in an existing kit will always be added as a free update.</p>
+							<p>All plans are year-to-year.</p>
 						</div>
 					</div>
 				</div>
 				<div class="flex-none px-2 w-1/3 hidden lg:block">
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What browsers does Tailwind UI support?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Can I change my plan later on?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>The components in Tailwind UI are designed to work in the latest, stable releases of all major browsers, including Chrome, Firefox, Safari, and Edge.</p>
-							<p>We don't support Internet Explorer 11.</p>
+							<p>Absolutely! You can upgrade or downgrade your plan at any time.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Does Tailwind UI include Figma, Sketch, or Adobe XD files?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">What payment methods are accepted?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Tailwind UI includes an expertly crafted complete Figma kit that takes advantage of modern Figma features like Variants and Auto Layout.</p>
-							<p>If you'd like a sample of what's included, <a href="https://www.figma.com/community/file/958381589801778722/">download a free preview</a> from the Figma community.</p>
-							<p>We don't include assets for other design tools like Sketch or Adobe XD.</p>
+							<p>We accept all major credit cards including Visa, Mastercard and American Express. Unfortunately, due to regulations in your country related to PayPal’s subscriptions, we won’t be able to accept payments via PayPal.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "community access" mean?</h3>
-						<div class="prose prose-sm leading-5"><p>Any purchase of Tailwind UI includes access to our private Discord server where you can suggest new component ideas, ask your peers for help with any problems you run into, and talk with other users about building things with Tailwind UI.</p></div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What does "unlimited projects" mean?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Do you offer refunds?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Unlike most other templates/themes, you don't have to buy a new Tailwind UI license every time you want to use it on a new project.</p>
-							<p>As long as what you're building will be owned by the Tailwind UI license holder, you can build as many sites as you want without ever having to buy an additional license.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
+							<p>Yes we do! We stand behind the quality of our product and will refund 100% of your money if you experience an issue that makes the plugin unusable and we are unable to resolve it.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI for client projects?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Do I get updates for the premium plugin?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Yes! You can use Tailwind UI for basically anything — the only thing we disallow is using it to create derivative competing products.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-				</div>
-				<div class="flex-none px-2 w-1/3 hidden lg:block">
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">How do I purchase a license for my entire team?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>You can purchase a license that you can share with your entire team for $599 USD (+$107.82 tax) here:</p>
-							<p><a href="/checkout/e2a8b5bf-59fd-4b1c-8c01-93521d05fa42">Buy a team license for $599 USD (+$107.82 tax)&nbsp;→</a></p>
-							<p>Team licenses use a <strong>shared account</strong> (at least for now), so use an email address like "team@yourcompany.com" when creating an account, and share those credentials with your team.</p>
-							<p>For more information on team licensing specifics, <a href="/license">read through our license</a>.</p>
+							<p>Yes! Automatic updates to our premium plugin are available free of charge as long as you stay our paying customer. If you cancel your subscription, you'll still be able to use our plugin without updates or support.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI for my own commercial projects?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">Do you offer support if I need help?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Absolutely! Your license gives you permission to build as many of your own projects as you like, whether those are simple public websites or SaaS applications that end users need to pay to access.</p>
-							<p>For more information and examples, <a href="/license">read through our license</a>.</p>
+							<p>Yes! Top-notch customer support is key for a quality product, so we'll do our very best to resolve any issues you encounter via our support page.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I use Tailwind UI in open source projects?</h3>
+						<h3 class="font-semibold text-gray-900 mb-2">I have other pre-sale questions, can you help?</h3>
 						<div class="prose prose-sm leading-5">
-							<p>Yep! As long as what you're building is some sort of actual website and not a derivative component library, theme builder, or other product where the primary purpose is clearly to repackage and redistribute our components, it's totally okay for that project to be open source.</p>
-							<p>For more information and examples of what is and isn't okay, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">Can I sell templates/themes I build with Tailwind UI?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>No, you cannot use Tailwind UI to create derivative products like themes, UI kits, page builders, or anything else where you would be repackaging and redistributing our components for someone else to use to build their own sites.</p>
-							<p>For more information and examples of what is and isn't okay, <a href="/license">read through our license</a>.</p>
-						</div>
-					</div>
-					<div class="bg-gray-50 p-6 rounded-md mt-4">
-						<h3 class="font-semibold text-gray-900 mb-2">What is your refund policy?</h3>
-						<div class="prose prose-sm leading-5">
-							<p>If you're unhappy with your purchase for any reason, email us at <a href="mailto:support@tailwindui.com">support@tailwindui.com</a> within 90 days and we'll refund you in full, no questions asked.</p>
+							<p>Yes! You can ask us any question through our support page.</p>
 						</div>
 					</div>
 				</div>
