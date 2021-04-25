@@ -1,20 +1,15 @@
 <template>
-	<footer class="flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-7">
+	<footer>
 		<div class="container mx-auto flex justify-between">
-			<a href="/components" class="flex-none">
+			<a href="/components">
 				<headerLogo />
 			</a>
-			<div class="grid grid-flow-col gap-6">
-				<a href="/pricing" class="hover:text-cc-main text-gray-600 transition">Home</a>
-				<a href="/features" class="hover:text-cc-main text-gray-600 transition">
-					<span class="hidden sm:inline">Features</span>
-				</a>
-				<a href="/pricing" class="hover:text-cc-main text-gray-600 transition">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></a>
-				<a href="/support" class="hover:text-cc-main text-gray-600 transition">
-					<span class="hidden sm:inline">Support</span>
-				</a>
-				<a href="/pricing" class="hover:text-cc-main text-gray-600 transition">Contact</a>
-			</div>
+			<nav class="grid grid-flow-col gap-6">
+				<NuxtLink to="/">Home</NuxtLink>
+				<NuxtLink to="/features">Features</NuxtLink>
+				<NuxtLink to="/pricing">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></NuxtLink>
+				<NuxtLink to="/support">Support</NuxtLink>
+			</nav>
 		</div>
 		<div class="container mx-auto flex items-center flex-wrap sm:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
 			<div class="w-full flex-none mt-1 lg:mt-4 sm:mt-0 sm:w-auto sm:mr-auto flex items-center text-xs">
@@ -46,3 +41,21 @@
 <script>
 export default {};
 </script>
+
+<style lang="postcss">
+footer {
+	@apply relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-7;
+
+	nav {
+		& > a {
+			@apply text-gray-600
+			hover:text-cc-main
+			transition;
+
+			&.nuxt-link-exact-active {
+				@apply text-cc-main;
+			}
+		}
+	}
+}
+</style>

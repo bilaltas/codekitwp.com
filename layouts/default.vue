@@ -1,6 +1,6 @@
 <template>
 	<div id="page">
-		<Header />
+		<Header2 />
 		<Nuxt />
 		<Footer />
 	</div>
@@ -48,5 +48,9 @@ h6 {
 
 br {
 	@apply lg:hidden xl:flex;
+}
+
+abbr[title] {
+	@apply no-underline;
 }
 </style>
