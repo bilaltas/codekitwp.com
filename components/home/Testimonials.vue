@@ -7,9 +7,8 @@
 					Trusted by 3000+ WordPress Users
 				</h3>
 				<p class="text-gray-500 mt-3 leading-relaxed font-body text-base ">
-					With the power of our integrated IDE, Custom Code will significantly boost your development efficiency. <br class="md:hidden lg:flex" />
-					The features also provide continuous development and urgent deployment of codes without effort. <br class="md:hidden lg:flex" />
-					It is actually just like your favorite code editor.
+					Since our first release, we’ve listened our users and improved our plugin continuously which brought us <br />
+					more than 3000+ users who think Custom Codes is awesome and uncomparable to other plugins.
 				</p>
 			</div>
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -19,7 +18,7 @@
 							<img src="~static/avatar-1.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
-							<p class="text-gray-500 ">"Version 2.0 made this plugin worth paying for, but it’s free! Just wow, it’s the best plugin for custom code on the market, now. How cool is that!"</p>
+							<p class="text-gray-500 ">"Version 2.0 made <span class="text-gray-900 font-medium">this plugin worth paying for</span>, but it’s free! Just wow, it’s the best plugin for custom code on the market, now. How cool is that!"</p>
 							<div class="text-gray-400 font-bold uppercase mt-6 font-serif text-xs">- Martin Braun</div>
 							<div class="text-gray-400  font-serif font-semibold mt-1 text-xs">on WP.ORG</div>
 						</div>
@@ -41,7 +40,7 @@
 							<img src="~static/avatar-3.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
-							<p class="text-gray-500 ">This plugin is a must have, it is the best code editor, lets you manage CSS SCSS, JS, PHP…, and presets tabs to manage you responsive code. (with correct sizes, and customisable sizes too) Time saving, clean editor, looks like simple text inside your WP admin. Perfect to me. Simple and Yet most advanced plugin, indeed ! AND support is ultra fax and very friendly."</p>
+							<p class="text-gray-500 ">This plugin is a must have, it is the best code editor, lets you manage CSS SCSS, JS, PHP…, and presets tabs to manage you responsive code. Time saving, clean editor, looks like simple text inside your WP admin. <span class="text-gray-900 font-medium">Simple and yet most advanced plugin</span>, indeed! And support is ultra fax and very friendly."</p>
 							<div class="text-gray-400 font-bold uppercase mt-6 font-serif text-xs">- robin2014</div>
 							<div class="text-gray-400  font-serif font-semibold mt-1 text-xs">on WP.ORG</div>
 						</div>
@@ -52,7 +51,7 @@
 							<img src="~static/avatar-4.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
-							<p class="text-gray-500 ">"The editor is perfect! emmet expansions, breakpoints as tabs, editable breakpoints, keyboard shortcuts, SASS!, javascript as well. Very impressive and better than most other “pro” plugins. So well done. "</p>
+							<p class="text-gray-500 ">"The editor is perfect! Emmet expansions, breakpoints as tabs, editable breakpoints, keyboard shortcuts, SASS! Javascript as well. <span class="text-gray-900 font-medium">Very impressive and better than most other “pro” plugins.</span> So well done. "</p>
 							<div class="text-gray-400 font-bold uppercase mt-6 font-serif text-xs">- @cunnningstunts</div>
 							<div class="text-gray-400  font-serif font-semibold mt-1 text-xs">on WP.ORG</div>
 						</div>
