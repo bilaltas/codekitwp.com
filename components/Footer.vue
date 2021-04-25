@@ -22,7 +22,7 @@
 				<a href="/privacy-policy" class="hover:text-cc-main text-gray-600 transition mx-4">
 					<span class="hidden sm:inline">Privacy Policy</span>
 				</a>
-				<a href="/features" class="hover:text-cc-main text-gray-600 transition">
+				<a href="/terms-of-service" class="hover:text-cc-main text-gray-600 transition">
 					<span class="hidden sm:inline">Terms of Service</span>
 				</a>
 			</div>

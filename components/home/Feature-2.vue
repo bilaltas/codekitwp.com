@@ -17,7 +17,5 @@
 </template>
 
 <script>
-export default {
-	components: true
-};
+export default {};
 </script>
