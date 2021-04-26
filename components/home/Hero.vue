@@ -1,13 +1,13 @@
 <template>
 	<div class="hero home relative overflow-hidden">
-		<div class="container mx-auto py-20 lg:py-40 grid grid-cols-1 xl:grid-cols-2 gap-4">
+		<div class="container mx-auto py-20 lg:py-40 grid grid-cols-1 lg:grid-cols-2 gap-4">
 			<div class="w-full">
 				<h1 class="text-white text-5xl xl:text-6xl lg:text-5xl tracking-tight leading-tight font-bold">
-					Complete <br />Code Editor<br class="md:hidden xl:flex" />
+					Complete <br class="hidden md:flex" />Code Editor<br class="hidden md:flex" />
 					for WordPress.
 				</h1>
 				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-6">
-					Finally, a simple, intuitive interface and easy workflow <br />
+					Finally, a simple, intuitive interface and easy workflow <br class="hidden md:flex" />
 					for WordPress custom codes.
 				</p>
 				<button class="text-white bg-cc-main font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" type="button">
@@ -25,7 +25,7 @@
 					Try Free Version
 				</button>
 			</div>
-			<div class="hidden xl:flex z-10">
+			<div class="hidden md:flex z-10">
 				<img class="screen" src="~static/ccsc.png" alt="" />
 			</div>
 		</div>
@@ -42,6 +42,7 @@ export default {};
 	bottom: -30px;
 	margin-left: 0px;
 	width: 1000px;
+	@apply md:ml-96 lg:ml-14 xl:ml-0;
 }
 .hero.home {
 	background-image: url("~static/light5.svg");

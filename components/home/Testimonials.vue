@@ -3,7 +3,7 @@
 		<div class="container mx-auto">
 			<div class="section-title text-center mb-10">
 				<span class="font-mono uppercase rounded-full text-gray-200 py-1 px-4 text-xs inline-flex font-semibold tracking-wider">Testimonials</span>
-				<h3 class="text-3xl lg:text-heading text-gray-900 font-semibold tracking-tight leading-tight">
+				<h3 class="text-3xl xl:text-heading text-gray-900 font-semibold tracking-tight leading-tight">
 					Trusted by 3000+ WordPress Users
 				</h3>
 				<p class="text-gray-500 mt-3 leading-relaxed font-body text-base ">
@@ -13,7 +13,7 @@
 			</div>
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
 				<div class="lg:mt-4">
-					<div class="testimonial bg-white p-6 text-base rounded flex lg:my-4">
+					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-14 h-14 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
 							<img src="~static/avatar-1.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>
@@ -23,7 +23,7 @@
 							<div class="text-gray-400  font-serif font-semibold mt-1 text-xs">on WP.ORG</div>
 						</div>
 					</div>
-					<div class="testimonial bg-white p-6 text-base rounded flex lg:my-4">
+					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
 							<img src="~static/avatar-2.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<div class="lg:mt-4">
-					<div class="testimonial bg-white p-6 text-base rounded flex lg:my-4">
+					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
 							<img src="~static/avatar-3.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>
@@ -46,7 +46,7 @@
 						</div>
 					</div>
 
-					<div class="testimonial bg-white p-6 text-base rounded flex lg:my-4">
+					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
 							<img src="~static/avatar-4.png" alt="profile image" class="w-full h-full object-cover" />
 						</div>

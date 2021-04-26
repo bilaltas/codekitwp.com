@@ -43,11 +43,11 @@ h6 {
 }
 
 .container {
-	@apply px-8;
+	@apply px-6 lg:px-16;
 }
 
 br {
-	@apply lg:hidden xl:flex;
+	@apply hidden lg:flex;
 }
 
 abbr[title] {

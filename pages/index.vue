@@ -12,7 +12,7 @@
 						It is actually just like your favorite code editor.
 					</p>
 				</div>
-				<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
+				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 					<div class="align-center items-center flex">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Editor</span>
@@ -20,7 +20,7 @@
 								Directly integrate <br />
 								any type of code
 							</h3>
-							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1 xl:pr-20">Custom Codes integrates syntax highlighting, autocompletion with advanced navigation of your codes. A truly ideal for both experienced developers and WordPress users who want to add simple codes to their websites. With Custom Codes, you can also add your code for device-specific resolutions which is perfect for many reasons.</p>
+							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1">Custom Codes integrates syntax highlighting, autocompletion with advanced navigation of your codes. A truly ideal for both experienced developers and WordPress users who want to add simple codes to their websites. With Custom Codes, you can also add your code for device-specific resolutions which is perfect for many reasons.</p>
 							<a class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition" href="/features" target="_blank"
 								>Explore all features
 								<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" display="block" id="ArrowRight">
@@ -31,12 +31,12 @@
 						</div>
 					</div>
 					<div>
-						<img src="~static/feature-1.png" alt="" />
+						<img class="md:w-full" src="~static/feature-1.png" alt="" />
 					</div>
 				</div>
-				<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
+				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 					<div>
-						<img src="~static/feature-2.png" alt="" />
+						<img class="md:w-full" src="~static/feature-2.png" alt="" />
 					</div>
 					<div class="align-center items-center flex">
 						<div class="flex-1">
@@ -45,7 +45,7 @@
 								Place your code <br />
 								wherever you want
 							</h3>
-							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1 xl:pr-20">Just like you can write device-specific codes on Custom Codes, you can write location specific codes as well. Choose wide range of locations such as pages, admin area, custom post types, taxonomies, categories and much more and let Custom Codes deploy your code according your selections.</p>
+							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1">Just like you can write device-specific codes on Custom Codes, you can write location specific codes as well. Choose wide range of locations such as pages, admin area, custom post types, taxonomies, categories and much more and let Custom Codes deploy your code according your selections.</p>
 							<a class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition" href="/features" target="_blank"
 								>Explore all features
 								<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" display="block" id="ArrowRight">
@@ -56,7 +56,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="feature-section text-center xl:text-left grid grid-cols-1 xl:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
+				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 					<div class="align-center items-center flex">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Code Includes</span>
@@ -64,7 +64,7 @@
 								Include your favorite<br />
 								tools & frameworks
 							</h3>
-							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1 xl:pr-14">Frameworks, code libraries, icon packs, fonts and much more makes our work easier but it’s not the same case as you try to integrate with your WordPress theme. With Code Includes, you can simply integrate any type of code through CDN, External URL, or your other code snippets to one of your code snippet.</p>
+							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1">Frameworks, code libraries, icon packs, fonts and much more makes our work easier but it’s not the same case as you try to integrate with your WordPress theme. With Code Includes, you can simply integrate any type of code through CDN, External URL, or your other code snippets to one of your code snippet.</p>
 							<a class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition" href="/features" target="_blank"
 								>Explore all features
 								<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" display="block" id="ArrowRight">
@@ -75,7 +75,7 @@
 						</div>
 					</div>
 					<div>
-						<img src="~static/feature-3.png" alt="" />
+						<img class="md:w-full" src="~static/feature-3.png" alt="" />
 					</div>
 				</div>
 			</div>
