@@ -49,7 +49,7 @@
 					<NuxtLink to="/pricing" class="px-6">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
 					<NuxtLink to="/support" class="px-6">Support</NuxtLink>
 					<NuxtLink to="/my-account" class="px-6">My Account</NuxtLink>
-					<NuxtLink to="/login" class="inline-flex items-center justify-center h-10 px-4 font-bold text-white bg-cc-main hover:bg-cc-main hover:text-white transition text-sm border-2 border-transparent rounded-none focus:outline-none sm:inline-flex mt-2">
+					<NuxtLink to="/login" class="inline-flex items-center justify-center h-12 px-4 font-bold text-white bg-cc-main hover:bg-cc-main hover:text-white transition text-sm border-2 border-transparent rounded-none focus:outline-none sm:inline-flex mt-2">
 						Buy Pro
 						<svg width="11" height="10" fill="none" class="flex-none ml-1.5 text-white group-hover:text-teal-600">
 							<path d="M5.593 9.638L10.232 5 5.593.36l-.895.89 3.107 3.103H0v1.292h7.805L4.698 8.754l.895.884z" fill="currentColor"></path>

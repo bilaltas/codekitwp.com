@@ -11,7 +11,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="mt-8 sm:mt-12 lg:-mt-28">
+		<div class="-mt-10 lg:-mt-28">
 			<div class="relative">
 				<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div class="max-w-md mx-auto space-y-4 lg:max-w-3xl">
