@@ -30,14 +30,98 @@ export default {
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: [
 		// https://go.nuxtjs.dev/tailwindcss
-		"@nuxtjs/tailwindcss"
+		"@nuxtjs/tailwindcss",
+		'@aceforth/nuxt-optimized-images'
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["nuxt-precompress"],
+	modules: [
+	// PreCompress
+	"nuxt-precompress",
+
+	// Font Loader
+	['nuxt-font-loader-strategy', {
+        ignoreLighthouse: true,
+        ignoredEffectiveTypes: ['2g', 'slow-2g'],
+        fonts: [
+          // Font
+          {
+            fileExtensions: ['woff2', 'woff', 'eot'],
+            fontFamily: 'Eina01',
+            fontFaces: [
+              // Font-Face
+              {
+                src: '@/assets/fonts/eina/Eina01-Regular',
+                fontWeight: 400,
+                fontStyle: 'normal'
+              },
+              // Font-Face
+				{
+                src: '@/assets/fonts/eina/Eina01-SemiBold',
+                fontWeight: 500,
+                fontStyle: 'normal'
+              },
+              // Font-Face
+				{
+                src: '@/assets/fonts/eina/Eina01-Bold',
+                fontWeight: 600,
+                fontStyle: 'normal'
+              }
+            ]
+          },
+          // Font
+          {
+            fileExtensions: ['woff2', 'woff', 'eot'],
+            fontFamily: 'Inter',
+            fontFaces: [
+              // Font-Face
+              {
+                src: '@/assets/fonts/inter/Inter-Regular',
+                fontWeight: 400,
+                fontStyle: 'normal'
+              },
+              // Font-Face
+              {
+                src: '@/assets/fonts/inter/Inter-Medium',
+                fontWeight: 500,
+                fontStyle: 'normal'
+				},
+			  {
+                src: '@/assets/fonts/inter/Inter-SemiBold',
+                fontWeight: 600,
+                fontStyle: 'normal'
+				},
+			  {
+                src: '@/assets/fonts/inter/Inter-Bold',
+                fontWeight: 700,
+                fontStyle: 'normal'
+              }
+            ]
+          }
+        ]
+    }]
+	],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
-	build: {},
+	build: {
+		html: {
+			minify: {
+			collapseBooleanAttributes: true,
+			decodeEntities: true,
+		    minifyCSS: false,
+		    minifyJS: false,
+			processConditionalComments: true,
+			removeEmptyAttributes: true,
+			removeRedundantAttributes: true,
+			trimCustomFragments: true,
+			useShortDoctype: true
+			}
+		}
+	},
+
+	optimizedImages: {
+		optimizeImages: true
+	},
 
 	nuxtPrecompress: {
 		enabled: true, // Enable in production

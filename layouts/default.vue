@@ -17,6 +17,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
 	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+	letter-spacing: -0.0025em;
 }
 
 h1,

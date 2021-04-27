@@ -1,27 +1,29 @@
 <template>
 	<footer>
-		<div class="container mx-auto flex justify-between">
+		<div class="container mx-auto flex flex-wrap md:flex-nowrap justify-between">
 			<a href="/components">
 				<headerLogo />
 			</a>
-			<nav class="grid grid-flow-col gap-6">
-				<NuxtLink to="/">Home</NuxtLink>
-				<NuxtLink to="/features">Features</NuxtLink>
-				<NuxtLink to="/pricing">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></NuxtLink>
-				<NuxtLink to="/support">Support</NuxtLink>
+			<nav class="grid grid-cols-2 md:grid-cols-none grid-flow-row md:grid-flow-col gap-2 md:gap-6 w-full md:w-auto mt-5 md:mt-0">
+				<NuxtLink to="/" aria-label="Home Page">Home</NuxtLink>
+				<NuxtLink to="/features" aria-label="Features">Features</NuxtLink>
+				<NuxtLink to="/pricing" aria-label="Pricing">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></NuxtLink>
+				<NuxtLink to="/affiliates" aria-label="Affiliates">Affiliates</NuxtLink>
+				<NuxtLink to="/my-account" aria-label="My Account">My Account</NuxtLink>
+				<NuxtLink to="/support" aria-label="Support">Support</NuxtLink>
 			</nav>
 		</div>
-		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 border-t border-gray-900 border-opacity-5 ">
-			<nav class="w-full mt-1 lg:mt-4 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-6 items-center text-xs">
+		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 md:pt-1 border-t border-gray-900 border-opacity-5 ">
+			<nav class="w-full mt-1 lg:mt-2 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-6 items-center text-xs">
 				<span class="text-gray-500">&copy;2021 Copyright.</span>
 				<NuxtLink to="/privacy-policy">
-					<span class="hidden sm:inline">Privacy Policy</span>
+					<span class="hidden sm:inline" aria-label="Privacy Policy">Privacy Policy</span>
 				</NuxtLink>
 				<NuxtLink to="/terms-of-service">
-					<span class="hidden sm:inline">Terms of Service</span>
+					<span class="hidden sm:inline" aria-label="Terms of Service">Terms of Service</span>
 				</NuxtLink>
 			</nav>
-			<div class="w-full lg:mt-4 sm:mt-0 sm:w-auto sm:ml-auto text-xs">
+			<div class="w-full lg:mt-2 sm:mt-0 sm:w-auto sm:ml-auto text-xs">
 				<span class="text-gray-500">
 					<span class="lg:inline-block md:hidden">A product by PressX.</span>
 					<span class="inline-block">
@@ -44,7 +46,7 @@ export default {};
 
 <style lang="postcss">
 footer {
-	@apply relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-7;
+	@apply flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-7;
 
 	nav {
 		& > a {
