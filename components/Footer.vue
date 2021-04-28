@@ -46,7 +46,7 @@ export default {};
 
 <style lang="postcss">
 footer {
-	@apply flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-5;
+	@apply flex-none relative z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm pt-6 pb-5;
 
 	nav {
 		& > a {

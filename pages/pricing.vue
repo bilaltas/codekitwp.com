@@ -181,16 +181,16 @@
 			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-5 relative">
 				<div class="absolute left-0 right-0 bottom-0 flex justify-center pb-11">
 					<div class="pb-8">
-						<img src="/img/justin-profile.jpg" alt="" class="w-12 h-12 rounded-full ring-2 ring-teal-400" />
+						<img src="~static/avatar-2.png" alt="" class="w-12 h-12 rounded-full" />
 					</div>
 				</div>
 				<figure class="relative">
 					<blockquote class="quotes text-lg sm:text-2xl sm:leading-10 tracking-tight font-medium text-gray-900 mb-32">
-						<p>We’ve gone through several iterations of our pricing page recently, and every time we wanted to try a new idea I was able to find the perfect starting point in Tailwind UI. It’s turned a project I might have never made the time to tackle into something I could finish and ship in an hour.</p>
+						<p>"I have tried many plugins for adding custom code, and <span class="text-gray-900 font-medium">this is the best by far.</span> Add all of your custom CSS/SASS and JavaScript/jQuery in one place. Robust code editor with error notification, line numbers, good use of colors, separate tabs to keep media queries organized. SASS is compiled automatically. It’s like <span class="text-gray-900 font-medium">having an enhanced version of Sublime Text built directly into WordPress!</span>"</p>
 					</blockquote>
 					<figcaption>
-						<div class="text-gray-900 font-medium">Justin Jackson</div>
-						<div class="text-sm">Founder of Transistor</div>
+						<div class="text-gray-900 font-medium">KBLATT0830</div>
+						<div class="text-sm">On WordPress.org</div>
 					</figcaption>
 				</figure>
 			</div>

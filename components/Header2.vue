@@ -73,7 +73,7 @@ export default {
 
 <style lang="postcss">
 header {
-	@apply flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-4 lg:py-4;
+	@apply flex-none relative z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-4 lg:py-4;
 }
 
 nav {
