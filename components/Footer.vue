@@ -13,7 +13,7 @@
 				<NuxtLink to="/support" aria-label="Support">Support</NuxtLink>
 			</nav>
 		</div>
-		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 md:pt-1 border-t border-gray-900 border-opacity-5 ">
+		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 md:pt-2 border-t border-gray-900 border-opacity-5 ">
 			<nav class="w-full mt-1 lg:mt-2 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-6 items-center text-xs">
 				<span class="text-gray-500">&copy;2021 Copyright.</span>
 				<NuxtLink to="/privacy-policy">
@@ -46,7 +46,7 @@ export default {};
 
 <style lang="postcss">
 footer {
-	@apply flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-7;
+	@apply flex-none relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-5;
 
 	nav {
 		& > a {

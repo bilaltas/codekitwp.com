@@ -34,13 +34,13 @@
 				<div class="flex flex-col lg:flex-row">
 					<div class="flex-1">
 						<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
-						<h2 class="font-bold text-4xl leading-tight tracking-tight">
+						<h2 class="font-bold text-4xl text-gray-900 leading-tight tracking-tight">
 							Natively integrated IDE <br />
 							on your WordPress Admin
 						</h2>
 						<div class="feature-wrapper">
 							<div class="feature-block my-10">
-								<h5 class="title font-medium text-xl tracking-tight flex items-center">
+								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" id="CodepenFill">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z" />
 									</svg>
@@ -49,7 +49,7 @@
 								<p class="text-gray-600 mt-2">Custom codes is the one and only plugin that supports more than 10+ languages in a single plugin. Do range of improvements without worrying about compilers and compatibility.</p>
 							</div>
 							<div class="feature-block my-10">
-								<h5 class="title font-medium text-xl tracking-tight flex items-center">
+								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Miniplayer">
 										<rect x="2" y="4" width="20" height="16" rx="2" />
 										<rect x="13" y="13" width="9" height="7" rx="2" stroke="#c33030" />
@@ -59,7 +59,7 @@
 								<p class="text-gray-600 mt-2">Still not tired of writing media queries? Give it a try to editor device tabs for device-specific development. They are pre-configured according to the standards but you can always change it in the settings.</p>
 							</div>
 							<div class="feature-block my-10">
-								<h5 class="title font-medium text-xl tracking-tight flex items-center">
+								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Grid">
 										<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
 										<rect x="3" y="14" width="7" height="7" rx="1" />
@@ -71,7 +71,7 @@
 								<p class="text-gray-600 mt-2">Sometimes all we want to deploy a simple code block to single page. This is where Code Locations come in to play. Easily select the location/page and deploy your code on that.</p>
 							</div>
 							<div class="feature-block my-10">
-								<h5 class="title font-medium text-xl tracking-tight flex items-center">
+								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
 										<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
 										<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
@@ -184,7 +184,7 @@
 										<span class="text-4xl font-extrabold text-gray-900">Free</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Add custom SASS, CSS, JS, PHP and HTML codes to your WordPress websites.</p>
-									<a href="/accounts/signup/" class="absolute bottom-0 w-full bg-gray-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-blue-700">Download Free</a>
+									<a href="/accounts/signup/" class="absolute bottom-0 w-full bg-gray-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
 								</div>
 							</td>
 							<td class="h-full py-8 px-6 align-top">
@@ -195,7 +195,7 @@
 										<span class="text-base font-medium text-gray-500">/year</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Extra Languages, Editor Enhancements, Advanced Code Release Locations, Includes GUI, and more.</p>
-									<a href="#contact-form" class="absolute bottom-0 flex-grow w-full bg-cc-main border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-purple-700">Buy Pro Now</a>
+									<a href="#contact-form" class="absolute bottom-0 flex-grow w-full bg-cc-main border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Buy Pro Now</a>
 								</div>
 							</td>
 						</tr>

@@ -1,7 +1,7 @@
 <template>
 	<div class="cta py-20 bg-cc-main text-white text-center items-center">
 		<div class="container mx-auto">
-			<h3 class="text-3xl lg:text-heading font-semibold tracking-tight leading-tight">
+			<h3 class="text-4xl font-semibold tracking-tight leading-tight">
 				Get started with the <br />
 				<span class="font-semibold">#1 Code Editor for WordPress</span>
 			</h3>

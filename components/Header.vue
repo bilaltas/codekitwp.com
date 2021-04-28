@@ -22,7 +22,7 @@
 			</div>
 		</div>
 		<div v-if="isMenuOpen" class="absolute top-0 left-0 w-full">
-			<div class="p-5 bg-white border rounded shadow-sm">
+			<div class="p-5 bg-white border border-transparent rounded shadow-sm">
 				<div class="flex items-center justify-between mb-4">
 					<div>
 						<a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
