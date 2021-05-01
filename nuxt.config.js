@@ -13,7 +13,7 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: ["@/assets/global.css"],
+	css: ["@/assets/global"],
 
 	tailwindcss: {
 		jit: true

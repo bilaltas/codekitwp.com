@@ -18,7 +18,7 @@
 				</button>
 			</div>
 		</div>
-		<div class="feature-band relative z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-3">
+		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-3 sticky top-16">
 			<div class="container mx-auto">
 				<div class="flex justify-around">
 					<a class="hover:text-cc-main text-gray-600 transition" href="#core">Core Features</a>
