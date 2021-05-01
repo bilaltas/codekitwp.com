@@ -1,5 +1,5 @@
 <template>
-	<main>
+	<main id="features">
 		<div class="hero relative">
 			<div class="container mx-auto text-center py-14 lg:py-24">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
@@ -18,13 +18,14 @@
 				</button>
 			</div>
 		</div>
+
 		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-3 sticky top-16">
 			<div class="container mx-auto">
 				<div class="flex justify-around">
-					<a class="hover:text-cc-main text-gray-600 transition" href="#core">Core Features</a>
-					<a class="hover:text-cc-main text-gray-600 transition inline-flex items-center" href="#pro">Pro Features</a>
-					<a class="hover:text-cc-main text-gray-600 transition" href="#comparison">Comparison</a>
-					<a class="hover:text-cc-main text-gray-600 transition" href="#testimonials">Testimonials</a>
+					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'core' }" href="#core">Core Features</a>
+					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'pro' }" href="#pro">Pro Features</a>
+					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'comparison' }" href="#comparison">Comparison</a>
+					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'testimonials' }" href="#testimonials">Testimonials</a>
 				</div>
 			</div>
 		</div>
@@ -550,8 +551,44 @@ export default {
 			}
 		],
 		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+	},
+	data() {
+		return {
+			observer: null,
+			activeSection: ""
+		};
+	},
+	created() {
+		if (process.client) {
+			console.log("Created");
+			this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.1 });
+			document.querySelectorAll("section").forEach(section => {
+				this.observer.observe(section);
+			});
+		}
+	},
+	methods: {
+		onElementObserved(entries, observer) {
+			entries.forEach(({ target, isIntersecting }) => {
+				if (!isIntersecting) return;
+
+				this.activeSection = target.id;
+				console.log("ID", this.activeSection);
+			});
+		}
+	},
+	beforeDestroy() {
+		this.observer.disconnect();
 	}
 };
 </script>
 
-<style lang="postcss"></style>
+<style lang="postcss">
+#features {
+	.feature-band {
+		a.active {
+			@apply text-cc-main;
+		}
+	}
+}
+</style>
