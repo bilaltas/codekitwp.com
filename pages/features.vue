@@ -560,7 +560,6 @@ export default {
 	},
 	created() {
 		if (process.client) {
-			console.log("Created");
 			this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.1 });
 			document.querySelectorAll("section").forEach(section => {
 				this.observer.observe(section);
@@ -570,10 +569,8 @@ export default {
 	methods: {
 		onElementObserved(entries, observer) {
 			entries.forEach(({ target, isIntersecting }) => {
-				if (!isIntersecting) return;
-
-				this.activeSection = target.id;
-				console.log("ID", this.activeSection);
+				if (isIntersecting) this.activeSection = target.id;
+				//console.log("ID", this.activeSection);
 			});
 		}
 	},
