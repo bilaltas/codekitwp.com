@@ -63,6 +63,21 @@
 
 <script>
 export default {
+	created() {
+		if (process.client) {
+			this.scrollCheck();
+			window.addEventListener("scroll", this.scrollCheck);
+		}
+	},
+	methods: {
+		scrollCheck(e) {
+			let scrollTop = document.getElementsByTagName("html")[0].scrollTop;
+			const header = document.getElementsByTagName("header")[0];
+
+			if (scrollTop > 300) header.classList.add("scrolled");
+			else header.classList.remove("scrolled");
+		}
+	},
 	data() {
 		return {
 			isMenuOpen: false
@@ -71,7 +86,7 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 header {
 	@apply flex-none relative z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-4 lg:py-4;
 }

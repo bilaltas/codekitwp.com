@@ -3,7 +3,7 @@
 		<div class="hero relative">
 			<div class="container mx-auto text-center py-14 lg:py-24">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
-					#1 Code Editor for WordPress. Period.
+					#1 Code Editor for WordPress
 				</h1>
 				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-5">
 					Finally, a simple, intuitive interface and easy workflow <br />
@@ -19,13 +19,13 @@
 			</div>
 		</div>
 
-		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-3 sticky top-16">
+		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm sticky">
 			<div class="container mx-auto">
-				<div class="flex justify-around">
-					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'core' }" href="#core">Core Features</a>
-					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'pro' }" href="#pro">Pro Features</a>
-					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'comparison' }" href="#comparison">Comparison</a>
-					<a class="hover:text-cc-main text-gray-600 transition" :class="{ active: activeSection == 'testimonials' }" href="#testimonials">Testimonials</a>
+				<div class="flex justify-evenly">
+					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'core' }" href="#core">Core Features</a>
+					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'pro' }" href="#pro">Pro Features</a>
+					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'comparison' }" href="#comparison">Comparison</a>
+					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'testimonials' }" href="#testimonials">Testimonials</a>
 				</div>
 			</div>
 		</div>
@@ -560,7 +560,7 @@ export default {
 	},
 	created() {
 		if (process.client) {
-			this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.1 });
+			this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.2 });
 			document.querySelectorAll("section").forEach(section => {
 				this.observer.observe(section);
 			});
@@ -583,8 +583,12 @@ export default {
 <style lang="postcss">
 #features {
 	.feature-band {
+		top: 60px;
+		a {
+			@apply py-3 border-b border-transparent;
+		}
 		a.active {
-			@apply text-cc-main;
+			@apply text-cc-main border-b border-cc-main transition-all duration-300;
 		}
 	}
 }

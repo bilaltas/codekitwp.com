@@ -54,4 +54,8 @@ br {
 abbr[title] {
 	@apply no-underline;
 }
+
+main {
+	@apply pt-16;
+}
 </style>
