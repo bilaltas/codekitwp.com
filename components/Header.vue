@@ -5,7 +5,7 @@
 				<NuxtLink to="/">
 					<headerLogo />
 				</NuxtLink>
-				<div class="hidden lg:block text-sm text-gray-500 font-semibold border-l border-gray-100 border-opacity-40  ml-6 pl-6 py-0.5">
+				<div class="hidden lg:block text-sm text-gray-500  border-l border-gray-100 border-opacity-40 ml-6 pl-6 py-0.5">
 					<nav class="w-auto grid grid-flow-col items-center gap-4 md:gap-6 mt-0">
 						<NuxtLink to="/features" class="hidden md:inline-flex">Features</NuxtLink>
 						<NuxtLink to="/pricing" class="hidden md:inline-flex">Pricing &amp; FAQ</NuxtLink>
@@ -97,14 +97,11 @@ export default {
 <style lang="postcss">
 header {
 	@apply flex-none z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm py-4 lg:py-4 fixed top-0 right-0 left-0 transition-all;
-	&.scrolled {
-		@apply lg:py-3;
-	}
 }
 
 nav {
 	& > a {
-		@apply text-gray-500
+		@apply text-gray-600
 			hover:text-cc-main
 			transition;
 
@@ -113,7 +110,7 @@ nav {
 		}
 
 		&.button {
-			@apply items-center justify-center h-9 px-4 font-bold text-white bg-gray-900 hover:bg-cc-main hover:text-white transition text-xs border-2 border-transparent rounded-full focus:outline-none;
+			@apply items-center justify-center h-9 px-4 font-bold text-white bg-gray-900 hover:bg-cc-main hover:text-white transition text-xs border border-transparent rounded-full focus:outline-none;
 		}
 	}
 }

@@ -1,14 +1,7 @@
 <template>
 	<main>
-		<div class="hero relative">
-			<div class="container mx-auto text-left pt-14 pb-14 lg:pt-24 lg:pb-16">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
-					Terms of Service Policy
-				</h1>
-			</div>
-		</div>
 		<div class="content policy-page">
-			<div class="container mx-auto pt-16 pb-24">
+			<div class="container mx-auto pt-10 pb-24">
 				<h1>Website Terms and Conditions of Use</h1>
 
 				<h2>1. Terms</h2>
@@ -85,7 +78,7 @@ export default {
 }
 
 .policy-page h1 {
-	@apply text-2xl font-bold tracking-tight mt-5 mb-2;
+	@apply text-3xl font-bold tracking-tight mt-5 mb-3;
 }
 .policy-page h2 {
 	@apply text-xl font-bold tracking-tight mt-8;

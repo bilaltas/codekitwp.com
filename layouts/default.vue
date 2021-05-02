@@ -56,6 +56,6 @@ abbr[title] {
 }
 
 main {
-	@apply pt-16;
+	padding-top: 60px;
 }
 </style>

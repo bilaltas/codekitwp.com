@@ -14,13 +14,13 @@
 					</svg>
 				</button>
 				<br />
-				<button class="text-white text-opacity-40 background-transparent font-bold uppercase px-3 py-1 text-xs mr-1 mt-3 transition hover:text-opacity-100 inline-flex items-center" type="button">
+				<a href="https://wordpress.org/plugins/custom-codes/" target="_blank" class="text-white text-opacity-40 background-transparent font-bold uppercase px-3 py-1 text-xs mr-1 mt-3 transition hover:text-opacity-100 inline-flex items-center" type="button">
 					Or Try Free Version
 					<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" id="Download">
 						<path d="M12 15V3m0 12l-4-4m4 4l4-4" />
 						<path d="M2 17l.621 2.485A2 2 0 004.561 21H19.439a2 2 0 001.94-1.515L22 17" />
 					</svg>
-				</button>
+				</a>
 			</div>
 		</div>
 	</div>

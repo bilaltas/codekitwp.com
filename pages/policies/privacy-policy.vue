@@ -1,14 +1,7 @@
 <template>
 	<main>
-		<div class="hero relative">
-			<div class="container mx-auto text-left pt-14 pb-14 lg:pt-24 lg:pb-16">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
-					Privacy Policy
-				</h1>
-			</div>
-		</div>
 		<div class="content policy-page">
-			<div class="container mx-auto pt-16 pb-24">
+			<div class="container mx-auto pt-10 pb-24">
 				<h1>Privacy Policy for PressX</h1>
 
 				<p>At CodeKitWP, accessible from https://codekitwp.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by CodeKitWP and how we use it.</p>
@@ -112,7 +105,7 @@ export default {
 }
 
 .policy-page h1 {
-	@apply text-2xl font-bold tracking-tight mt-5 mb-2;
+	@apply text-3xl font-bold tracking-tight mt-5 mb-3;
 }
 .policy-page h2 {
 	@apply text-xl font-bold tracking-tight mt-8;

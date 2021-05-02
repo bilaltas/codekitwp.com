@@ -14,13 +14,16 @@
 			</nav>
 		</div>
 		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 md:pt-2 border-t border-gray-900 border-opacity-5 ">
-			<nav class="w-full mt-1 lg:mt-2 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-6 items-center text-xs">
+			<nav class="w-full mt-1 lg:mt-2 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-5 items-center text-xs">
 				<span class="text-gray-500">&copy;2021 Copyright.</span>
-				<NuxtLink to="/privacy-policy">
+				<NuxtLink to="/policies/privacy-policy">
 					<span class="hidden sm:inline" aria-label="Privacy Policy">Privacy Policy</span>
 				</NuxtLink>
-				<NuxtLink to="/terms-of-service">
+				<NuxtLink to="/policies/terms-of-service">
 					<span class="hidden sm:inline" aria-label="Terms of Service">Terms of Service</span>
+				</NuxtLink>
+				<NuxtLink to="/policies/refund-policy">
+					<span class="hidden sm:inline" aria-label="Terms of Service">Refund Policy</span>
 				</NuxtLink>
 			</nav>
 			<div class="w-full lg:mt-2 sm:mt-0 sm:w-auto sm:ml-auto text-xs">
