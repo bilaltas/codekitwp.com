@@ -2,14 +2,14 @@
 	<main id="features">
 		<div class="hero relative">
 			<div class="container mx-auto text-center py-14 lg:py-24 relative">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
 					#1 Code Editor for WordPress
 				</h1>
 				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-5">
-					Finally, a simple, intuitive interface and easy workflow <br />
-					for WordPress custom codes.
+					CodeKit is the one and only plugin that provides <br />
+					such features in the marketplace.
 				</p>
-				<button class="text-white bg-cc-main font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" type="button">
+				<button class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" type="button">
 					Buy Pro Now
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
 						<path d="M4 12h16" />
@@ -35,7 +35,7 @@
 				<div class="flex flex-col lg:flex-row">
 					<div class="flex-1">
 						<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
-						<h2 class="font-bold text-4xl text-gray-900 leading-tight tracking-tight">
+						<h2 class="font-bold text-3xl xl:text-4xl text-gray-900 leading-tight tracking-tight">
 							Natively integrated IDE <br />
 							on your WordPress Admin
 						</h2>
@@ -94,7 +94,7 @@
 			<div class="container mx-auto">
 				<div class="section-title">
 					<span class="font-mono uppercase rounded-full text-cc-main py-1 text-xs inline-flex font-semibold tracking-wider">PRO Features</span>
-					<h2 class="font-bold text-4xl leading-tight tracking-tight text-white">
+					<h2 class="font-bold text-3xl xl:text-4xl leading-tight tracking-tight text-white">
 						Take full control and <br />
 						do more on your website
 					</h2>
@@ -109,7 +109,7 @@
 									</svg>
 									Extended language support
 								</h5>
-								<p class="text-white text-opacity-50 mt-2">Keep developing and adding code snippets with the language you’re comfortable with. Extended language supports wider range of languages which make you feel home when developing with out-of-box languages.</p>
+								<p class="text-white text-opacity-60 mt-2">Keep developing and adding code snippets with the language you’re comfortable with. Extended language supports wider range of languages which make you feel home when developing with out-of-box languages.</p>
 							</div>
 							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
@@ -119,7 +119,7 @@
 									</svg>
 									Code includes
 								</h5>
-								<p class="text-white text-opacity-50 mt-2">Bootstrap lover? Maybe Tailwind? Maybe you just want to include a font, or icon pack through CDN? You can practically include any type of code, to your existing code snippet with few clicks.</p>
+								<p class="text-white text-opacity-60 mt-2">Bootstrap lover? Maybe Tailwind? Maybe you just want to include a font, or icon pack through CDN? You can practically include any type of code, to your existing code snippet with few clicks.</p>
 							</div>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 								</svg>
 								Advanced code deployment
 							</h5>
-							<p class="text-white text-opacity-50 mt-2">Deploy your code on not just front-end or admin area, but all the pages, custom post types, taxonomies, archives and templates. This is the place where you have all the control over your code deployment.</p>
+							<p class="text-white text-opacity-60 mt-2">Deploy your code on not just front-end or admin area, but all the pages, custom post types, taxonomies, archives and templates. This is the place where you have all the control over your code deployment.</p>
 						</div>
 
 						<div class="feature-block my-10 text-white">
@@ -145,7 +145,7 @@
 								</svg>
 								Code Hints, Folding & Groups
 							</h5>
-							<p class="text-white text-opacity-50 mt-2">Tidy up all of your code snippets into groups, fold them, get hints while you developing. The perfect developer suite for who hates the spagetti codes.</p>
+							<p class="text-white text-opacity-60 mt-2">Tidy up all of your code snippets into groups, fold them, get hints while you developing. The perfect developer suite for who hates the spagetti codes.</p>
 						</div>
 					</div>
 				</div>
@@ -156,7 +156,7 @@
 			<div class="container mx-auto">
 				<div class="section-title text-center mb-14">
 					<span class="font-mono uppercase rounded-full text-cc-main py-1 text-xs inline-flex font-semibold tracking-wider">Comparison</span>
-					<h2 class="font-bold text-4xl leading-tight tracking-tight text-gray-900">
+					<h2 class="font-bold text-3xl xl:text-4xl leading-tight tracking-tight text-gray-900">
 						Compare Features
 					</h2>
 				</div>
@@ -185,7 +185,7 @@
 										<span class="text-4xl font-extrabold text-gray-900">Free</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Add custom SASS, CSS, JS, PHP and HTML codes to your WordPress websites.</p>
-									<a href="/accounts/signup/" class="absolute bottom-0 w-full bg-gray-600 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
+									<a href="/accounts/signup/" class="absolute bottom-0 w-full bg-gray-400 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
 								</div>
 							</td>
 							<td class="h-full py-8 px-6 align-top">
@@ -196,7 +196,7 @@
 										<span class="text-base font-medium text-gray-500">/year</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Extra Languages, Editor Enhancements, Advanced Code Release Locations, Includes GUI, and more.</p>
-									<a href="#contact-form" class="absolute bottom-0 flex-grow w-full bg-cc-main border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Buy Pro Now</a>
+									<a href="#contact-form" class="absolute bottom-0 flex-grow w-full bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</a>
 								</div>
 							</td>
 						</tr>

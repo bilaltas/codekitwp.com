@@ -2,7 +2,7 @@
 	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-20 lg:pb-20 relative">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
 					My Account
 				</h1>
 			</div>

@@ -5,7 +5,7 @@
 			<div class="container mx-auto">
 				<div class="feature-section justify-center text-center">
 					<span class="font-mono uppercase rounded-full text-gray-200 py-1 px-4 text-xs inline-flex font-semibold tracking-wider">Features</span>
-					<h2 class="text-4xl text-gray-900 tracking-tight leading-tight font-bold">The most powerful integrated IDE</h2>
+					<h2 class="text-3xl xl:text-4xl text-gray-900 tracking-tight leading-tight font-bold">The most powerful integrated IDE</h2>
 					<p class="text-gray-500 mt-3 leading-relaxed font-body text-base ">
 						With the power of our integrated IDE, Custom Code will significantly boost your development efficiency. <br />
 						The features also provide continuous development and urgent deployment of codes without effort. <br />
@@ -16,7 +16,7 @@
 					<div class="align-center items-center flex">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Editor</span>
-							<h3 class="text-4xl text-gray-900 font-bold tracking-tight leading-tight flex-1">
+							<h3 class="text-3xl xl:text-4xl text-gray-900 font-bold tracking-tight leading-tight flex-1">
 								Directly integrate <br />
 								any type of code
 							</h3>
@@ -41,7 +41,7 @@
 					<div class="align-center items-center flex">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Deployment</span>
-							<h3 class="text-4xl text-gray-900 font-bold tracking-tight leading-tight flex-1">
+							<h3 class="text-3xl xl:text-4xl text-gray-900 font-bold tracking-tight leading-tight flex-1">
 								Place your code <br />
 								wherever you want
 							</h3>
@@ -60,7 +60,7 @@
 					<div class="align-center items-center flex">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Code Includes</span>
-							<h3 class="text-4xl text-gray-900 font-bold tracking-tight leading-tight flex-1">
+							<h3 class="text-3xl xl:text-4xl text-gray-900 font-bold tracking-tight leading-tight flex-1">
 								Include your favorite<br />
 								tools & frameworks
 							</h3>

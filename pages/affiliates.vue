@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<div class="hero relative">
-			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-24">
+			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-24 relative">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
 					Join Our Affiliate Program
 				</h1>

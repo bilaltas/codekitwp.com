@@ -3,7 +3,7 @@
 		<div class="container mx-auto">
 			<div class="section-title text-center mb-10">
 				<span class="font-mono uppercase rounded-full text-gray-200 py-1 px-4 text-xs inline-flex font-semibold tracking-wider">Testimonials</span>
-				<h3 class="text-4xl text-gray-900 font-semibold tracking-tight leading-tight">
+				<h3 class="text-3xl xl:text-4xl text-gray-900 font-semibold tracking-tight leading-tight">
 					Trusted by 3000+ WordPress Users
 				</h3>
 				<p class="text-gray-500 mt-3 leading-relaxed font-body text-base ">

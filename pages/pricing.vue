@@ -2,12 +2,12 @@
 	<main>
 		<div class="hero">
 			<div class="container mx-auto text-center py-24 relative">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
 					Simple pricing, for everyone.
 				</h1>
 				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-4 mb-4">
-					Finally, a simple, intuitive interface and easy workflow <br />
-					for WordPress custom codes.
+					Super simple license options based on the websites <br />
+					you will use, not the features.
 				</p>
 				<div class="relative mt-24 px-4 sm:px-6 lg:px-0 pb-10">
 					<div class="text-center -mt-3">

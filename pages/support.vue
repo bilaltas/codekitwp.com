@@ -2,12 +2,12 @@
 	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-36 relative">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
 					Support
 				</h1>
 				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
-					Finally, a simple, intuitive interface and easy workflow <br />
-					for WordPress custom codes.
+					Any questions or trouble? Fill the form below and we will <br />
+					get back to you lightning fast.
 				</p>
 			</div>
 		</div>
@@ -30,6 +30,18 @@
 										<label for="email" class="block text-sm font-medium text-gray-700">Email</label>
 										<div class="mt-1.5">
 											<input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" value="" class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
+										</div>
+									</div>
+									<div class="mt-6">
+										<label for="email" class="block text-sm font-medium text-gray-700">Type</label>
+										<div class="mt-1.5">
+											<select class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" name="" id="">
+												<option value="w">General Query</option>
+												<option value="w">Billing</option>
+												<option value="w">Refund</option>
+												<option value="w">Bug Reporting</option>
+												<option value="w">PRO Support</option>
+											</select>
 										</div>
 									</div>
 									<div class="mt-6">
