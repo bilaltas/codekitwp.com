@@ -84,14 +84,14 @@
 <script>
 export default {
 	head: {
-		title: "The Code Editor for WordPress | Custom Codes",
+		title: "Privacy Policy | Custom Codes",
 		meta: [
 			{ charset: "utf-8" },
 			{ name: "viewport", content: "width=device-width, initial-scale=1" },
 			{
 				hid: "description",
 				name: "description",
-				content: "my website description"
+				content: "At CodeKitWP, accessible from https://codekitwp.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by CodeKitWP and how we use it."
 			}
 		],
 		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]

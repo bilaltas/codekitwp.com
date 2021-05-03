@@ -39,6 +39,8 @@ export default {
 	// PreCompress
 	"nuxt-precompress",
 
+	'@nuxtjs/sitemap',
+
 	// Font Loader
 	['nuxt-font-loader-strategy', {
         ignoreLighthouse: true,
@@ -158,5 +160,26 @@ export default {
 			threshold: 10240,
 			minRatio: 0.8
 		}
+	},
+
+	sitemap: {
+		hostname: 'https://codekitwp.com',
+		gzip: true,
+		exclude: [
+			'/secret',
+			'/admin/**',
+			'/thank-you'
+		],
+		routes: [
+			'/',
+			'/features',
+			'/pricing',
+			'/support',
+			'/my-account',
+			'/affiliates',
+			'/policies/privacy-policy',
+			'/policies/refund-policy',
+			'/policies/terms-of-service',
+		]
 	}
 };

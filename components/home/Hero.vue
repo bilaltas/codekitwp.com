@@ -1,8 +1,8 @@
 <template>
 	<div class="hero home relative overflow-hidden">
 		<div class="container mx-auto py-20 lg:py-40 grid grid-cols-1 lg:grid-cols-2 gap-4">
-			<div class="w-full">
-				<h1 class="text-white text-5xl xl:text-6xl lg:text-5xl tracking-tight leading-tight font-bold">
+			<div class="w-full relative">
+				<h1 class="text-white text-5xl xl:text-6xl lg:text-5xl tracking-tight leading-tight font-bold hero-heading">
 					Complete <br class="hidden md:flex" />Code Editor<br class="hidden md:flex" />
 					for WordPress.
 				</h1>
@@ -10,7 +10,7 @@
 					Finally, a simple, intuitive interface and easy workflow <br class="hidden md:flex" />
 					for WordPress custom codes.
 				</p>
-				<a href="/pricing" class="text-white bg-cc-main font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center">
+				<a href="/pricing" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center">
 					Buy Pro Now
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
 						<path d="M4 12h16" />
@@ -26,7 +26,7 @@
 				</a>
 			</div>
 			<div class="hidden md:flex z-10">
-				<img class="screen" src="~static/ccsc.png" alt="" />
+				<img class="screen" src="~static/cc-hero.png" alt="" />
 			</div>
 		</div>
 	</div>
@@ -39,16 +39,8 @@ export default {};
 <style lang="postcss">
 .screen {
 	position: absolute;
-	bottom: -30px;
-	margin-left: 0px;
-	width: 1000px;
-	@apply md:ml-96 lg:ml-14 xl:ml-0;
-}
-.hero.home {
-	background-image: url("~static/light5.svg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-color: #010101;
+	bottom: -40px;
+	width: 1200px;
+	@apply md:ml-96 lg:ml-14 xl:ml-12;
 }
 </style>

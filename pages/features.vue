@@ -1,7 +1,7 @@
 <template>
 	<main id="features">
 		<div class="hero relative">
-			<div class="container mx-auto text-center py-14 lg:py-24">
+			<div class="container mx-auto text-center py-14 lg:py-24 relative">
 				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
 					#1 Code Editor for WordPress
 				</h1>
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 
-		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-900 ring-opacity-5 shadow-sm sticky">
+		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-100 ring-opacity-5 shadow-sm sticky">
 			<div class="container mx-auto">
 				<div class="flex justify-evenly">
 					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'core' }" href="#core">Core Features</a>
