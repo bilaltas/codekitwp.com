@@ -15,7 +15,7 @@
 				<div class="lg:mt-4">
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-14 h-14 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img src="~static/avatar-1.png" alt="profile image" class="w-full h-full object-cover" />
+							<img data-src="~static/avatar-1.png" alt="profile image" class="w-full h-full object-cover" v-lazy-load />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">"Version 2.0 made <span class="text-gray-900 font-medium">this plugin worth paying for</span>, but it’s free! Just wow, it’s the best plugin for custom code on the market, now. How cool is that!"</p>
@@ -25,7 +25,7 @@
 					</div>
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img src="~static/avatar-2.png" alt="profile image" class="w-full h-full object-cover" />
+							<img data-src="~static/avatar-2.png" alt="profile image" class="w-full h-full object-cover" v-lazy-load />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">"I have tried many plugins for adding custom code, and <span class="text-gray-900 font-medium">this is the best by far.</span> Add all of your custom CSS/SASS and JavaScript/jQuery in one place. Robust code editor with error notification, line numbers, good use of colors, separate tabs to keep media queries organized. SASS is compiled automatically. It’s like <span class="text-gray-900 font-medium">having an enhanced version of Sublime Text built directly into WordPress!</span>"</p>
@@ -37,7 +37,7 @@
 				<div class="lg:mt-4">
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img src="~static/avatar-3.png" alt="profile image" class="w-full h-full object-cover" />
+							<img data-src="~static/avatar-3.png" alt="profile image" class="w-full h-full object-cover" v-lazy-load />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">This plugin is a must have, it is the best code editor, lets you manage CSS SCSS, JS, PHP…, and presets tabs to manage you responsive code. Time saving, clean editor, looks like simple text inside your WP admin. <span class="text-gray-900 font-medium">Simple and yet most advanced plugin</span>, indeed! And support is ultra fax and very friendly."</p>
@@ -48,7 +48,7 @@
 
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img src="~static/avatar-4.png" alt="profile image" class="w-full h-full object-cover" />
+							<img data-src="~static/avatar-4.png" alt="profile image" class="w-full h-full object-cover" v-lazy-load />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">"The editor is perfect! Emmet expansions, breakpoints as tabs, editable breakpoints, keyboard shortcuts, SASS! Javascript as well. <span class="text-gray-900 font-medium">Very impressive and better than most other “pro” plugins.</span> So well done. "</p>

@@ -21,7 +21,7 @@ export default {
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
-		//{ src: '~/plugins/freshdesk.client.js' },
+		//{ src: '~/plugins/total11y.js' },
 	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
@@ -37,9 +37,26 @@ export default {
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
 	// PreCompress
+
 	"nuxt-precompress",
+
 	'@nuxtjs/sitemap',
-	'nuxt-lazy-load',
+
+	['nuxt-lazy-load', {
+		// These are the default values
+		images: true,
+		videos: true,
+		audios: true,
+		iframes: true,
+		native: false,
+		polyfill: true,
+		directiveOnly: true,
+
+		// To remove class set value to false
+		loadingClass: 'isLoading',
+		loadedClass: 'isLoaded',
+		appendClass: 'lazyLoad',
+	}],
 
 	// Font Loader
 	['nuxt-font-loader-strategy', {
@@ -49,7 +66,7 @@ export default {
           // Font
           {
             fileExtensions: ['woff2', 'woff', 'eot'],
-            fontFamily: 'Eina01',
+			fontFamily: 'Eina01',
             fontFaces: [
               // Font-Face
               {
