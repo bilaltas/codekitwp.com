@@ -6,7 +6,7 @@
 					Join Our Affiliate Program
 				</h1>
 				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
-					Love PressX products? Spread the word around and <span class="text-cc-main font-semibold">receive 30% per sale</span> by promoting it! <br />
+					Love PressX products? Spread the word around and <span class="text-red-700 font-semibold">receive 30% per sale</span> by promoting it! <br />
 					The affiliate program is strictly opened for trustworthy affiliates that will actively promote PressX products.
 				</p>
 				<button class="text-white bg-cc-main font-bold uppercase text-sm px-6 py-3 rounded-full inline-flex items-center" type="button" @click="isModalOpen = true">

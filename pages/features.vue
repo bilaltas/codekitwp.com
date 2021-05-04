@@ -11,7 +11,7 @@
 				</p>
 				<button class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" type="button">
 					Buy Pro Now
-					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
+					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M4 12h16" />
 						<path d="M13 5l7 7-7 7" />
 					</svg>
@@ -19,9 +19,9 @@
 			</div>
 		</div>
 
-		<div class="feature-band z-50 text-sm leading-6 font-medium bg-white ring-1 ring-gray-100 ring-opacity-5 shadow-sm sticky">
+		<div class="feature-band z-10 text-sm leading-6 font-medium bg-white ring-1 ring-gray-100 ring-opacity-5 shadow-sm sticky">
 			<div class="container mx-auto">
-				<div class="flex justify-evenly">
+				<div class="flex justify-between md:justify-evenly">
 					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'core' }" href="#core">Core Features</a>
 					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'pro' }" href="#pro">Pro Features</a>
 					<a class="hover:text-cc-main text-gray-500 transition" :class="{ active: activeSection == 'comparison' }" href="#comparison">Comparison</a>
@@ -42,7 +42,7 @@
 						<div class="feature-wrapper">
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" id="CodepenFill">
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" aria-hidden="true">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z" />
 									</svg>
 									Wide-range of language support
@@ -51,7 +51,7 @@
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Miniplayer">
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 										<rect x="2" y="4" width="20" height="16" rx="2" />
 										<rect x="13" y="13" width="9" height="7" rx="2" stroke="#c33030" />
 									</svg>
@@ -61,7 +61,7 @@
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Grid">
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 										<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
 										<rect x="3" y="14" width="7" height="7" rx="1" />
 										<rect x="14" y="3" width="7" height="7" rx="1" />
@@ -73,7 +73,7 @@
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 										<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
 										<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
 									</svg>
@@ -104,7 +104,7 @@
 						<div class="feature-wrapper">
 							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" id="CodepenFill">
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" aria-hidden="true">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z" />
 									</svg>
 									Extended language support
@@ -113,7 +113,7 @@
 							</div>
 							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
+									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 										<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
 										<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
 									</svg>
@@ -126,7 +126,7 @@
 					<div class="flex-1">
 						<div class="feature-block my-10 text-white">
 							<h5 class="title font-medium text-xl tracking-tight flex items-center">
-								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Grid">
+								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 									<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
 									<rect x="3" y="14" width="7" height="7" rx="1" />
 									<rect x="14" y="3" width="7" height="7" rx="1" />
@@ -139,7 +139,7 @@
 
 						<div class="feature-block my-10 text-white">
 							<h5 class="title font-medium text-xl tracking-tight flex items-center">
-								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Edit">
+								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 									<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
 									<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
 								</svg>
@@ -583,7 +583,7 @@ export default {
 <style lang="postcss">
 #features {
 	.feature-band {
-		top: 60px;
+		top: 68px;
 		a {
 			@apply py-3 border-b border-transparent;
 		}

@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<div class="hero">
-			<div class="container mx-auto text-center py-24 relative">
+			<div class="container mx-auto text-center py-14 lg:py-24 relative">
 				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
 					Simple pricing, for everyone.
 				</h1>
