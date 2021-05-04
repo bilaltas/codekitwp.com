@@ -31,14 +31,14 @@ export default {
 	buildModules: [
 		// https://go.nuxtjs.dev/tailwindcss
 		"@nuxtjs/tailwindcss",
-		'@aceforth/nuxt-optimized-images'
+		'@aceforth/nuxt-optimized-images',
+		'nuxt-lazysizes'
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
 	// PreCompress
 	"nuxt-precompress",
-
 	'@nuxtjs/sitemap',
 
 	// Font Loader
@@ -108,15 +108,18 @@ export default {
 	build: {
 		html: {
 			minify: {
-			collapseBooleanAttributes: true,
-			decodeEntities: true,
-		    minifyCSS: false,
-		    minifyJS: false,
-			processConditionalComments: true,
-			removeEmptyAttributes: true,
-			removeRedundantAttributes: true,
-			trimCustomFragments: true,
-			useShortDoctype: true
+				collapseBooleanAttributes: true,
+				decodeEntities: true,
+				minifyCSS: true,
+				minifyJS: true,
+				processConditionalComments: true,
+				removeEmptyAttributes: true,
+				removeRedundantAttributes: true,
+				trimCustomFragments: true,
+				useShortDoctype: true,
+				minifyURLs: true,
+				removeComments: true,
+				removeEmptyElements: true
 			}
 		}
 	},
