@@ -31,8 +31,7 @@ export default {
 	buildModules: [
 		// https://go.nuxtjs.dev/tailwindcss
 		"@nuxtjs/tailwindcss",
-		'@aceforth/nuxt-optimized-images',
-		'nuxt-lazysizes'
+		'@aceforth/nuxt-optimized-images'
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -40,6 +39,7 @@ export default {
 	// PreCompress
 	"nuxt-precompress",
 	'@nuxtjs/sitemap',
+	'nuxt-lazy-load',
 
 	// Font Loader
 	['nuxt-font-loader-strategy', {
@@ -106,6 +106,11 @@ export default {
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
+		babel:{
+			plugins: [
+				['@babel/plugin-proposal-private-methods', { loose: true }]
+			]
+		},
 		html: {
 			minify: {
 				collapseBooleanAttributes: true,

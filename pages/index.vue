@@ -31,12 +31,12 @@
 						</div>
 					</div>
 					<div>
-						<img class="md:w-full lazyload" data-src="~static/feature-1.png" alt="CodeKit's supported code languages" />
+						<img class="md:w-full" data-src="~static/feature-1.png" alt="CodeKit's supported code languages" v-lazy-load />
 					</div>
 				</div>
 				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 					<div>
-						<img class="md:w-full lazyload" data-src="~static/feature-2.png" alt="CodeKit's supported code placements" />
+						<img class="md:w-full" data-src="~static/feature-2.png" alt="CodeKit's supported code placements" v-lazy-load />
 					</div>
 					<div class="align-center items-center flex">
 						<div class="flex-1">
@@ -75,7 +75,7 @@
 						</div>
 					</div>
 					<div>
-						<img class="md:w-full lazyload" data-src="~static/feature-3.png" alt="CodeKit's supported code include" />
+						<img class="md:w-full" data-src="~static/feature-3.png" alt="CodeKit's supported code include" v-lazy-load />
 					</div>
 				</div>
 			</div>
