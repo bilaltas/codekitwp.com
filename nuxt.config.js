@@ -31,7 +31,8 @@ export default {
 	buildModules: [
 		// https://go.nuxtjs.dev/tailwindcss
 		"@nuxtjs/tailwindcss",
-		'@aceforth/nuxt-optimized-images'
+		'@aceforth/nuxt-optimized-images',
+		'nuxt-compress'
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -123,6 +124,13 @@ export default {
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
+		loaders: {
+			cssModules: {
+				modules: {
+					localIdentName: '[hash:base64:4]'
+				}
+			}
+		},
 		babel:{
 			plugins: [
 				['@babel/plugin-proposal-private-methods', { loose: true }]
@@ -148,6 +156,15 @@ export default {
 
 	optimizedImages: {
 		optimizeImages: true
+	},
+
+	'nuxt-compress': {
+		gzip: {
+			threshold: 8192,
+		},
+		brotli: {
+			threshold: 8192,
+		},
 	},
 
 	nuxtPrecompress: {

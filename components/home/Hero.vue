@@ -7,8 +7,8 @@
 					for WordPress.
 				</h1>
 				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
-					Finally, a simple, intuitive interface and easy workflow <br class="hidden md:flex" />
-					for WordPress custom codes.
+					Finally, a simple, intuitive interface and easy <br class="hidden md:flex" />
+					workflow for WordPress custom codes.
 				</p>
 				<a href="/pricing" aria-label="Buy Pro version" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" role="button">
 					Buy Pro Now

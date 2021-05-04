@@ -583,7 +583,7 @@ export default {
 <style lang="postcss">
 #features {
 	.feature-band {
-		top: 68px;
+		top: 62px;
 		a {
 			@apply py-3 border-b border-transparent;
 		}

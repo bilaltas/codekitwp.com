@@ -8,7 +8,7 @@
 
 <style lang="postcss">
 html {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: 16px;
 	word-spacing: 1px;
 	-ms-text-size-adjust: 100%;
@@ -17,7 +17,7 @@ html {
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
 	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-	letter-spacing: -0.0025em;
+	letter-spacing: -0.005em;
 }
 
 h1,

@@ -90,7 +90,10 @@ export default {
 
 <style lang="postcss">
 header {
-	@apply flex-none z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-100 ring-opacity-5 shadow-sm py-4 lg:py-4 fixed top-0 right-0 left-0 transition-all;
+	@apply flex-none z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-100 ring-opacity-5 shadow-sm fixed top-0 right-0 left-0 transition-all;
+	height: 62px;
+	display: flex;
+	align-items: center;
 
 	&.scrolled {
 		.button {

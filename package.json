@@ -23,6 +23,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^9.0.0",
+    "nuxt-compress": "^5.0.0",
     "postcss": "^8.2.8"
   }
 }
