@@ -4,7 +4,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: "custom-codes",
+		title: "CodeKit | The Code Editor for WordPress",
 		htmlAttrs: {
 			lang: "en"
 		},

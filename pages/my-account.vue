@@ -14,24 +14,16 @@
 
 <script>
 export default {
-	head: {
-		title: "The Code Editor for WordPress | Custom Codes",
-		meta: [
-			{ charset: "utf-8" },
-			{ name: "viewport", content: "width=device-width, initial-scale=1" },
-			{
-				hid: "description",
-				name: "description",
-				content: "my website description"
-			}
-		],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-		script: [
-			{
-				type: "module",
-				src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-			}
-		]
+	head() {
+		return {
+			title: "My Account",
+			script: [
+				{
+					type: "module",
+					src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+				}
+			]
+		};
 	},
 	mounted() {
 		setTimeout(function() {
