@@ -22,7 +22,7 @@
 						<path d="M12 15V3m0 12l-4-4m4 4l4-4" />
 						<path d="M2 17l.621 2.485A2 2 0 004.561 21H19.439a2 2 0 001.94-1.515L22 17" />
 					</svg>
-					Try Free Version
+					Download Free Version
 				</a>
 			</div>
 			<div class="hidden md:flex z-10">
