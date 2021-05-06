@@ -34,35 +34,37 @@ export default {
 		]
 	},
 	mounted() {
-		var userDashboardScript = document.createElement("script"),
-			date = new Date(),
-			cacheKiller = date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate() + " " + date.getHours();
+		setTimeout(function() {
+			var userDashboardScript = document.createElement("script"),
+				date = new Date(),
+				cacheKiller = date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate() + " " + date.getHours();
 
-		userDashboardScript.type = "text/javascript";
-		userDashboardScript.src = "//users.freemius.com/dashboard.js?ck=" + cacheKiller;
-		userDashboardScript.onload = function() {
-			var css = {
-				position: "relative",
-				top: "auto",
-				bottom: "auto",
-				left: "auto",
-				right: "auto",
-				height: "900px",
-				zIndex: "2"
+			userDashboardScript.type = "text/javascript";
+			userDashboardScript.src = "//users.freemius.com/dashboard.js?ck=" + cacheKiller;
+			userDashboardScript.onload = function() {
+				var css = {
+					position: "relative",
+					top: "auto",
+					bottom: "auto",
+					left: "auto",
+					right: "auto",
+					height: "900px",
+					zIndex: "2"
+				};
+
+				var params = {
+					css: css,
+					public_key: "pk_136be7f070a3134ee0e91b07d11b8",
+					store_id: 1135
+				};
+
+				(function() {
+					FS.Members.configure(params).open();
+				})();
 			};
 
-			var params = {
-				css: css,
-				public_key: "pk_136be7f070a3134ee0e91b07d11b8",
-				store_id: 1135
-			};
-
-			(function() {
-				FS.Members.configure(params).open();
-			})();
-		};
-
-		document.getElementsByTagName("head")[0].appendChild(userDashboardScript);
+			document.getElementsByTagName("head")[0].appendChild(userDashboardScript);
+		}, 500);
 	}
 };
 </script>
