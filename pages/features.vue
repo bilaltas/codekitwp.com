@@ -558,7 +558,7 @@ export default {
 			activeSection: ""
 		};
 	},
-	created() {
+	mounted() {
 		if (process.client) {
 			this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.2 });
 			document.querySelectorAll("section").forEach(section => {
