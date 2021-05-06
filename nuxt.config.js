@@ -31,95 +31,101 @@ export default {
 	buildModules: [
 		// https://go.nuxtjs.dev/tailwindcss
 		"@nuxtjs/tailwindcss",
-		'@aceforth/nuxt-optimized-images',
-		'nuxt-compress'
+		"@aceforth/nuxt-optimized-images",
+		"nuxt-compress"
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
-	// PreCompress
+		// PreCompress
 
-	"nuxt-precompress",
+		"nuxt-precompress",
 
-	'@nuxtjs/sitemap',
+		"@nuxtjs/sitemap",
 
-	['nuxt-lazy-load', {
-		// These are the default values
-		images: true,
-		videos: true,
-		audios: true,
-		iframes: true,
-		native: false,
-		polyfill: true,
-		directiveOnly: true,
+		[
+			"nuxt-lazy-load",
+			{
+				// These are the default values
+				images: true,
+				videos: true,
+				audios: true,
+				iframes: true,
+				native: false,
+				polyfill: true,
+				directiveOnly: true,
 
-		// To remove class set value to false
-		loadingClass: 'isLoading',
-		loadedClass: 'isLoaded',
-		appendClass: 'lazyLoad',
-	}],
+				// To remove class set value to false
+				loadingClass: "isLoading",
+				loadedClass: "isLoaded",
+				appendClass: "lazyLoad"
+			}
+		],
 
-	// Font Loader
-	['nuxt-font-loader-strategy', {
-        ignoreLighthouse: true,
-        ignoredEffectiveTypes: ['2g', 'slow-2g'],
-        fonts: [
-          // Font
-          {
-            fileExtensions: ['woff2', 'woff', 'eot'],
-			fontFamily: 'Eina01',
-            fontFaces: [
-              // Font-Face
-              {
-                src: '@/assets/fonts/eina/Eina01-Regular',
-                fontWeight: 400,
-                fontStyle: 'normal'
-              },
-              // Font-Face
-				{
-                src: '@/assets/fonts/eina/Eina01-SemiBold',
-                fontWeight: 500,
-                fontStyle: 'normal'
-              },
-              // Font-Face
-				{
-                src: '@/assets/fonts/eina/Eina01-Bold',
-                fontWeight: 600,
-                fontStyle: 'normal'
-              }
-            ]
-          },
-          // Font
-          {
-            fileExtensions: ['woff2', 'woff', 'eot'],
-            fontFamily: 'Inter',
-            fontFaces: [
-              // Font-Face
-              {
-                src: '@/assets/fonts/inter/Inter-Regular',
-                fontWeight: 400,
-                fontStyle: 'normal'
-              },
-              // Font-Face
-              {
-                src: '@/assets/fonts/inter/Inter-Medium',
-                fontWeight: 500,
-                fontStyle: 'normal'
-				},
-			  {
-                src: '@/assets/fonts/inter/Inter-SemiBold',
-                fontWeight: 600,
-                fontStyle: 'normal'
-				},
-			  {
-                src: '@/assets/fonts/inter/Inter-Bold',
-                fontWeight: 700,
-                fontStyle: 'normal'
-              }
-            ]
-          }
-        ]
-    }]
+		// Font Loader
+		[
+			"nuxt-font-loader-strategy",
+			{
+				ignoreLighthouse: true,
+				ignoredEffectiveTypes: ["2g", "slow-2g"],
+				fonts: [
+					// Font
+					{
+						fileExtensions: ["woff2", "woff", "eot"],
+						fontFamily: "Eina01",
+						fontFaces: [
+							// Font-Face
+							{
+								src: "@/assets/fonts/eina/Eina01-Regular",
+								fontWeight: 400,
+								fontStyle: "normal"
+							},
+							// Font-Face
+							{
+								src: "@/assets/fonts/eina/Eina01-SemiBold",
+								fontWeight: 500,
+								fontStyle: "normal"
+							},
+							// Font-Face
+							{
+								src: "@/assets/fonts/eina/Eina01-Bold",
+								fontWeight: 600,
+								fontStyle: "normal"
+							}
+						]
+					},
+					// Font
+					{
+						fileExtensions: ["woff2", "woff", "eot"],
+						fontFamily: "Inter",
+						fontFaces: [
+							// Font-Face
+							{
+								src: "@/assets/fonts/inter/Inter-Regular",
+								fontWeight: 400,
+								fontStyle: "normal"
+							},
+							// Font-Face
+							{
+								src: "@/assets/fonts/inter/Inter-Medium",
+								fontWeight: 500,
+								fontStyle: "normal"
+							},
+							{
+								src: "@/assets/fonts/inter/Inter-SemiBold",
+								fontWeight: 600,
+								fontStyle: "normal"
+							},
+							{
+								src: "@/assets/fonts/inter/Inter-Bold",
+								fontWeight: 700,
+								fontStyle: "normal"
+							}
+						]
+					}
+				]
+			}
+		]
 	],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
@@ -127,14 +133,12 @@ export default {
 		loaders: {
 			cssModules: {
 				modules: {
-					localIdentName: '[hash:base64:4]'
+					localIdentName: "[hash:base64:4]"
 				}
 			}
 		},
-		babel:{
-			plugins: [
-				['@babel/plugin-proposal-private-methods', { loose: true }]
-			]
+		babel: {
+			plugins: [["@babel/plugin-proposal-private-methods", { loose: true }]]
 		},
 		html: {
 			minify: {
@@ -158,13 +162,13 @@ export default {
 		optimizeImages: true
 	},
 
-	'nuxt-compress': {
+	"nuxt-compress": {
 		gzip: {
-			threshold: 8192,
+			threshold: 8192
 		},
 		brotli: {
-			threshold: 8192,
-		},
+			threshold: 8192
+		}
 	},
 
 	nuxtPrecompress: {
@@ -204,24 +208,14 @@ export default {
 		}
 	},
 
+	router: {
+		prefetchLinks: false
+	},
+
 	sitemap: {
-		hostname: 'https://codekitwp.com',
+		hostname: "https://codekitwp.com",
 		gzip: true,
-		exclude: [
-			'/secret',
-			'/admin/**',
-			'/thank-you'
-		],
-		routes: [
-			'/',
-			'/features',
-			'/pricing',
-			'/support',
-			'/my-account',
-			'/affiliates',
-			'/policies/privacy-policy',
-			'/policies/refund-policy',
-			'/policies/terms-of-service',
-		]
+		exclude: ["/secret", "/admin/**", "/thank-you"],
+		routes: ["/", "/features", "/pricing", "/support", "/my-account", "/affiliates", "/policies/privacy-policy", "/policies/refund-policy", "/policies/terms-of-service"]
 	}
 };
