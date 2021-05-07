@@ -11,5 +11,4 @@
 		<path d="M14.9757 0L7.35001 10.4456L14.9757 21H21L13.4696 10.4456L21 0H14.9757Z" fill="#C43334"/>
 	</svg>
 </template>
-
 <style lang="postcss"></style>
