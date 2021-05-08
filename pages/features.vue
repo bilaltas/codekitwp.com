@@ -47,7 +47,7 @@
 									</svg>
 									Wide-range of language support
 								</h5>
-								<p class="text-gray-600 mt-2">Custom codes is the one and only plugin that supports more than 10+ languages in a single plugin. Do range of improvements without worrying about compilers and compatibility.</p>
+								<p class="text-gray-600 mt-2">CodeKit is the one and only plugin that supports more than 10+ languages in a single plugin. Do range of improvements without worrying about compilers and compatibility.</p>
 							</div>
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
@@ -79,7 +79,7 @@
 									</svg>
 									Customizable IDE
 								</h5>
-								<p class="text-gray-600 mt-2">We all know that developers are loyal to their IDE’s because all of the extensions, the interface, the colors and even typography. With Custom Codes, you can customize your integrated IDE easily and make it more like your local IDE.</p>
+								<p class="text-gray-600 mt-2">We all know that developers are loyal to their IDE’s because all of the extensions, the interface, the colors and even typography. With CodeKit, you can customize your integrated IDE easily and make it more like your local IDE.</p>
 							</div>
 						</div>
 					</div>

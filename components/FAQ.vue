@@ -44,12 +44,12 @@
 				<div class="flex-none px-2 w-1/3 hidden lg:block">
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">I'm unable to access to the site because of a PHP custom code error. How can I fix it?</h3>
-						<div class="prose prose-sm leading-5 text-gray-600"><p>Custom Codes has a "Safe Mode" feature which you can enter the site without Custom Codes customizations. You can simply add "codes_safemode" query string to any URL to disable them temporarily. So, you can fix the error online.</p></div>
+						<div class="prose prose-sm leading-5 text-gray-600"><p>CodeKit has a "Safe Mode" feature which you can enter the site without CodeKit customizations. You can simply add "codes_safemode" query string to any URL to disable them temporarily. So, you can fix the error online.</p></div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">How can I see all Pro features and grab my license?</h3>
 						<div class="prose prose-sm leading-5 text-gray-600">
-							<p>Simply install Custom Codes and click the *Upgrade >* button where you can learn more about the latest Pro features and grab your license!</p>
+							<p>Simply install CodeKit and click the *Upgrade >* button where you can learn more about the latest Pro features and grab your license!</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
@@ -61,7 +61,7 @@
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">Can I cancel my account at any time?</h3>
 						<div class="prose prose-sm leading-5 text-gray-600">
-							<p>Yes, if you ever decide that Custom Codes isn't the best plugin for your business, simply cancel your account from your Account panel. You'll still be able to use the plugin without updates or support.</p>
+							<p>Yes, if you ever decide that CodeKit isn't the best plugin for your business, simply cancel your account from your Account panel. You'll still be able to use the plugin without updates or support.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">

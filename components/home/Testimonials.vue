@@ -8,7 +8,7 @@
 				</h3>
 				<p class="text-gray-500 mt-3 leading-relaxed font-body text-base ">
 					Since our first release, we’ve listened our users and improved our plugin continuously which brought us <br />
-					more than 3000+ users who think Custom Codes is awesome and uncomparable to other plugins.
+					more than 3000+ users who think CodeKit is awesome and uncomparable to other plugins.
 				</p>
 			</div>
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
