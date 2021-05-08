@@ -83,18 +83,10 @@
 
 <script>
 export default {
-	head: {
-		title: "Privacy Policy | Custom Codes",
-		meta: [
-			{ charset: "utf-8" },
-			{ name: "viewport", content: "width=device-width, initial-scale=1" },
-			{
-				hid: "description",
-				name: "description",
-				content: "At CodeKitWP, accessible from https://codekitwp.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by CodeKitWP and how we use it."
-			}
-		],
-		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+	head() {
+		return {
+			title: "Privacy Policy"
+		};
 	}
 };
 </script>
