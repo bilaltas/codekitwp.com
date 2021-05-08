@@ -97,7 +97,7 @@ header {
 
 	&.scrolled {
 		.button {
-			@apply bg-red-900;
+			@apply bg-red-900 hover:bg-red-800;
 		}
 	}
 }

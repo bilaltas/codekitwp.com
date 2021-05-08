@@ -9,13 +9,13 @@
 					CodeKit is the one and only plugin that provides <br />
 					such features in the marketplace.
 				</p>
-				<button class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" type="button">
+				<nuxt-link to="/pricing" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" type="button">
 					Buy Pro Now
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M4 12h16" />
 						<path d="M13 5l7 7-7 7" />
 					</svg>
-				</button>
+				</nuxt-link>
 			</div>
 		</div>
 
@@ -185,7 +185,7 @@
 										<span class="text-4xl font-extrabold text-gray-900">Free</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Add custom SASS, CSS, JS, PHP and HTML codes to your WordPress websites.</p>
-									<a href="/accounts/signup/" class="absolute bottom-0 w-full bg-gray-400 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
+									<a href="https://wordpress.org/plugins/custom-codes/" target="_blank" class="absolute bottom-0 w-full bg-gray-400 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
 								</div>
 							</td>
 							<td class="h-full py-8 px-6 align-top">
@@ -196,7 +196,7 @@
 										<span class="text-base font-medium text-gray-500">/year</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Extra Languages, Editor Enhancements, Advanced Code Release Locations, Includes GUI, and more.</p>
-									<a href="#contact-form" class="absolute bottom-0 flex-grow w-full bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</a>
+									<nuxt-link to="/pricing" class="absolute bottom-0 flex-grow w-full bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</nuxt-link>
 								</div>
 							</td>
 						</tr>

@@ -10,13 +10,13 @@
 					Finally, a simple, intuitive interface and easy <br class="hidden md:flex" />
 					workflow for WordPress custom codes.
 				</p>
-				<a href="/pricing" aria-label="Buy Pro version" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" role="button">
+				<nuxt-link to="/pricing" aria-label="Buy Pro version" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" role="button">
 					Buy Pro Now
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M4 12h16" />
 						<path d="M13 5l7 7-7 7" />
 					</svg>
-				</a>
+				</nuxt-link>
 				<a href="https://wordpress.org/plugins/custom-codes/" aria-label="Download free version" target="_blank" class="text-white text-opacity-40 background-transparent font-bold uppercase px-3 py-1 text-xs transition hover:text-opacity-100 inline-flex items-center mt-3 md:mt-0" role="button">
 					<svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M12 15V3m0 12l-4-4m4 4l4-4" />
