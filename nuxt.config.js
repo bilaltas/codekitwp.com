@@ -209,7 +209,8 @@ export default {
 	},
 
 	router: {
-		prefetchLinks: false
+		prefetchLinks: false,
+		middleware: ["dropdown-closer"]
 	},
 
 	sitemap: {

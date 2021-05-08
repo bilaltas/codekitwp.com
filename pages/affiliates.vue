@@ -9,7 +9,7 @@
 					Love PressX products? Spread the word around and <span class="text-red-700 font-semibold">receive 30% per sale</span> by promoting it! <br />
 					The affiliate program is strictly opened for trustworthy affiliates that will actively promote PressX products.
 				</p>
-				<button class="text-white bg-cc-main font-bold uppercase text-sm px-6 py-3 rounded-full inline-flex items-center" type="button" @click="isModalOpen = true">
+				<button class="text-white bg-cc-main font-bold uppercase text-sm px-6 py-3 rounded-full inline-flex items-center" @click.prevent="isModalOpen = true">
 					Join Now
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
 						<path d="M4 12h16" />
