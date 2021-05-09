@@ -527,6 +527,17 @@
 								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
+						<tr>
+							<th class="py-8 px-6 text-sm font-medium text-gray-900 text-left align-top" scope="row">
+								<span class="sr-only">Choice</span>
+							</th>
+							<td class="h-full py-8 px-6 align-top">
+								<a href="https://wordpress.org/plugins/custom-codes/" target="_blank" class="w-full block px-2 bg-gray-400 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
+							</td>
+							<td class="h-full py-8 px-6 align-top">
+								<nuxt-link to="/pricing" class="w-full block px-2 bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</nuxt-link>
+							</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
