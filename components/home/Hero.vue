@@ -49,7 +49,7 @@ export default {};
 		transform: translate(0, 0);
 	}
 	100% {
-		transform: translate(-100%, 0);
+		transform: translate(-80%, 0);
 	}
 }
 .home.hero {
