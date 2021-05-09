@@ -46,8 +46,8 @@ export default {
 
 				var params = {
 					css: css,
-					public_key: "pk_136be7f070a3134ee0e91b07d11b8",
-					store_id: 1135
+					public_key: "pk_48290c5d508d15800eecfc1dc7096",
+					store_id: 3161
 				};
 
 				(function() {

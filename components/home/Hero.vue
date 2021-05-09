@@ -58,7 +58,7 @@ export default {};
 	code {
 		position: absolute;
 		top: 0;
-		animation: marquee 100s linear infinite;
+		animation: marquee 200s linear reverse infinite;
 		color: rgba(255, 255, 255, 0.1);
 		width: 7000px;
 		left: 0;
@@ -71,7 +71,7 @@ export default {};
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: linear-gradient(200deg, rgb(10 13 16) 10%, rgba(18, 21, 25, 0.3) 100%);
+		background: linear-gradient(200deg, rgb(10 13 16) 15%, rgba(18, 21, 25, 0.35) 100%);
 		z-index: 9;
 	}
 }
