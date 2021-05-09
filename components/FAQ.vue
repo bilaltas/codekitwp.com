@@ -81,7 +81,7 @@
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">What payment methods are accepted?</h3>
 						<div class="prose prose-sm leading-5 text-gray-600">
-							<p>We accept all major credit cards including Visa, Mastercard and American Express. Unfortunately, due to regulations in your country related to PayPal’s subscriptions, we won’t be able to accept payments via PayPal.</p>
+							<p>We accept PayPal and all major credit cards including Visa, Mastercard and American Express. All payments processed by Freemius under a secure connection.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">

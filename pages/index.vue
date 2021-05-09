@@ -13,7 +13,7 @@
 					</p>
 				</div>
 				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
-					<div class="align-center items-center flex">
+					<div class="align-center items-center flex order-2 md:order-1">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Editor</span>
 							<h3 class="text-3xl xl:text-section text-gray-900 font-bold tracking-tight leading-tight flex-1">
@@ -30,15 +30,15 @@
 							</a>
 						</div>
 					</div>
-					<div>
+					<div class="order-1 md:order-2">
 						<img class="md:w-full" data-src="~static/feature-1.png" alt="CodeKit's supported code languages" v-lazy-load />
 					</div>
 				</div>
 				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
-					<div>
+					<div class="order-1 md:order-1">
 						<img class="md:w-full" data-src="~static/feature-2.png" alt="CodeKit's supported code placements" v-lazy-load />
 					</div>
-					<div class="align-center items-center flex">
+					<div class="align-center items-center flex order-2 md:order-1">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Deployment</span>
 							<h3 class="text-3xl xl:text-section text-gray-900 font-bold tracking-tight leading-tight flex-1">
@@ -57,7 +57,7 @@
 					</div>
 				</div>
 				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
-					<div class="align-center items-center flex">
+					<div class="align-center items-center flex order-2 md:order-1">
 						<div class="flex-1">
 							<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Code Includes</span>
 							<h3 class="text-3xl xl:text-section text-gray-900 font-bold tracking-tight leading-tight flex-1">
@@ -74,7 +74,7 @@
 							</a>
 						</div>
 					</div>
-					<div>
+					<div class="order-1 md:order-2">
 						<img class="md:w-full" data-src="~static/feature-3.png" alt="CodeKit's supported code include" v-lazy-load />
 					</div>
 				</div>
