@@ -26,14 +26,14 @@ export default {
 		};
 	},
 	mounted() {
-		setTimeout(function() {
+		setTimeout(() => {
 			var userDashboardScript = document.createElement("script"),
 				date = new Date(),
 				cacheKiller = date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate() + " " + date.getHours();
 
 			userDashboardScript.type = "text/javascript";
 			userDashboardScript.src = "//users.freemius.com/dashboard.js?ck=" + cacheKiller;
-			userDashboardScript.onload = function() {
+			userDashboardScript.onload = () => {
 				var css = {
 					position: "relative",
 					top: "auto",
@@ -50,7 +50,7 @@ export default {
 					store_id: 3161
 				};
 
-				(function() {
+				(() => {
 					FS.Members.configure(params).open();
 				})();
 			};
