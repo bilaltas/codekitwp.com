@@ -10,9 +10,9 @@
 				</p>
 			</div>
 			<nav class="w-auto grid grid-flow-col items-center gap-4 md:gap-6 mt-0">
-				<NuxtLink to="/features" class="hidden md:inline-flex">Features</NuxtLink>
-				<NuxtLink to="/pricing" class="hidden md:inline-flex">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
-				<NuxtLink to="/support" class="hidden md:inline-flex">Support</NuxtLink>
+				<NuxtLink to="/features/" class="hidden md:inline-flex">Features</NuxtLink>
+				<NuxtLink to="/pricing/" class="hidden md:inline-flex">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
+				<NuxtLink to="/support/" class="hidden md:inline-flex">Support</NuxtLink>
 				<button href="#" class="inline-flex md:hidden text-gray-900" aria-label="Open Menu" title="Open Menu" @click="isMenuOpen = true">
 					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M3.5 14H24.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -20,7 +20,7 @@
 						<path d="M3.5 21H24.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 					</svg>
 				</button>
-				<NuxtLink to="/login" class="button hidden md:inline-flex">
+				<NuxtLink to="/pricing/" class="button hidden md:inline-flex">
 					Buy Pro
 					<svg width="11" height="10" fill="none" class="flex-none ml-1.5 text-white group-hover:text-teal-600">
 						<path d="M5.593 9.638L10.232 5 5.593.36l-.895.89 3.107 3.103H0v1.292h7.805L4.698 8.754l.895.884z" fill="currentColor"></path>
@@ -45,11 +45,11 @@
 					</div>
 				</div>
 				<nav class="grid grid-flow-row gap-3">
-					<NuxtLink to="/features" class="px-6">Features</NuxtLink>
-					<NuxtLink to="/pricing" class="px-6">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
-					<NuxtLink to="/support" class="px-6">Support</NuxtLink>
-					<NuxtLink to="/my-account" class="px-6">My Account</NuxtLink>
-					<NuxtLink to="/login" class="inline-flex items-center justify-center h-12 px-4 font-bold text-white bg-cc-main hover:bg-cc-main hover:text-white transition text-sm border-2 border-transparent rounded-none focus:outline-none sm:inline-flex mt-2">
+					<NuxtLink to="/features/" class="px-6">Features</NuxtLink>
+					<NuxtLink to="/pricing/" class="px-6">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
+					<NuxtLink to="/support/" class="px-6">Support</NuxtLink>
+					<NuxtLink to="/my-account/" class="px-6">My Account</NuxtLink>
+					<NuxtLink to="/pricing/" class="inline-flex items-center justify-center h-12 px-4 font-bold text-white bg-cc-main hover:bg-cc-main hover:text-white transition text-sm border-2 border-transparent rounded-none focus:outline-none sm:inline-flex mt-2">
 						Buy Pro
 						<svg width="11" height="10" fill="none" class="flex-none ml-1.5 text-white group-hover:text-teal-600">
 							<path d="M5.593 9.638L10.232 5 5.593.36l-.895.89 3.107 3.103H0v1.292h7.805L4.698 8.754l.895.884z" fill="currentColor"></path>

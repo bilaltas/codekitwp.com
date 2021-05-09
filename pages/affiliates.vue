@@ -166,7 +166,7 @@
 						<div class="bg-gray-50 p-6 rounded-md mt-4">
 							<h3 class="font-semibold text-gray-900 mb-2">How can I manage my links and monitor my commisions?</h3>
 							<div class="prose prose-sm leading-5 text-gray-600">
-								<p>All your commissions (including with their states) will be listed in the Affiliate section of your dashboard. You can access your dashboard on <NuxtLink to="/features" class="text-red-900 underline">My Account </NuxtLink> page.</p>
+								<p>All your commissions (including with their states) will be listed in the Affiliate section of your dashboard. You can access your dashboard on <NuxtLink to="/my-account/" class="text-red-900 underline">My Account</NuxtLink> page.</p>
 							</div>
 						</div>
 						<div class="bg-gray-50 p-6 rounded-md mt-4">

@@ -6,23 +6,23 @@
 			</NuxtLink>
 			<nav class="grid grid-cols-2 md:grid-cols-none grid-flow-row md:grid-flow-col gap-2 md:gap-6 w-full md:w-auto mt-5 md:mt-0" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
 				<NuxtLink to="/" aria-label="Home page">Home</NuxtLink>
-				<NuxtLink to="/features" aria-label="Features page">Features</NuxtLink>
-				<NuxtLink to="/pricing" aria-label="Pricing page">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></NuxtLink>
-				<NuxtLink to="/affiliates" aria-label="Affiliates page">Affiliates</NuxtLink>
-				<NuxtLink to="/my-account" aria-label="My Account">My Account</NuxtLink>
-				<NuxtLink to="/support" aria-label="Support page">Support</NuxtLink>
+				<NuxtLink to="/features/" aria-label="Features page">Features</NuxtLink>
+				<NuxtLink to="/pricing/" aria-label="Pricing page">Pricing &amp; <abbr title="frequently asked questions">FAQ</abbr></NuxtLink>
+				<NuxtLink to="/affiliates/" aria-label="Affiliates page">Affiliates</NuxtLink>
+				<NuxtLink to="/my-account/" aria-label="My Account">My Account</NuxtLink>
+				<NuxtLink to="/support/" aria-label="Support page">Support</NuxtLink>
 			</nav>
 		</div>
 		<div class="container mx-auto flex items-center flex-wrap md:flex-nowrap mt-5 pt-3 md:pt-2 border-t border-gray-900 border-opacity-5 ">
 			<nav class="w-full mt-1 lg:mt-2 sm:mt-0 sm:w-auto sm:mr-auto grid grid-flow-col gap-5 items-center text-xs" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
 				<span class="text-gray-500">&copy;2021 Copyright.</span>
-				<NuxtLink to="/policies/privacy-policy" aria-label="Privacy Policy">
+				<NuxtLink to="/policies/privacy-policy/" aria-label="Privacy Policy">
 					<span class="hidden sm:inline">Privacy Policy</span>
 				</NuxtLink>
-				<NuxtLink to="/policies/terms-of-service" aria-label="Terms of Service">
+				<NuxtLink to="/policies/terms-of-service/" aria-label="Terms of Service">
 					<span class="hidden sm:inline">Terms of Service</span>
 				</NuxtLink>
-				<NuxtLink to="/policies/refund-policy" aria-label="Terms of Service">
+				<NuxtLink to="/policies/refund-policy/" aria-label="Terms of Service">
 					<span class="hidden sm:inline">Refund Policy</span>
 				</NuxtLink>
 			</nav>

@@ -6,7 +6,7 @@
 				<span class="font-semibold">#1 Code Editor for WordPress</span>
 			</h3>
 			<div class="group mt-6">
-				<nuxt-link to="/pricing" aria-label="Explore Pro version" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" role="button">
+				<nuxt-link to="/pricing/" aria-label="Explore Pro version" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center" role="button">
 					Explore Pro Version
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M4 12h16" />

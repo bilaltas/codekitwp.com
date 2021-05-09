@@ -44,7 +44,7 @@
 
 				<h2>8. Your Privacy</h2>
 
-				<p>Please read our <NuxtLink to="/policies/privacy-policy" class="text-red-900 underline">Privacy Policy.</NuxtLink></p>
+				<p>Please read our <NuxtLink to="/policies/privacy-policy/" class="text-red-900 underline">Privacy Policy</NuxtLink>.</p>
 
 				<h2>9. Governing Law</h2>
 

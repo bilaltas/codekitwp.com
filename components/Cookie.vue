@@ -5,7 +5,7 @@
 				<v-col class="grow">
 					<slot name="message">
 						We use cookies to provide our services and for analytics and marketing. To find out more about our use of cookies, please see our
-						<nuxt-link class="cookie__link" to="/privacy-policy">Privacy Policy</nuxt-link>. Click accept for the best user experience on our app.
+						<nuxt-link to="/privacy-policy/" class="cookie__link">Privacy Policy</nuxt-link>. Click accept for the best user experience on our app.
 					</slot>
 				</v-col>
 				<v-col class="shrink d-flex justify-end" cols="12" md="3">

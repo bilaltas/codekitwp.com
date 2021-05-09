@@ -9,7 +9,7 @@
 					CodeKit is the one and only plugin that provides <br />
 					such features in the marketplace.
 				</p>
-				<nuxt-link to="/pricing" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center">
+				<nuxt-link to="/pricing/" class="text-white bg-red-900 hover:bg-red-800 transition font-bold uppercase text-sm px-6 py-3 rounded-full mr-1 mb-1 inline-flex items-center">
 					Buy Pro Now
 					<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M4 12h16" />
@@ -196,7 +196,7 @@
 										<span class="text-base font-medium text-gray-500">/year</span>
 									</p>
 									<p class="mt-4 mb-16 text-sm text-gray-500">Extra Languages, Editor Enhancements, Advanced Code Release Locations, Includes GUI, and more.</p>
-									<nuxt-link to="/pricing" class="absolute bottom-0 flex-grow w-full bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</nuxt-link>
+									<nuxt-link to="/pricing/" class="absolute bottom-0 flex-grow w-full bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</nuxt-link>
 								</div>
 							</td>
 						</tr>
@@ -535,7 +535,7 @@
 								<a href="https://wordpress.org/plugins/custom-codes/" target="_blank" class="w-full block px-2 bg-gray-400 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900 transition">Download Free</a>
 							</td>
 							<td class="h-full py-8 px-6 align-top">
-								<nuxt-link to="/pricing" class="w-full block px-2 bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</nuxt-link>
+								<nuxt-link to="/pricing/" class="w-full block px-2 bg-red-900 hover:bg-red-800 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center transition">Buy Pro Now</nuxt-link>
 							</td>
 						</tr>
 					</tbody>

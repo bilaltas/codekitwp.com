@@ -7,15 +7,15 @@
 				</NuxtLink>
 				<div class="hidden lg:block text-sm text-gray-500  border-l border-gray-100 border-opacity-40 ml-6 pl-6">
 					<nav class="w-auto grid grid-flow-col items-center gap-4 md:gap-6 mt-0" role="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
-						<NuxtLink to="/features" class="hidden md:inline-flex" aria-label="Features page">Features</NuxtLink>
-						<NuxtLink to="/pricing" class="hidden md:inline-flex" aria-label="Pricing page">Pricing &amp; FAQ</NuxtLink>
-						<NuxtLink to="/support" class="hidden md:inline-flex" aria-label="Support oage">Support</NuxtLink>
+						<NuxtLink to="/features/" class="hidden md:inline-flex" aria-label="Features page">Features</NuxtLink>
+						<NuxtLink to="/pricing/" class="hidden md:inline-flex" aria-label="Pricing page">Pricing &amp; FAQ</NuxtLink>
+						<NuxtLink to="/support/" class="hidden md:inline-flex" aria-label="Support oage">Support</NuxtLink>
 					</nav>
 				</div>
 			</div>
 			<nav class="w-auto grid grid-flow-col items-center gap-3 md:gap-3 mt-0" role="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
-				<NuxtLink to="/my-account" class="hidden md:inline-flex items-center justify-center h-9 px-4 font-semibold border text-gray-500 border-gray-100 border-opacity-50 hover:border-opacity-100 hover:text-gray-800 hover:shadow-sm transition text-nav rounded-full focus:shadow-outline focus:outline-none" aria-label="My Account" role="button">My Account</NuxtLink>
-				<NuxtLink to="/pricing" class="button hidden md:inline-flex" aria-label="Buy Pro version" role="button">
+				<NuxtLink to="/my-account/" class="hidden md:inline-flex items-center justify-center h-9 px-4 font-semibold border text-gray-500 border-gray-100 border-opacity-50 hover:border-opacity-100 hover:text-gray-800 hover:shadow-sm transition text-nav rounded-full focus:shadow-outline focus:outline-none" aria-label="My Account" role="button">My Account</NuxtLink>
+				<NuxtLink to="/pricing/" class="button hidden md:inline-flex" aria-label="Buy Pro version" role="button">
 					Buy Pro
 					<svg width="11" height="10" fill="none" class="flex-none ml-1.5 text-white group-hover:text-teal-600" aria-hidden="true">
 						<path d="M5.593 9.638L10.232 5 5.593.36l-.895.89 3.107 3.103H0v1.292h7.805L4.698 8.754l.895.884z" fill="currentColor"></path>
@@ -47,11 +47,11 @@
 					</div>
 				</div>
 				<nav class="grid grid-flow-row gap-3" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
-					<NuxtLink to="/features" class="px-6" aria-label="Features page">Features</NuxtLink>
-					<NuxtLink to="/pricing" class="px-6" aria-label="Pricing page">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
-					<NuxtLink to="/support" class="px-6" aria-label="Support page">Support</NuxtLink>
-					<NuxtLink to="/my-account" class="px-6" aria-label="My Account">My Account</NuxtLink>
-					<NuxtLink to="/pricing" class="inline-flex items-center justify-center h-12 px-4 font-bold text-white bg-cc-main hover:bg-cc-main hover:text-white transition text-sm border-2 border-transparent rounded-none focus:outline-none sm:inline-flex mt-2" aria-label="Buy Pro version">
+					<NuxtLink to="/features/" class="px-6" aria-label="Features page">Features</NuxtLink>
+					<NuxtLink to="/pricing/" class="px-6" aria-label="Pricing page">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
+					<NuxtLink to="/support/" class="px-6" aria-label="Support page">Support</NuxtLink>
+					<NuxtLink to="/my-account/" class="px-6" aria-label="My Account">My Account</NuxtLink>
+					<NuxtLink to="/pricing/" class="inline-flex items-center justify-center h-12 px-4 font-bold text-white bg-cc-main hover:bg-cc-main hover:text-white transition text-sm border-2 border-transparent rounded-none focus:outline-none sm:inline-flex mt-2" aria-label="Buy Pro version">
 						Buy Pro
 						<svg width="11" height="10" fill="none" class="flex-none ml-1.5 text-white group-hover:text-teal-600" aria-hidden="true">
 							<path d="M5.593 9.638L10.232 5 5.593.36l-.895.89 3.107 3.103H0v1.292h7.805L4.698 8.754l.895.884z" fill="currentColor"></path>
