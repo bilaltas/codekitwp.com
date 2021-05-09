@@ -21,13 +21,13 @@
 								any type of code
 							</h3>
 							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1">CodeKit integrates syntax highlighting, autocompletion with advanced navigation of your codes. A truly ideal for both experienced developers and WordPress users who want to add simple codes to their websites. With CodeKit, you can also add your code for device-specific resolutions which is perfect for many reasons.</p>
-							<a class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition" href="/features" target="_blank"
-								>Explore all features
+							<nuxt-link to="/features/" class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition">
+								Explore all features
 								<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 									<path d="M4 12h16" />
 									<path d="M13 5l7 7-7 7" />
 								</svg>
-							</a>
+							</nuxt-link>
 						</div>
 					</div>
 					<div class="order-1 md:order-2">
@@ -46,13 +46,13 @@
 								wherever you want
 							</h3>
 							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1">Just like you can write device-specific codes on CodeKit, you can write location specific codes as well. Choose wide range of locations such as pages, admin area, custom post types, taxonomies, categories and much more and let CodeKit deploy your code according your selections.</p>
-							<a class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition" href="/features" target="_blank"
-								>Explore all features
+							<nuxt-link to="/features/" class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition">
+								Explore all features
 								<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 									<path d="M4 12h16" />
 									<path d="M13 5l7 7-7 7" />
 								</svg>
-							</a>
+							</nuxt-link>
 						</div>
 					</div>
 				</div>
@@ -65,13 +65,13 @@
 								tools & frameworks
 							</h3>
 							<p class="text-gray-500 mt-4 leading-relaxed font-body text-base flex-1">Frameworks, code libraries, icon packs, fonts and much more makes our work easier but it’s not the same case as you try to integrate with your WordPress theme. With Code Includes, you can simply integrate any type of code through CDN, External URL, or your other code snippets to one of your code snippet.</p>
-							<a class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition" href="/features" target="_blank"
-								>Explore all features
+							<nuxt-link to="/features/" class="inline-flex text-cc-main border-b border-cc-main pb-0.5 font-bold mt-4 items-center hover:text-gray-900 hover:border-gray-900 transition">
+								Explore all features
 								<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 									<path d="M4 12h16" />
 									<path d="M13 5l7 7-7 7" />
 								</svg>
-							</a>
+							</nuxt-link>
 						</div>
 					</div>
 					<div class="order-1 md:order-2">

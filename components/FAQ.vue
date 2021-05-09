@@ -37,7 +37,7 @@
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">I am experiencing a different issue that is not covered here. How can I reach you?</h3>
 						<div class="prose prose-sm leading-5 text-gray-600">
-							<p>We highly recommend you to create a ticket on the support forum where we are trying to solve problems as quickly as possible. For further inquiries and feedbacks, feel free to contact us at info@pressx.co.</p>
+							<p>We highly recommend you to create a ticket on the <a href="https://wordpress.org/support/plugin/custom-codes/" target="_blank" class="text-red-900 underline">support forum</a> where we are trying to solve problems as quickly as possible. For further inquiries and feedbacks, feel free to contact us at info@pressx.co.</p>
 						</div>
 					</div>
 				</div>
@@ -99,13 +99,13 @@
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">Do you offer support if I need help?</h3>
 						<div class="prose prose-sm leading-5 text-gray-600">
-							<p>Yes! Top-notch customer support is key for a quality product, so we'll do our very best to resolve any issues you encounter via our support page.</p>
+							<p>Yes! Top-notch customer support is key for a quality product, so we'll do our very best to resolve any issues you encounter via our <NuxtLink to="/support/" class="text-red-900 underline">support page</NuxtLink>.</p>
 						</div>
 					</div>
 					<div class="bg-gray-50 p-6 rounded-md mt-4">
 						<h3 class="font-semibold text-gray-900 mb-2">I have other pre-sale questions, can you help?</h3>
 						<div class="prose prose-sm leading-5 text-gray-600">
-							<p>Yes! You can ask us any question through our support page.</p>
+							<p>Yes! You can ask us any question through our <NuxtLink to="/support/" class="text-red-900 underline">support page</NuxtLink>.</p>
 						</div>
 					</div>
 				</div>

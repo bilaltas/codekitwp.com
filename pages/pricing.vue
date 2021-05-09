@@ -204,13 +204,13 @@
 						<div class="bg-gray-50 p-6 rounded-md mt-4">
 							<h3 class="font-semibold text-gray-900 mb-2">Do you offer support if I need help?</h3>
 							<div class="prose prose-sm leading-5 text-gray-600">
-								<p>Yes! Top-notch customer support is key for a quality product, so we'll do our very best to resolve any issues you encounter via our support page. In fact, our average support response rate is under 4 hours!</p>
+								<p>Yes! Top-notch customer support is key for a quality product, so we'll do our very best to resolve any issues you encounter via our <NuxtLink to="/support/" class="text-red-900 underline">support page</NuxtLink>. In fact, our average support response rate is under 4 hours!</p>
 							</div>
 						</div>
 						<div class="bg-gray-50 p-6 rounded-md mt-4">
 							<h3 class="font-semibold text-gray-900 mb-2">I have other pre-sale questions, can you help?</h3>
 							<div class="prose prose-sm leading-5 text-gray-600">
-								<p>Yes! You can ask us any question through our <NuxtLink to="/support/" class="text-red-900 underline">support page.</NuxtLink></p>
+								<p>Yes! You can ask us any question through our <NuxtLink to="/support/" class="text-red-900 underline">support page</NuxtLink>.</p>
 							</div>
 						</div>
 						<div class="bg-gray-50 p-6 rounded-md mt-4">
