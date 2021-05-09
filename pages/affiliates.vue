@@ -117,19 +117,19 @@
 								<div>
 									<label for="name" class="block text-sm font-medium text-gray-700">Name</label>
 									<div class="mt-1.5">
-										<input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" value="" class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
+										<input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" value="" required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
 									</div>
 								</div>
 								<div class="mt-6">
 									<label for="email" class="block text-sm font-medium text-gray-700">Email</label>
 									<div class="mt-1.5">
-										<input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" value="" class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
+										<input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" value="" required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
 									</div>
 								</div>
 								<div class="mt-6">
 									<label for="body" class="block text-sm font-medium text-gray-700">About you</label>
 									<div class="mt-1.5">
-										<textarea id="body" name="body" cols="30" rows="7" placeholder="Please let us know who you are, how you might promote the CodeKit and as much as information about how you will be using your affiliate link..." class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white"></textarea>
+										<textarea id="body" name="body" cols="30" rows="7" placeholder="Please let us know who you are, how you might promote the CodeKit and as much as information about how you will be using your affiliate link..." required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white"></textarea>
 									</div>
 								</div>
 								<button type="submit" class="mt-6 flex items-center justify-center px-5 py-2 border border-transparent text-sm font-semibold rounded-md text-white bg-cc-main hover:bg-gray-900 transition">
