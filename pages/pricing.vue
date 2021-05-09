@@ -43,19 +43,19 @@
 														<svg width="12" height="8" fill="none" class="text-teal-400 mr-3">
 															<path d="M1.5 4.5l2.236 2.236a1 1 0 001.467-.056L10.5.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
 														</svg>
-														License for unlimited Sites
+														License for Unlimited Sites
 													</dd>
 													<dd class="flex items-center">
 														<svg width="12" height="8" fill="none" class="text-teal-400 mr-3">
 															<path d="M1.5 4.5l2.236 2.236a1 1 0 001.467-.056L10.5.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
 														</svg>
-														Support for unlimited sites
+														Support for Unlimited Sites
 													</dd>
 													<dd class="flex items-center">
 														<svg width="12" height="8" fill="none" class="text-teal-400 mr-3">
 															<path d="M1.5 4.5l2.236 2.236a1 1 0 001.467-.056L10.5.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
 														</svg>
-														Updates for unlimited sites
+														Updates for Unlimited Sites
 													</dd>
 													<dd class="flex items-center">
 														<svg width="12" height="8" fill="none" class="text-teal-400 mr-3">
