@@ -65,7 +65,7 @@
 													</dd>
 												</div>
 											</dl>
-											<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/unlimited/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-white text-cc-main hover:bg-opacity-80 rounded-lg font-semibold p-3 mb-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
+											<a @click.prevent="openPopup('unlimited')" href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/unlimited/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-white text-cc-main hover:bg-opacity-80 rounded-lg font-semibold p-3 mb-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Get this package</a>
 										</div>
 
 										<div class="lg:hidden h-0.5 mx-3 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-30 mt-8"></div>
@@ -119,7 +119,7 @@
 										</dd>
 									</div>
 								</dl>
-								<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/1/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
+								<a @click.prevent="openPopup('1')" href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/1/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Get this package</a>
 								<div class="lg:hidden h-0.5 mx-3 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-30 mt-12"></div>
 							</div>
 							<div class="border border-white border-opacity-10 flex flex-col rounded-xl lg:order-1 px-12 pt-12 lg:pt-14 pb-[5.25rem] lg:px-8">
@@ -169,7 +169,7 @@
 										</dd>
 									</div>
 								</dl>
-								<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/3/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
+								<a @click.prevent="openPopup('3')" href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/3/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Get this package</a>
 							</div>
 						</div>
 					</div>
@@ -286,10 +286,59 @@
 
 <script>
 export default {
+	data() {
+		return {
+			handler: null
+		};
+	},
 	head() {
 		return {
-			title: "Pricing & FAQ"
+			title: "Pricing & FAQ",
+			script: [
+				{
+					type: "module",
+					src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+				}
+			]
 		};
+	},
+	mounted() {
+		setTimeout(() => {
+			var fsPopupScript = document.createElement("script"),
+				date = new Date(),
+				cacheKiller = date.getFullYear() + "-" + date.getMonth() + "-" + date.getDate() + " " + date.getHours();
+
+			fsPopupScript.type = "text/javascript";
+			fsPopupScript.src = "//checkout.freemius.com/checkout.min.js?ck=" + cacheKiller;
+			fsPopupScript.onload = () => {
+				(() => {
+					this.handler = FS.Checkout.configure({
+						plugin_id: "7183",
+						plan_id: "12313",
+						public_key: "pk_4c4440eed53a6dd7637b96b2b82c0",
+						image: "https://ps.w.org/custom-codes/assets/icon.svg?rev=2446491"
+					});
+				})();
+			};
+
+			document.getElementsByTagName("head")[0].appendChild(fsPopupScript);
+		}, 500);
+	},
+	methods: {
+		openPopup(licenseType) {
+			console.log("licenseType", licenseType);
+			this.handler.open({
+				name: "CodeKit",
+				licenses: licenseType,
+				// You can consume the response for after purchase logic.
+				purchaseCompleted: function(response) {
+					// The logic here will be executed immediately after the purchase confirmation.                     // alert(response.user.email);
+				},
+				success: function(response) {
+					// The logic here will be executed after the customer closes the checkout, after a successful purchase.             // alert(response.user.email);
+				}
+			});
+		}
 	}
 };
 </script>
