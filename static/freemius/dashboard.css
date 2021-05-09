@@ -1,0 +1,39 @@
+body #login[_ngcontent-c10] {
+	background: #f8fafc;
+}
+
+body #login[_ngcontent-c10] header.md-accent.md-hue-2[_ngcontent-c10] {
+	background-color: #0a0d10;
+	color: rgba(255, 255, 255, .87);
+	text-align: center;
+	font-weight: 500;
+	border-radius: 4px;
+}
+
+.mat-raised-button.mat-primary {
+	background-color: #d13334;
+}
+
+.mat-raised-button {
+	line-height: 40px;
+}
+
+.mat-error,
+.mat-form-field-invalid .mat-form-field-label,
+.mat-form-field-invalid .mat-form-field-label .mat-form-field-required-marker,
+.mat-form-field-invalid .mat-form-field-label.mat-accent {
+	color: #d13334;
+}
+
+.mat-checkbox-checked.mat-accent .mat-checkbox-background,
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+	background-color: #adb5bb;
+}
+
+.mat-form-field-ripple {
+	background-color: #4b575d;
+}
+
+.mat-form-field-ripple {
+	background-color: #4b575d;
+}
