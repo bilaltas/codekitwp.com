@@ -6,7 +6,7 @@
 					Complete <br class="hidden md:flex" />Code Editor<br class="hidden md:flex" />
 					for WordPress.
 				</h1>
-				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
+				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-6">
 					Finally, a simple, intuitive interface and easy <br class="hidden md:flex" />
 					workflow for WordPress custom codes.
 				</p>
@@ -17,7 +17,7 @@
 						<path d="M13 5l7 7-7 7" />
 					</svg>
 				</nuxt-link>
-				<a href="https://wordpress.org/plugins/custom-codes/" aria-label="Download free version" target="_blank" class="text-white text-opacity-40 background-transparent font-bold uppercase px-3 py-1 text-xs transition hover:text-opacity-100 inline-flex items-center mt-3 md:mt-0" role="button">
+				<a href="https://wordpress.org/plugins/custom-codes/" aria-label="Download free version" target="_blank" class="text-white text-opacity-50 background-transparent font-bold uppercase px-3 py-1 text-xs transition hover:text-opacity-100 inline-flex items-center mt-3 md:mt-0" role="button">
 					<svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M12 15V3m0 12l-4-4m4 4l4-4" />
 						<path d="M2 17l.621 2.485A2 2 0 004.561 21H19.439a2 2 0 001.94-1.515L22 17" />

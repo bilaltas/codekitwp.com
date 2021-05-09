@@ -2,12 +2,12 @@
 	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-20 relative">
-				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">
 					Support
 				</h1>
-				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
-					Finally, a simple, intuitive interface and easy workflow <br />
-					for WordPress custom codes.
+				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-6">
+					Any questions or trouble? Fill the form below and we will <br />
+					get back to you lightning fast.
 				</p>
 			</div>
 		</div>

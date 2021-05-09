@@ -2,20 +2,20 @@
 	<main>
 		<div class="hero">
 			<div class="container mx-auto text-center py-14 lg:py-24 relative">
-				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">
 					Simple pricing, for everyone.
 				</h1>
-				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-4 mb-4">
+				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-4 mb-4">
 					Super simple license options based on the websites <br />
 					you will use, not the features.
 				</p>
 				<div class="relative mt-24 px-4 sm:px-6 lg:px-0 pb-10">
 					<div class="text-center -mt-3">
-						<div class="flex flex-col items-center lg:inline-grid lg:items-stretch space-y-12 lg:space-y-0 text-sm lg:-mb-5 gap-8  w-full" style="grid-template-columns: 1fr auto 1fr">
+						<div class="flex flex-col items-center lg:inline-grid lg:items-stretch space-y-12 lg:space-y-0 text-sm lg:-mb-5 gap-8" style="grid-template-columns: 1fr auto 1fr">
 							<div class="lg:order-1 relative z-20 w-full lg:w-auto lg:max-w-none">
 								<div class="relative rounded-xl p-px shadow-md">
 									<div class="rounded-xl bg-cc-main pt-14 lg:pt-14 lg:pb-14">
-										<div class="lg:px-12 xl:px-14">
+										<div class="lg:px-12 xl:px-12">
 											<h2 class="text-white font-semibold uppercase tracking-wide text-center mb-2">
 												Unlimited Websites <span class="absolute -top-3 left-0 right-0"><span class="inline-flex bg-white text-gray-900 uppercase text-[0.688rem] leading-4 tracking-widest py-1 px-2 border-t border-b border-transparent rounded-lg">Best Value</span></span>
 											</h2>
@@ -65,14 +65,14 @@
 													</dd>
 												</div>
 											</dl>
-											<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/unlimited/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-full bg-white text-cc-main hover:bg-opacity-80 rounded-lg font-semibold p-3 mb-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
+											<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/unlimited/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-white text-cc-main hover:bg-opacity-80 rounded-lg font-semibold p-3 mb-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
 										</div>
 
 										<div class="lg:hidden h-0.5 mx-3 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-30 mt-8"></div>
 									</div>
 								</div>
 							</div>
-							<div class="border border-white border-opacity-10 rounded-xl flex flex-col px-12 pt-12 lg:pt-14 lg:pb-[5.25rem] lg:px-12">
+							<div class="border border-white border-opacity-10 rounded-xl flex flex-col px-12 pt-12 lg:pt-14 lg:pb-[5.25rem] lg:px-8">
 								<h2 class="text-white font-semibold uppercase tracking-wide text-center mb-2">Single Site</h2>
 								<dl class="text-white flex flex-col items-center mb-auto">
 									<div class="mb-6">
@@ -119,10 +119,10 @@
 										</dd>
 									</div>
 								</dl>
-								<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/1/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-full bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
+								<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/1/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
 								<div class="lg:hidden h-0.5 mx-3 bg-gradient-to-r from-transparent via-gray-50 to-transparent opacity-30 mt-12"></div>
 							</div>
-							<div class="border border-white border-opacity-10 flex flex-col rounded-xl lg:order-1 px-12 pt-12 lg:pt-14 pb-[5.25rem] lg:px-12">
+							<div class="border border-white border-opacity-10 flex flex-col rounded-xl lg:order-1 px-12 pt-12 lg:pt-14 pb-[5.25rem] lg:px-8">
 								<h2 class="text-white font-semibold uppercase tracking-wide text-center mb-2">Up to 3 Sites</h2>
 								<dl class="text-white flex flex-col items-center mb-auto">
 									<div class="mb-6">
@@ -169,7 +169,7 @@
 										</dd>
 									</div>
 								</dl>
-								<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/3/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-full bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
+								<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/3/" class="mt-8 sm:mt-10 lg:mt-12 block mx-auto text-center w-60 bg-gray-700 text-gray-100 hover:bg-gray-600 hover:text-white rounded-lg font-semibold p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900" target="_blank">Get this package</a>
 							</div>
 						</div>
 					</div>

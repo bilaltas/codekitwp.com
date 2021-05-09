@@ -2,10 +2,10 @@
 	<main>
 		<div class="hero relative">
 			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-24 relative">
-				<h1 class="text-white tracking-tight leading-tight text-heading font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">
 					Join Our Affiliate Program
 				</h1>
-				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-6">
+				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-6">
 					Love PressX products? Spread the word around and <span class="text-red-700 font-semibold">receive 30% per sale</span> by promoting it! <br />
 					The affiliate program is strictly opened for trustworthy affiliates that will actively promote PressX products.
 				</p>

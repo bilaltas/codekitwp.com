@@ -2,10 +2,10 @@
 	<main id="features">
 		<div class="hero relative">
 			<div class="container mx-auto text-center py-14 lg:py-24 relative">
-				<h1 class="text-white tracking-tight leading-tight text-4xl font-bold">
+				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">
 					#1 Code Editor for WordPress
 				</h1>
-				<p class="text-lg text-white text-opacity-60 leading-relaxed mt-3 mb-5">
+				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-5">
 					CodeKit is the one and only plugin that provides <br />
 					such features in the marketplace.
 				</p>
@@ -35,7 +35,7 @@
 				<div class="flex flex-col lg:flex-row">
 					<div class="flex-1">
 						<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
-						<h2 class="font-bold text-3xl xl:text-4xl text-gray-900 leading-tight tracking-tight">
+						<h2 class="font-bold text-3xl xl:text-section text-gray-900 leading-tight tracking-tight">
 							Natively integrated IDE <br />
 							on your WordPress Admin
 						</h2>
@@ -94,7 +94,7 @@
 			<div class="container mx-auto">
 				<div class="section-title">
 					<span class="font-mono uppercase rounded-full text-cc-main py-1 text-xs inline-flex font-semibold tracking-wider">PRO Features</span>
-					<h2 class="font-bold text-3xl xl:text-4xl leading-tight tracking-tight text-white">
+					<h2 class="font-bold text-3xl xl:text-section leading-tight tracking-tight text-white">
 						Take full control and <br />
 						do more on your website
 					</h2>
@@ -156,7 +156,7 @@
 			<div class="container mx-auto">
 				<div class="section-title text-center mb-14">
 					<span class="font-mono uppercase rounded-full text-cc-main py-1 text-xs inline-flex font-semibold tracking-wider">Comparison</span>
-					<h2 class="font-bold text-3xl xl:text-4xl leading-tight tracking-tight text-gray-900">
+					<h2 class="font-bold text-3xl xl:text-section leading-tight tracking-tight text-gray-900">
 						Compare Features
 					</h2>
 				</div>

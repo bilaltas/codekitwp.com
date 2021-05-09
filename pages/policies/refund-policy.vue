@@ -17,7 +17,7 @@
 					<li>By upgrading, you agree to this refund policy and relinquish any rights to subject it to any questions, judgment or legal actions.</li>
 				</ul>
 
-				<p>To submit a refund request, please open a <a class="text-cc-main underline" href="/support">refund support ticket.</a></p>
+				<p>To submit a refund request, please open a <a class="text-red-900 underline" href="/support">refund support ticket.</a></p>
 			</div>
 		</div>
 	</main>

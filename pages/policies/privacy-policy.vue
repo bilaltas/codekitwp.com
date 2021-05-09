@@ -2,7 +2,7 @@
 	<main>
 		<div class="content policy-page">
 			<div class="container mx-auto pt-10 pb-24">
-				<h1>Privacy Policy for PressX</h1>
+				<h1>Privacy Policy for PressX Products</h1>
 
 				<p>At CodeKitWP, accessible from https://codekitwp.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by CodeKitWP and how we use it.</p>
 

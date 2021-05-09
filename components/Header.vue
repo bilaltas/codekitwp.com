@@ -31,7 +31,7 @@
 			</nav>
 		</div>
 		<div v-if="$store.state.isMenuOpen" class="absolute top-0 left-0 w-full z-50" role="navigation">
-			<div class="pt-4 bg-white border-t border-transparent shadow-sm">
+			<div class="pt-5 bg-white border-t border-transparent shadow-sm">
 				<div class="flex items-center justify-between mb-4 px-6">
 					<div>
 						<nuxt-link to="/" aria-label="Home page" title="Home page" class="inline-flex items-center">
