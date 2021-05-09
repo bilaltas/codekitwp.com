@@ -146,7 +146,7 @@
 			</div>
 		</div>
 
-		<section id="faq" class="px-4 sm:px-6 lg:px-8 py-16 lg:py-24 xl:py-24 bg-white">
+		<section id="faq" class="px-0 sm:px-6 lg:px-8 py-16 lg:py-24 xl:py-24 bg-white">
 			<div class="container mx-auto">
 				<h2 class="text-3xl xl:text-section text-gray-900 font-semibold tracking-tight leading-tight text-center mb-8 lg:mb-14">Frequently asked questions</h2>
 				<div id="team-pricing" class="text-sm flex -mx-2 -mt-4">

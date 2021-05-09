@@ -72,4 +72,11 @@ abbr[title] {
 main {
 	padding-top: 60px;
 }
+
+
+#faq {
+	h3 {
+		@apply font-serif;
+	}
+}
 </style>
