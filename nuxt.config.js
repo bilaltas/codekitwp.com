@@ -32,7 +32,8 @@ export default {
 		// https://go.nuxtjs.dev/tailwindcss
 		"@nuxtjs/tailwindcss",
 		"@aceforth/nuxt-optimized-images",
-		"nuxt-compress"
+		"nuxt-compress",
+		"@nuxtjs/google-analytics"
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -218,5 +219,9 @@ export default {
 		gzip: true,
 		exclude: ["/secret", "/admin/**", "/thank-you"],
 		routes: ["/", "/features", "/pricing", "/support", "/my-account", "/affiliates", "/policies/privacy-policy", "/policies/refund-policy", "/policies/terms-of-service"]
-	}
+	},
+
+	googleAnalytics: {
+    	id: 'G-3SNLRNQCCJ'
+  	},
 };
