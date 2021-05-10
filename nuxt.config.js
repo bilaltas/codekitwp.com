@@ -222,6 +222,6 @@ export default {
 	},
 
 	googleAnalytics: {
-    	id: 'G-3SNLRNQCCJ'
+    	id: 'UA-183267100-1'
   	},
 };
