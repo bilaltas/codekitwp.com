@@ -9,6 +9,7 @@
 <style lang="postcss">
 html {
 	font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 	font-size: 16px;
 	word-spacing: 1px;
 	-ms-text-size-adjust: 100%;
@@ -16,7 +17,6 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
-	font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 	letter-spacing: -0.005em;
 }
 
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Eina01";
+	font-family: "Eina01", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 *,
@@ -73,10 +73,9 @@ main {
 	padding-top: 60px;
 }
 
-
 #faq {
 	h3 {
-		@apply font-serif;
+		@apply font-sans;
 	}
 }
 </style>
