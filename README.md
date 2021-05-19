@@ -1,4 +1,4 @@
-# CodeKit
+# CodeKit Website
 
 ## Build Setup
 
