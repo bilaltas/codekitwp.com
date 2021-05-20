@@ -553,7 +553,7 @@ export default {
 			title: 'Features',
 		}
 	},
-	beforeMount() {
+	mounted() {
 		this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.2 })
 		document.querySelectorAll('section').forEach((section) => {
 			this.observer.observe(section)
@@ -566,7 +566,6 @@ export default {
 		onElementObserved(entries, observer) {
 			entries.forEach(({ target, isIntersecting }) => {
 				if (isIntersecting) this.activeSection = target.id
-				// console.log("ID", this.activeSection);
 			})
 		},
 	},
