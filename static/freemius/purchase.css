@@ -48,12 +48,7 @@
 	position: relative
 }
 
-.dialog-mode #header .product-icon {
-	background: #fff;
-	border-bottom: 1px solid #e6eaeb
-}
-
-.dialog-mode #header .product-icon:after {
+.dialog-mode #header .product-icon::after {
 	display: none
 }
 
@@ -153,11 +148,11 @@
 	margin-right: -40px
 }
 
-.dialog-mode #order_summary .subtotal:before {
+.dialog-mode #order_summary .subtotal::before {
 	display: none
 }
 
-.dialog-mode #order_summary .order-total:before {
+.dialog-mode #order_summary .order-total::before {
 	border-color: #e7eaeb
 }
 
@@ -178,7 +173,7 @@
 	color: #D13334
 }
 
-.dialog-mode #order_summary .discount var.amount:before {
+.dialog-mode #order_summary .discount var.amount::before {
 	content: '-'
 }
 
@@ -247,8 +242,8 @@
 	background: #292928
 }
 
-.dialog-mode #trial_payment_method_tip .tooltip.top:after,
-.dialog-mode #trial_payment_method_tip .tooltip.bottom:after {
+.dialog-mode #trial_payment_method_tip .tooltip.top::after,
+.dialog-mode #trial_payment_method_tip .tooltip.bottom::after {
 	left: 50%;
 	margin-left: -5px;
 	border-top-color: #292928
@@ -350,7 +345,7 @@
 	display: none
 }
 
-.dialog-mode .bundle-products-container div>i:before {
+.dialog-mode .bundle-products-container div>i::before {
 	content: "\2014";
 	margin: 0 5px 0 0;
 	font-style: normal
@@ -405,20 +400,20 @@
 
 .dialog-mode textarea,
 .dialog-mode select,
-.dialog-mode input[type=text],
-.dialog-mode input[type=password],
-.dialog-mode input[type=datetime],
-.dialog-mode input[type=datetime-local],
-.dialog-mode input[type=date],
-.dialog-mode input[type=month],
-.dialog-mode input[type=time],
-.dialog-mode input[type=week],
-.dialog-mode input[type=number],
-.dialog-mode input[type=email],
-.dialog-mode input[type=url],
-.dialog-mode input[type=search],
-.dialog-mode input[type=tel],
-.dialog-mode input[type=color] {
+.dialog-mode input[type="text"],
+.dialog-mode input[type="password"],
+.dialog-mode input[type="datetime"],
+.dialog-mode input[type="datetime-local"],
+.dialog-mode input[type="date"],
+.dialog-mode input[type="month"],
+.dialog-mode input[type="time"],
+.dialog-mode input[type="week"],
+.dialog-mode input[type="number"],
+.dialog-mode input[type="email"],
+.dialog-mode input[type="url"],
+.dialog-mode input[type="search"],
+.dialog-mode input[type="tel"],
+.dialog-mode input[type="color"] {
 	border: 1px solid #d7dbdb;
 	box-shadow: none;
 	outline: none
@@ -426,39 +421,39 @@
 
 .dialog-mode textarea:hover,
 .dialog-mode select:hover,
-.dialog-mode input[type=text]:hover,
-.dialog-mode input[type=password]:hover,
-.dialog-mode input[type=datetime]:hover,
-.dialog-mode input[type=datetime-local]:hover,
-.dialog-mode input[type=date]:hover,
-.dialog-mode input[type=month]:hover,
-.dialog-mode input[type=time]:hover,
-.dialog-mode input[type=week]:hover,
-.dialog-mode input[type=number]:hover,
-.dialog-mode input[type=email]:hover,
-.dialog-mode input[type=url]:hover,
-.dialog-mode input[type=search]:hover,
-.dialog-mode input[type=tel]:hover,
-.dialog-mode input[type=color]:hover {
+.dialog-mode input[type="text"]:hover,
+.dialog-mode input[type="password"]:hover,
+.dialog-mode input[type="datetime"]:hover,
+.dialog-mode input[type="datetime-local"]:hover,
+.dialog-mode input[type="date"]:hover,
+.dialog-mode input[type="month"]:hover,
+.dialog-mode input[type="time"]:hover,
+.dialog-mode input[type="week"]:hover,
+.dialog-mode input[type="number"]:hover,
+.dialog-mode input[type="email"]:hover,
+.dialog-mode input[type="url"]:hover,
+.dialog-mode input[type="search"]:hover,
+.dialog-mode input[type="tel"]:hover,
+.dialog-mode input[type="color"]:hover {
 	border-color: #afb6b6
 }
 
 .dialog-mode textarea:focus,
 .dialog-mode select:focus,
-.dialog-mode input[type=text]:focus,
-.dialog-mode input[type=password]:focus,
-.dialog-mode input[type=datetime]:focus,
-.dialog-mode input[type=datetime-local]:focus,
-.dialog-mode input[type=date]:focus,
-.dialog-mode input[type=month]:focus,
-.dialog-mode input[type=time]:focus,
-.dialog-mode input[type=week]:focus,
-.dialog-mode input[type=number]:focus,
-.dialog-mode input[type=email]:focus,
-.dialog-mode input[type=url]:focus,
-.dialog-mode input[type=search]:focus,
-.dialog-mode input[type=tel]:focus,
-.dialog-mode input[type=color]:focus {
+.dialog-mode input[type="text"]:focus,
+.dialog-mode input[type="password"]:focus,
+.dialog-mode input[type="datetime"]:focus,
+.dialog-mode input[type="datetime-local"]:focus,
+.dialog-mode input[type="date"]:focus,
+.dialog-mode input[type="month"]:focus,
+.dialog-mode input[type="time"]:focus,
+.dialog-mode input[type="week"]:focus,
+.dialog-mode input[type="number"]:focus,
+.dialog-mode input[type="email"]:focus,
+.dialog-mode input[type="url"]:focus,
+.dialog-mode input[type="search"]:focus,
+.dialog-mode input[type="tel"]:focus,
+.dialog-mode input[type="color"]:focus {
 	border-color: #D13334;
 	box-shadow: 0 0 0 1px #D13334
 }
@@ -591,7 +586,7 @@
 	text-overflow: ellipsis
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
 	.dialog-mode #account_details {
 		padding: 25px 20px 10px !important
 	}

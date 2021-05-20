@@ -29,20 +29,23 @@
 				<img class="screen" src="~static/cc-hero.png" alt="CodeKit Editor" />
 			</div>
 		</div>
+		<HomeCodes />
 	</div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="postcss">
 .screen {
+	@apply md:ml-96 lg:ml-14 xl:ml-12;
+
 	position: absolute;
 	bottom: -40px;
 	width: 1200px;
-	@apply md:ml-96 lg:ml-14 xl:ml-12;
 }
+
 @keyframes marquee {
 	0% {
 		transform: translate(0, 0);
@@ -51,9 +54,10 @@ export default {};
 		transform: translate(-80%, 0);
 	}
 }
+
 .home.hero {
-	backround-image: none;
-	background: #121519;
+	background-image: none;
+	background-color: #121519;
 
 	code {
 		position: absolute;
@@ -64,8 +68,9 @@ export default {};
 		left: 0;
 		right: 0;
 	}
-	&:before {
-		content: "";
+
+	&::before {
+		content: '';
 		position: absolute;
 		top: 0;
 		right: 0;

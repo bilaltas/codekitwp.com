@@ -6,7 +6,7 @@
 				<div class="feature-section justify-center text-center">
 					<span class="font-mono uppercase rounded-full text-gray-200 py-1 px-4 text-xs inline-flex font-semibold tracking-wider">Features</span>
 					<h2 class="text-3xl xl:text-section text-gray-900 tracking-tight leading-tight font-bold">The most powerful integrated IDE</h2>
-					<p class="text-gray-500 mt-3 leading-relaxed font-body text-base ">
+					<p class="text-gray-500 mt-3 leading-relaxed font-body text-base">
 						With the power of our integrated IDE, Custom Code will significantly boost your development efficiency. <br />
 						The features also provide continuous development and urgent deployment of codes without effort. <br />
 						It is actually just like your favorite code editor.
@@ -31,12 +31,12 @@
 						</div>
 					</div>
 					<div class="order-1 md:order-2">
-						<img class="md:w-full" data-src="~static/feature-1.png" alt="CodeKit's supported code languages" v-lazy-load />
+						<img v-lazy-load class="md:w-full" data-src="~static/feature-1.png" alt="CodeKit's supported code languages" />
 					</div>
 				</div>
 				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 					<div class="order-1 md:order-1">
-						<img class="md:w-full" data-src="~static/feature-2.png" alt="CodeKit's supported code placements" v-lazy-load />
+						<img v-lazy-load class="md:w-full" data-src="~static/feature-2.png" alt="CodeKit's supported code placements" />
 					</div>
 					<div class="align-center items-center flex order-2 md:order-1">
 						<div class="flex-1">
@@ -75,7 +75,7 @@
 						</div>
 					</div>
 					<div class="order-1 md:order-2">
-						<img class="md:w-full" data-src="~static/feature-3.png" alt="CodeKit's supported code include" v-lazy-load />
+						<img v-lazy-load class="md:w-full" data-src="~static/feature-3.png" alt="CodeKit's supported code include" />
 					</div>
 				</div>
 			</div>
@@ -86,7 +86,5 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
-
-<style lang="postcss"></style>

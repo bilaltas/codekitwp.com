@@ -58,10 +58,10 @@
 export default {
 	head() {
 		return {
-			title: "Terms of Service"
-		};
-	}
-};
+			title: 'Terms of Service',
+		}
+	},
+}
 </script>
 
 <style lang="postcss">

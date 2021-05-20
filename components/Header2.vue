@@ -63,27 +63,25 @@
 
 <script>
 export default {
-	created() {
-		if (process.client) {
-			this.scrollCheck();
-			window.addEventListener("scroll", this.scrollCheck);
+	data() {
+		return {
+			isMenuOpen: false,
 		}
+	},
+	beforeMount() {
+		this.scrollCheck()
+		window.addEventListener('scroll', this.scrollCheck)
 	},
 	methods: {
 		scrollCheck(e) {
-			let scrollTop = document.getElementsByTagName("html")[0].scrollTop;
-			const header = document.getElementsByTagName("header")[0];
+			const scrollTop = document.getElementsByTagName('html')[0].scrollTop
+			const header = document.getElementsByTagName('header')[0]
 
-			if (scrollTop > 300) header.classList.add("scrolled");
-			else header.classList.remove("scrolled");
-		}
+			if (scrollTop > 300) header.classList.add('scrolled')
+			else header.classList.remove('scrolled')
+		},
 	},
-	data() {
-		return {
-			isMenuOpen: false
-		};
-	}
-};
+}
 </script>
 
 <style lang="postcss" scoped>

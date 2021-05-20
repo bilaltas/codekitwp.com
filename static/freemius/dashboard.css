@@ -34,10 +34,6 @@ body #login[_ngcontent-c10] header.md-accent.md-hue-2[_ngcontent-c10] {
 	background-color: #4b575d !important;
 }
 
-.mat-form-field-ripple {
-	background-color: #4b575d !important;
-}
-
 .mat-toolbar.mat-primary,
 body header[_ngcontent-c0] {
 	background: #0a0d10 !important;
@@ -45,7 +41,7 @@ body header[_ngcontent-c0] {
 
 #sidenav_left[_ngcontent-c0] section[_ngcontent-c0] ul[_ngcontent-c0] li[_ngcontent-c0] a.mat-button.--active[_ngcontent-c0],
 #sidenav_left[_ngcontent-c0] section[_ngcontent-c0] ul[_ngcontent-c0] li[_ngcontent-c0] a.mat-button.--active[_ngcontent-c0]:hover {
-	border-left-color: #d13334!important;
+	border-left-color: #d13334 !important;
 }
 
 .mat-button.mat-primary,
@@ -55,26 +51,26 @@ body header[_ngcontent-c0] {
 }
 
 #sidenav_left[_ngcontent-c0] section[_ngcontent-c0] {
-	background: #f8fafc!important;
+	background: #f8fafc !important;
 }
 
 
 #sidenav_left[_ngcontent-c0] section[_ngcontent-c0] ul[_ngcontent-c0] li[_ngcontent-c0] a.mat-button[_ngcontent-c0],
 .breadcrumb[_ngcontent-c8] li[_ngcontent-c8] a[_ngcontent-c8] {
-	font-family: Inter!important;
+	font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 .mat-cell,
 .mat-header-cell {
-	font-family: Inter !important;
+	font-family: "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 	font-weight: 500;
 }
 
 .mat-form-field-prefix,
 .mat-form-field-suffix {
-	display: none!important;
+	display: none !important;
 }
 
 #login[_ngcontent-c10] #form_container[_ngcontent-c10] {
-	background: #FFF!important;
+	background: #FFF !important;
 }

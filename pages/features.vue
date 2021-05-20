@@ -2,9 +2,7 @@
 	<main id="features">
 		<div class="hero relative">
 			<div class="container mx-auto text-center py-14 lg:py-24 relative">
-				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">
-					#1 Code Editor for WordPress
-				</h1>
+				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">#1 Code Editor for WordPress</h1>
 				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-5">
 					CodeKit is the one and only plugin that provides <br />
 					such features in the marketplace.
@@ -43,7 +41,11 @@
 							<div class="feature-block my-10">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" aria-hidden="true">
-										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z" />
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z"
+										/>
 									</svg>
 									Wide-range of language support
 								</h5>
@@ -84,7 +86,7 @@
 						</div>
 					</div>
 					<div class="hidden lg:block flex-1">
-						<img class="absolute ml-14" style="max-width: 1000px;" src="~static/feature-ss-1.png" alt="" />
+						<img class="absolute ml-14" style="max-width: 1000px" src="~static/feature-ss-1.png" alt="" />
 					</div>
 				</div>
 			</div>
@@ -105,7 +107,11 @@
 							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" aria-hidden="true">
-										<path fill-rule="evenodd" clip-rule="evenodd" d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z" />
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M11.372.19c.38-.253.875-.253 1.256 0L23.492 7.4c.317.21.508.565.508.946v7.308c0 .38-.19.736-.508.947l-10.864 7.21c-.38.252-.875.252-1.256 0L.508 16.6A1.136 1.136 0 010 15.654V8.346c0-.38.19-.736.508-.947L11.372.19zm-9.1 10.273v3.058l2.288-1.54-2.288-1.518zm4.337 2.878L3.18 15.648l7.684 5.1v-4.583L6.61 13.341zm6.527 2.824v4.582l7.684-5.1-3.43-2.306-4.254 2.824zm6.303-4.183l2.29 1.54v-3.06l-2.29 1.52zm1.371-3.636l-3.41 2.263-4.264-2.868V3.253l7.674 5.093zm-9.946-5.093V7.74l-4.263 2.868L3.19 8.346l7.674-5.093zM12 9.715l-3.35 2.254L12 14.192l3.35-2.223L12 9.715z"
+										/>
 									</svg>
 									Extended language support
 								</h5>
@@ -156,9 +162,7 @@
 			<div class="container mx-auto">
 				<div class="section-title text-center mb-14">
 					<span class="font-mono uppercase rounded-full text-cc-main py-1 text-xs inline-flex font-semibold tracking-wider">Comparison</span>
-					<h2 class="font-bold text-3xl xl:text-section leading-tight tracking-tight text-gray-900">
-						Compare Features
-					</h2>
+					<h2 class="font-bold text-3xl xl:text-section leading-tight tracking-tight text-gray-900">Compare Features</h2>
 				</div>
 				<table class="w-full h-px table-fixed">
 					<caption class="sr-only">
@@ -176,9 +180,7 @@
 					</thead>
 					<tbody class="border-t border-gray-100 divide-y divide-gray-100 divide-opacity-20 border-opacity-30">
 						<tr>
-							<th class="py-8 px-6 text-sm font-medium text-gray-900 text-left align-top" scope="row">
-								Pricing
-							</th>
+							<th class="py-8 px-6 text-sm font-medium text-gray-900 text-left align-top" scope="row">Pricing</th>
 							<td class="h-full py-8 px-6 align-top">
 								<div class="relative h-full table">
 									<p>
@@ -424,9 +426,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
-								Code Folding
-							</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Code Folding</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -441,9 +441,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
-								Code Hints
-							</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Code Hints</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -458,9 +456,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
-								Code Includes
-							</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Code Includes</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -475,9 +471,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
-								Code Groups/Categories
-							</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Code Groups/Categories</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -511,9 +505,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">
-								Priority Email
-							</th>
+							<th class="py-5 px-6 text-sm font-normal text-gray-500 text-left" scope="row">Priority Email</th>
 							<td class="py-5 px-6">
 								<svg class="h-5 w-5 text-gray-400" x-description="Heroicon name: solid/minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -550,37 +542,35 @@
 
 <script>
 export default {
-	head() {
-		return {
-			title: "Features"
-		};
-	},
 	data() {
 		return {
 			observer: null,
-			activeSection: ""
-		};
-	},
-	mounted() {
-		if (process.client) {
-			this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.2 });
-			document.querySelectorAll("section").forEach(section => {
-				this.observer.observe(section);
-			});
+			activeSection: '',
 		}
+	},
+	head() {
+		return {
+			title: 'Features',
+		}
+	},
+	beforeMount() {
+		this.observer = new IntersectionObserver(this.onElementObserved, { threshold: 0.2 })
+		document.querySelectorAll('section').forEach((section) => {
+			this.observer.observe(section)
+		})
+	},
+	beforeDestroy() {
+		this.observer.disconnect()
 	},
 	methods: {
 		onElementObserved(entries, observer) {
 			entries.forEach(({ target, isIntersecting }) => {
-				if (isIntersecting) this.activeSection = target.id;
-				//console.log("ID", this.activeSection);
-			});
-		}
+				if (isIntersecting) this.activeSection = target.id
+				// console.log("ID", this.activeSection);
+			})
+		},
 	},
-	beforeDestroy() {
-		this.observer.disconnect();
-	}
-};
+}
 </script>
 
 <style lang="postcss">

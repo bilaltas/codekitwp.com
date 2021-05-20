@@ -5,7 +5,7 @@
 				<NuxtLink to="/" aria-label="Home page" title="Home page">
 					<headerLogo />
 				</NuxtLink>
-				<div class="hidden lg:block text-sm text-gray-500  border-l border-gray-100 border-opacity-40 ml-6 pl-6">
+				<div class="hidden lg:block text-sm text-gray-500 border-l border-gray-100 border-opacity-40 ml-6 pl-6">
 					<nav class="w-auto grid grid-flow-col items-center gap-4 md:gap-6 mt-0" role="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
 						<NuxtLink to="/features/" class="hidden md:inline-flex" aria-label="Features page">Features</NuxtLink>
 						<NuxtLink to="/pricing/" class="hidden md:inline-flex" aria-label="Pricing page">Pricing &amp; FAQ</NuxtLink>
@@ -65,27 +65,26 @@
 
 <script>
 export default {
-	created() {
-		if (process.client) {
-			this.scrollCheck();
-			window.addEventListener("scroll", this.scrollCheck);
-		}
+	beforeMount() {
+		this.scrollCheck()
+		window.addEventListener('scroll', this.scrollCheck)
 	},
 	methods: {
 		scrollCheck(e) {
-			let scrollTop = document.getElementsByTagName("html")[0].scrollTop;
-			const header = document.getElementsByTagName("header")[0];
+			const scrollTop = document.getElementsByTagName('html')[0].scrollTop
+			const header = document.getElementsByTagName('header')[0]
 
-			if (scrollTop > 300) header.classList.add("scrolled");
-			else header.classList.remove("scrolled");
-		}
-	}
-};
+			if (scrollTop > 300) header.classList.add('scrolled')
+			else header.classList.remove('scrolled')
+		},
+	},
+}
 </script>
 
 <style lang="postcss">
 header {
 	@apply flex-none z-40 text-sm leading-6 font-medium bg-white ring-1 ring-gray-100 ring-opacity-5 shadow-sm fixed top-0 right-0 left-0 transition-all;
+
 	height: 62px;
 	display: flex;
 	align-items: center;

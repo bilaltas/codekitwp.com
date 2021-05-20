@@ -27,10 +27,10 @@
 export default {
 	head() {
 		return {
-			title: "Refound Policy"
-		};
-	}
-};
+			title: 'Refound Policy',
+		}
+	},
+}
 </script>
 
 <style lang="postcss">

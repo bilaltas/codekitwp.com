@@ -2,9 +2,7 @@
 	<main class="bg-gray-50">
 		<div class="hero relative">
 			<div class="container mx-auto text-center pt-14 pb-14 lg:pt-24 lg:pb-28 relative">
-				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">
-					Join Our Affiliate Program
-				</h1>
+				<h1 class="text-white tracking-tight leading-tight text-5xl font-bold">Join Our Affiliate Program</h1>
 				<p class="text-lg text-white text-opacity-70 leading-relaxed mt-3 mb-6">
 					Love CodeKit? Spread the word around and <br />
 					<span class="text-white font-semibold">receive 30% per sale</span> by promoting it! <br />
@@ -13,11 +11,11 @@
 		</div>
 
 		<div class="container mx-auto">
-			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  text-center -mt-10 lg:-mt-10 bg-white relative z-30 rounded ring-1 ring-gray-100 ring-opacity-5 shadow-sm">
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center -mt-10 lg:-mt-10 bg-white relative z-30 rounded ring-1 ring-gray-100 ring-opacity-5 shadow-sm">
 				<div class="py-12 px-7 border-r border-gray-100 border-opacity-20">
 					<div class="text-center">
 						<span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="PersonAdd">
+							<svg id="PersonAdd" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block">
 								<circle cx="12" cy="7" r="5" />
 								<path d="M17 22H5.266a2 2 0 01-1.985-2.248l.39-3.124A3 3 0 016.649 14H7" />
 								<path d="M19 13v6" />
@@ -27,15 +25,13 @@
 					</div>
 					<div class="mt-6">
 						<h3 class="text-lg font-medium text-gray-900">Free to join</h3>
-						<p class="mt-2 text-base text-gray-500">
-							Signing up takes only minutes, entirely free and for everyone.
-						</p>
+						<p class="mt-2 text-base text-gray-500">Signing up takes only minutes, entirely free and for everyone.</p>
 					</div>
 				</div>
 				<div class="py-12 px-7 border-r border-gray-100 border-opacity-20">
 					<div class="text-center">
 						<span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Money">
+							<svg id="Money" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block">
 								<path d="M2 7a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V7z" />
 								<circle cx="12" cy="12" r="3" />
 								<path d="M2 9v0a4 4 0 004-4v0" />
@@ -45,29 +41,25 @@
 					</div>
 					<div class="mt-6">
 						<h3 class="text-lg font-medium text-gray-900">High commission</h3>
-						<p class="mt-2 text-base text-gray-500">
-							Receive 30% for each plan you have sold through your affiliate link.
-						</p>
+						<p class="mt-2 text-base text-gray-500">Receive 30% for each plan you have sold through your affiliate link.</p>
 					</div>
 				</div>
 				<div class="py-12 px-7 border-r border-gray-100 border-opacity-20">
 					<div class="text-center">
 						<span class="inline-flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" id="Infinity"><path d="M5.636 16C2.91 16 2 14 2 12s.91-4 3.636-4c3.637 0 9.091 8 12.728 8C21.09 16 22 14 22 12s-.91-4-3.636-4c-3.637 0-9.091 8-12.728 8z" /></svg>
+							<svg id="Infinity" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block"><path d="M5.636 16C2.91 16 2 14 2 12s.91-4 3.636-4c3.637 0 9.091 8 12.728 8C21.09 16 22 14 22 12s-.91-4-3.636-4c-3.637 0-9.091 8-12.728 8z" /></svg>
 						</span>
 					</div>
 					<div class="mt-6">
 						<h3 class="text-lg font-medium text-gray-900">Unlimited earnings</h3>
-						<p class="mt-2 text-base text-gray-500">
-							There is no upper limit on how much you can earn.
-						</p>
+						<p class="mt-2 text-base text-gray-500">There is no upper limit on how much you can earn.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container mx-auto py-16 px-4 sm:py-10 sm:px-6 lg:px-8 relative z-50 mb-16">
-			<div class="relative bg-white shadow-xl rounded overflow-hidden" id="contact-form">
+			<div id="contact-form" class="relative bg-white shadow-xl rounded overflow-hidden">
 				<div class="grid grid-cols-1 lg:grid-cols-3">
 					<div class="relative overflow-hidden py-10 px-6 bg-cc-main sm:px-10 xl:p-12">
 						<div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
@@ -104,26 +96,24 @@
 							</svg>
 						</div>
 						<h3 class="text-lg font-medium text-white">Affiliate Application Form</h3>
-						<p class="mt-2 text-base text-indigo-50 max-w-3xl">
-							Fill out the form to complete your CodeKit affiliate application.
-						</p>
+						<p class="mt-2 text-base text-indigo-50 max-w-3xl">Fill out the form to complete your CodeKit affiliate application.</p>
 					</div>
 
 					<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
 						<div>
 							<form method="POST" action="https://formsubmit.co/f895792a5da22345f54b88f52312e9de">
 								<input type="hidden" name="_next" value="/thank-you" />
-								<input type="text" name="_honey" style="display:none" />
+								<input type="text" name="_honey" style="display: none" />
 								<div>
 									<label for="name" class="block text-sm font-medium text-gray-700">Name</label>
 									<div class="mt-1.5">
-										<input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" value="" required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
+										<input id="name" type="text" name="name" placeholder="Enter your name" autocomplete="name" value="" required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
 									</div>
 								</div>
 								<div class="mt-6">
 									<label for="email" class="block text-sm font-medium text-gray-700">Email</label>
 									<div class="mt-1.5">
-										<input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" value="" required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
+										<input id="email" type="email" name="email" placeholder="Enter your email" autocomplete="email" value="" required class="ring-1 ring-gray-900 ring-opacity-10 py-3 px-3 shadow-sm block w-full sm:text-sm rounded-md focus:outline-none focus:ring-opacity-30 transition bg-white" />
 									</div>
 								</div>
 								<div class="mt-6">
@@ -134,7 +124,7 @@
 								</div>
 								<button type="submit" class="mt-6 flex items-center justify-center px-5 py-2 border border-transparent text-sm font-semibold rounded-md text-white bg-cc-main hover:bg-gray-900 transition">
 									Join Now
-									<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="ArrowRight">
+									<svg id="ArrowRight" class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
 										<path d="M4 12h16" />
 										<path d="M13 5l7 7-7 7" />
 									</svg>
@@ -230,17 +220,15 @@
 
 <script>
 export default {
-	head() {
-		return {
-			title: "Affiliates"
-		};
-	},
 	data() {
 		return {
-			isModalOpen: false
-		};
-	}
-};
+			isModalOpen: false,
+		}
+	},
+	head() {
+		return {
+			title: 'Affiliates',
+		}
+	},
+}
 </script>
-
-<style lang="postcss"></style>
