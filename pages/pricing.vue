@@ -313,6 +313,7 @@ export default {
 			fsPopupScript.src = '//checkout.freemius.com/checkout.min.js?ck=' + cacheKiller
 			fsPopupScript.onload = () => {
 				;(() => {
+					// eslint-disable-next-line
 					this.handler = FS.Checkout.configure({
 						plugin_id: '7183',
 						plan_id: '12313',
@@ -327,7 +328,6 @@ export default {
 	},
 	methods: {
 		openPopup(licenseType) {
-			console.log('licenseType', licenseType)
 			this.handler.open({
 				name: 'CodeKit',
 				licenses: licenseType,

@@ -51,7 +51,7 @@ export default {
 				}
 
 				;(() => {
-					FS.Members.configure(params).open()
+					FS.Members.configure(params).open() // eslint-disable-line
 				})()
 			}
 
