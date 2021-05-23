@@ -30,15 +30,17 @@
 
 		<section id="core" class="relative bg-gray-50 py-16 sm:py-18 md:py-18 text-left overflow-hidden">
 			<div class="container mx-auto">
-				<div class="block lg:grid lg:grid-cols-2">
-					<div class="flex-1 pr-10">
-						<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
-						<h2 class="font-bold text-3xl xl:text-section text-gray-900 leading-tight tracking-tight">
-							Natively integrated IDE <br />
-							on your WordPress Admin
-						</h2>
+				<div class="section-title">
+					<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
+					<h2 class="font-bold text-3xl xl:text-section text-gray-900 leading-tight tracking-tight">
+						Natively integrated IDE <br />
+						on your WordPress Admin
+					</h2>
+				</div>
+				<div class="flex flex-col lg:flex-row lg:gap-24">
+					<div class="flex-1">
 						<div class="feature-wrapper">
-							<div class="feature-block my-10">
+							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" display="block" aria-hidden="true">
 										<path
@@ -51,7 +53,7 @@
 								</h5>
 								<p class="text-gray-600 mt-2">CodeKit is the one and only plugin that supports more than 10+ languages in a single plugin. Do range of improvements without worrying about compilers and compatibility.</p>
 							</div>
-							<div class="feature-block my-10">
+							<div class="feature-block my-10 text-white">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 										<rect x="2" y="4" width="20" height="16" rx="2" />
@@ -61,32 +63,55 @@
 								</h5>
 								<p class="text-gray-600 mt-2">Still not tired of writing media queries? Give it a try to editor device tabs for device-specific development. They are pre-configured according to the standards but you can always change it in the settings.</p>
 							</div>
-							<div class="feature-block my-10">
-								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
-										<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
-										<rect x="3" y="14" width="7" height="7" rx="1" />
-										<rect x="14" y="3" width="7" height="7" rx="1" />
-										<rect x="14" y="14" width="7" height="7" rx="1" stroke="#c33030" />
-									</svg>
-									Basic code deployment
-								</h5>
-								<p class="text-gray-600 mt-2">Sometimes all we want to deploy a simple code block to single page. This is where Code Locations come in to play. Easily select the location/page and deploy your code on that.</p>
-							</div>
-							<div class="feature-block my-10 md:mb-0">
-								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
-									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
-										<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
-										<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
-									</svg>
-									Customizable IDE
-								</h5>
-								<p class="text-gray-600 mt-2">We all know that developers are loyal to their IDE’s because all of the extensions, the interface, the colors and even typography. With CodeKit, you can customize your integrated IDE easily and make it more like your local IDE.</p>
-							</div>
 						</div>
 					</div>
 					<div class="flex-1">
-						<img class="features-screenshot static mt-20 mx-auto lg:absolute lg:mt-28" src="~static/features-ss.jpg" alt="" />
+						<div class="feature-block my-10 text-white">
+							<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
+								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
+									<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />
+									<rect x="3" y="14" width="7" height="7" rx="1" />
+									<rect x="14" y="3" width="7" height="7" rx="1" />
+									<rect x="14" y="14" width="7" height="7" rx="1" stroke="#c33030" />
+								</svg>
+								Basic code deployment
+							</h5>
+							<p class="text-gray-600 mt-2">Sometimes all we want to deploy a simple code block to single page. This is where Code Locations come in to play. Easily select the location/page and deploy your code.</p>
+						</div>
+
+						<div class="feature-block my-10 text-white">
+							<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
+								<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
+									<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
+									<path d="M19 15v3a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h3" stroke="#c33030" />
+								</svg>
+								Customizable IDE
+							</h5>
+							<p class="text-gray-600 mt-2">We all know that developers are loyal to their IDE’s because all of the extensions, the interface, the colors and even typography. With CodeKit, you can customize your integrated IDE easily and make it more like your local IDE.</p>
+						</div>
+					</div>
+				</div>
+				<div class="grid grid-cols-3 gap-6">
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-1.png" alt="CodeKit Feature 1" />
+					</div>
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-2.png" alt="CodeKit Feature 1" />
+					</div>
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-3.png" alt="CodeKit Feature 1" />
+					</div>
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-4.png" alt="CodeKit Feature 1" />
+					</div>
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-5.png" alt="CodeKit Feature 1" />
+					</div>
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-6.png" alt="CodeKit Feature 1" />
+					</div>
+					<div class="image-box h-54 overflow-hidden rounded">
+						<img src="~static/screenshot-7.png" alt="CodeKit Feature 1" />
 					</div>
 				</div>
 			</div>
