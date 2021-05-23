@@ -5,11 +5,95 @@ export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'CodeKit | The Code Editor for WordPress',
+		titleTemplate: '%s | CodeKit',
 		htmlAttrs: {
 			lang: 'en',
 		},
-		meta: [{ charset: 'utf-8' }, { name: 'viewport', content: 'width=device-width, initial-scale=1' }, { hid: 'description', name: 'description', content: '' }],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon-circle.png' }],
+		meta: [
+			{ charset: 'utf-8' },
+			{
+				name: 'viewport',
+				content: 'width=device-width, initial-scale=1',
+			},
+			{
+				hid: 'description',
+				name: 'description',
+				content: 'Complete Code Editor for WordPress. Finally, a simple, intuitive interface and easy workflow for WordPress custom codes.',
+			},
+
+			// Twitter
+			// Test on: https://cards-dev.twitter.com/validator
+			{
+				hid: 'twitter:card',
+				name: 'twitter:card',
+				content: 'summary_large_image',
+			},
+			{ hid: 'twitter:site', name: 'twitter:site', content: '@CodeKitWP' },
+			{
+				hid: 'twitter:url',
+				name: 'twitter:url',
+				content: 'https://www.codekitwp.com',
+			},
+			{
+				hid: 'twitter:title',
+				name: 'twitter:title',
+				content: 'CodeKit | The Code Editor for WordPress',
+			},
+			{
+				hid: 'twitter:description',
+				name: 'twitter:description',
+				content: 'Complete Code Editor for WordPress. Finally, a simple, intuitive interface and easy workflow for WordPress custom codes.',
+			},
+			{
+				hid: 'twitter:image',
+				name: 'twitter:image',
+				content: 'https://www.codekitwp.com/codekit-card.png',
+			},
+
+			// Open Graph
+			// Test on: https://developers.facebook.com/tools/debug/
+			{ hid: 'og:site_name', property: 'og:site_name', content: 'Nuxt' },
+			{ hid: 'og:type', property: 'og:type', content: 'website' },
+			{
+				hid: 'og:url',
+				property: 'og:url',
+				content: 'https://www.codekitwp.com',
+			},
+			{
+				hid: 'og:title',
+				property: 'og:title',
+				content: 'CodeKit | The Code Editor for WordPress',
+			},
+			{
+				hid: 'og:description',
+				property: 'og:description',
+				content: 'Complete Code Editor for WordPress. Finally, a simple, intuitive interface and easy workflow for WordPress custom codes.',
+			},
+			{
+				hid: 'og:image',
+				property: 'og:image',
+				content: 'https://www.codekitwp.com/codekit-card.png',
+			},
+			{
+				hid: 'og:image:secure_url',
+				property: 'og:image:secure_url',
+				content: 'https://www.codekitwp.com/codekit-card.png',
+			},
+			{
+				hid: 'og:image:alt',
+				property: 'og:image:alt',
+				content: 'CodeKit',
+			},
+		],
+		// canonical
+		link: [
+			{
+				hid: 'canonical',
+				rel: 'canonical',
+				href: 'https://www.codekitwp.com',
+			},
+		],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
