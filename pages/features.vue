@@ -28,10 +28,10 @@
 			</div>
 		</div>
 
-		<section id="core" class="relative bg-gray-50 py-16 sm:py-20 md:pt-24 md:pb-24 text-left overflow-hidden">
+		<section id="core" class="relative bg-gray-50 py-16 sm:py-18 md:py-18 text-left overflow-hidden">
 			<div class="container mx-auto">
-				<div class="flex flex-col lg:flex-row">
-					<div class="flex-1">
+				<div class="block lg:grid lg:grid-cols-2">
+					<div class="flex-1 pr-10">
 						<span class="font-mono uppercase rounded-full text-gray-200 py-1 text-xs inline-flex font-semibold tracking-wider">Core Features</span>
 						<h2 class="font-bold text-3xl xl:text-section text-gray-900 leading-tight tracking-tight">
 							Natively integrated IDE <br />
@@ -73,7 +73,7 @@
 								</h5>
 								<p class="text-gray-600 mt-2">Sometimes all we want to deploy a simple code block to single page. This is where Code Locations come in to play. Easily select the location/page and deploy your code on that.</p>
 							</div>
-							<div class="feature-block my-10">
+							<div class="feature-block my-10 md:mb-0">
 								<h5 class="title font-medium text-xl tracking-tight flex items-center text-gray-900">
 									<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 										<path d="M16.474 5.408l2.118 2.117m-.756-3.982L12.109 9.27a2.118 2.118 0 00-.58 1.082L11 13l2.648-.53c.41-.082.786-.283 1.082-.579l5.727-5.727a1.853 1.853 0 10-2.621-2.621z" />
@@ -85,8 +85,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="hidden lg:block flex-1">
-						<img class="absolute ml-14" style="max-width: 1000px" src="~static/feature-ss-1.png" alt="" />
+					<div class="flex-1">
+						<img class="features-screenshot static mt-20 mx-auto lg:absolute lg:mt-28" src="~static/features-ss.jpg" alt="" />
 					</div>
 				</div>
 			</div>
@@ -581,6 +581,14 @@ export default {
 		}
 		a.active {
 			@apply text-cc-main border-b border-cc-main transition-all duration-300;
+		}
+	}
+
+	.features-screenshot {
+		@apply w-full;
+
+		@media (min-width: 1024px) {
+			width: 50vw;
 		}
 	}
 }
