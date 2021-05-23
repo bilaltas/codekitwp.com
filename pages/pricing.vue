@@ -172,6 +172,9 @@
 						</div>
 					</div>
 				</div>
+				<div class="free-version mt-3 mb-6 md:mb-0">
+					<div class="text-white text-sm text-opacity-80"><span class="font-bold text-white text-opacity-100">TRY BEFORE BUYING:</span> Still not convinced? You can simply <a class="text-white text-opacity-100 border-b border-white font-medium" href="https://wordpress.org/plugins/custom-codes/" target="_blank">install the CodeKit's free version</a> and try right away!</div>
+				</div>
 			</div>
 		</div>
 		<section class="relative bg-gray-50 -mt-10 py-16 sm:py-20 md:pt-32 md:pb-28 text-center">
