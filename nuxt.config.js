@@ -9,7 +9,6 @@ export default {
 		htmlAttrs: {
 			lang: 'en',
 		},
-		link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon-circle.png' }],
 		meta: [
 			{ charset: 'utf-8' },
 			{
@@ -86,8 +85,12 @@ export default {
 				content: 'CodeKit',
 			},
 		],
-		// canonical
+
 		link: [
+			// favicon
+			{ rel: 'icon', type: 'image/x-icon', href: '/icon-circle.png' },
+
+			// canonical
 			{
 				hid: 'canonical',
 				rel: 'canonical',
