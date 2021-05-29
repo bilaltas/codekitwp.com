@@ -86,5 +86,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+	head() {
+		return {
+			title: 'The Code Editor for WordPress',
+			titleTemplate: 'CodeKit | %s',
+		}
+	},
+}
 </script>
