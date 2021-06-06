@@ -13,7 +13,7 @@
 				<div class="lg:mt-4">
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-14 h-14 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img v-lazy-load data-src="~static/avatar-1.png" alt="profile image" class="w-full h-full object-cover" />
+							<img v-lazy-load data-src="~static/avatar-1.png" width="64" height="64" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">"Version 2.0 made <span class="text-gray-900 font-medium">this plugin worth paying for</span>, but it’s free! Just wow, it’s the best plugin for custom code on the market, now. How cool is that!"</p>
@@ -23,7 +23,7 @@
 					</div>
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img v-lazy-load data-src="~static/avatar-2.png" alt="profile image" class="w-full h-full object-cover" />
+							<img v-lazy-load data-src="~static/avatar-2.png" width="64" height="64" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">
@@ -38,7 +38,7 @@
 				<div class="lg:mt-4">
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img v-lazy-load data-src="~static/avatar-3.png" alt="profile image" class="w-full h-full object-cover" />
+							<img v-lazy-load data-src="~static/avatar-3.png" width="64" height="64" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">This plugin is a must have, it is the best code editor, lets you manage CSS SCSS, JS, PHP…, and presets tabs to manage you responsive code. Time saving, clean editor, looks like simple text inside your WP admin. <span class="text-gray-900 font-medium">Simple and yet most advanced plugin</span>, indeed! And support is ultra fax and very friendly."</p>
@@ -49,7 +49,7 @@
 
 					<div class="testimonial bg-white p-6 text-base rounded flex my-4">
 						<div class="w-10 h-10 md:w-16 md:h-16 rounded-full overflow-hidden mr-4 md:mr-6 flex-shrink-0">
-							<img v-lazy-load data-src="~static/avatar-4.png" alt="profile image" class="w-full h-full object-cover" />
+							<img v-lazy-load data-src="~static/avatar-4.png" width="64" height="64" alt="profile image" class="w-full h-full object-cover" />
 						</div>
 						<div>
 							<p class="text-gray-500 leading-relaxed">"The editor is perfect! Emmet expansions, breakpoints as tabs, editable breakpoints, keyboard shortcuts, SASS! Javascript as well. <span class="text-gray-900 font-medium">Very impressive and better than most other “pro” plugins.</span> So well done. "</p>

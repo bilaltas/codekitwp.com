@@ -26,7 +26,7 @@
 				</a>
 			</div>
 			<div class="hidden md:flex z-10">
-				<img class="screen" src="~static/cc-hero.png" alt="CodeKit Editor" />
+				<img class="screen" src="~static/cc-hero.png" width="1140" height="634" alt="CodeKit Editor" />
 			</div>
 		</div>
 		<HomeCodes />

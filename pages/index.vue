@@ -31,12 +31,12 @@
 						</div>
 					</div>
 					<div class="order-1 md:order-2">
-						<img v-lazy-load class="md:w-full" data-src="/feature-1.png" data-srcset="/feature-1.png 1x, /feature-1@2x.png 2x" alt="CodeKit's supported code languages" />
+						<img v-lazy-load class="md:w-full" data-src="/feature-1.png" data-srcset="/feature-1.png 1x, /feature-1@2x.png 2x" width="466" height="514" alt="CodeKit's supported code languages" />
 					</div>
 				</div>
 				<div class="feature-section text-center lg:text-left grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 my-14 lg:my-20">
 					<div class="order-1 md:order-1">
-						<img v-lazy-load class="md:w-full" data-src="/feature-2.png" data-srcset="/feature-2.png 1x, /feature-2@2x.png 2x" alt="CodeKit's supported code placements" />
+						<img v-lazy-load class="md:w-full" data-src="/feature-2.png" data-srcset="/feature-2.png 1x, /feature-2@2x.png 2x" width="466" height="514" alt="CodeKit's supported code placements" />
 					</div>
 					<div class="align-center items-center flex order-2 md:order-1">
 						<div class="flex-1">
@@ -75,7 +75,7 @@
 						</div>
 					</div>
 					<div class="order-1 md:order-2">
-						<img v-lazy-load class="md:w-full" data-src="/feature-3.png" data-srcset="/feature-3.png 1x, /feature-3@2x.png 2x" alt="CodeKit's supported code include" />
+						<img v-lazy-load class="md:w-full" data-src="/feature-3.png" data-srcset="/feature-3.png 1x, /feature-3@2x.png 2x" width="466" height="514" alt="CodeKit's supported code includes" />
 					</div>
 				</div>
 			</div>
