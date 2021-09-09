@@ -1,0 +1,45 @@
+{
+  "name": "codekit.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "nuxt-build-optimisations": "^1.0.6",
+    "nuxt-font-loader-strategy": "^1.1.10",
+    "nuxt-lazy-load": "^1.2.7",
+    "nuxt-precompress": "^0.5.9",
+    "vue-cool-lightbox": "^2.7.4"
+  },
+  "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
+    "@babel/core": "^7.14.6",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/html-validator": "^0.5.0",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "babel-loader": "^8.2.2",
+    "fibers": "^5.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
+    "lqip-loader": "^2.2.1",
+    "postcss": "^8.3.5",
+    "responsive-loader": "^2.3.0",
+    "sass": "^1.35.2",
+    "sass-loader": "10",
+    "sharp": "^0.29.0",
+    "sqip-loader": "^1.0.0",
+    "vue-headroom": "^0.10.1",
+    "webp-loader": "^0.6.0"
+  }
+}

@@ -1,0 +1,651 @@
+.dialog-mode a,
+.dialog-mode a span {
+	cursor: pointer;
+	color: #101014;
+	text-decoration: underline
+}
+
+.dialog-mode button.button-primary,
+.dialog-mode button.button-secondary {
+	font-weight: 500;
+	height: 52px;
+	text-shadow: none
+}
+
+.dialog-mode button.button-primary {
+	background: #D13334;
+	font-size: 18px;
+	margin: 10px 0 5px
+}
+
+.dialog-mode button.button-primary:hover,
+.dialog-mode button.button-primary:focus {
+	background: #cc4d4d;
+	outline: none
+}
+
+.dialog-mode button.button-secondary {
+	background: #d8d8da;
+	text-transform: none;
+	margin: 10px 0 5px
+}
+
+.dialog-mode button.button-secondary:hover {
+	background: #cacace
+}
+
+.dialog-mode button.button-primary i,
+.dialog-mode button.button-secondary i {
+	margin-right: 4px
+}
+
+.dialog-mode #header {
+	border: none;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: none;
+	z-index: 10;
+	position: relative
+}
+
+.dialog-mode #header .product-icon::after {
+	display: none
+}
+
+.dialog-mode #header .product-header-body {
+	border-bottom: 1px solid #e6eaeb;
+	padding: 22px 45px;
+	margin: 0;
+	text-align: center
+}
+
+.dialog-mode #header h1,
+.dialog-mode #header h2,
+.dialog-mode #header h3 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2
+}
+
+.dialog-mode #header h1 {
+	display: none
+}
+
+.dialog-mode #header h2 {
+	font-weight: 700;
+	margin-bottom: 6px
+}
+
+.dialog-mode #header h3 {
+	line-height: 27px
+}
+
+.dialog-mode #header .product-header-body .license-quantity-label {
+	border: 1px solid #d8dbdb;
+	padding: 4px 8px;
+	position: relative;
+	border-radius: 4px;
+	line-height: 22px
+}
+
+.dialog-mode #header .product-header-body .license-quantity-label:hover {
+	border-color: #afb6b6
+}
+
+.dialog-mode #header .product-header-body .license-quantity-label i {
+	height: 19px
+}
+
+.dialog-mode #header .product-header-body #license_quantities_dropdown {
+	opacity: 0 !important;
+	cursor: pointer
+}
+
+.dialog-mode #overlay {
+	background: rgb(22,22,23,0.9);
+}
+
+.dialog-mode #overlay #content_container {
+	bottom: auto !important
+}
+
+.dialog-mode #overlay #content {
+	border: none;
+	overflow: hidden
+}
+
+.dialog-mode #header .product-icon {
+	display: none
+}
+
+.dialog-mode #header .close {
+	box-shadow: none;
+	border: none;
+	top: 10px;
+	right: 10px;
+	text-shadow: none;
+	background: #bcc0c4;
+	opacity: .6
+}
+
+.dialog-mode #header .close:hover {
+	opacity: .8
+}
+
+.dialog-mode #order_summary,
+.dialog-mode .secure-label {
+	border-color: #e6eaeb;
+	background-color: #fff
+}
+
+.dialog-mode #order_summary .order-total>div {
+	background-color: #fff;
+	margin-top: 28px;
+	padding: 15px 40px;
+	border-top-color: #e8eaeb;
+	border-bottom-color: #e6eaeb;
+	margin-left: -40px;
+	margin-right: -40px
+}
+
+.dialog-mode #order_summary .subtotal::before {
+	display: none
+}
+
+.dialog-mode #order_summary .order-total::before {
+	border-color: #e7eaeb
+}
+
+#license_actions,
+.dialog-mode #order_summary>ul>li {
+	font-size: 14px
+}
+
+.dialog-mode #order_summary>ul>li .amount var.ng-binding {
+	color: #D13334
+}
+
+.dialog-mode #order_summary>ul>li .amount {
+	font-weight: 700
+}
+
+.dialog-mode #order_summary .discount {
+	color: #D13334
+}
+
+.dialog-mode #order_summary .discount var.amount::before {
+	content: '-'
+}
+
+.dialog-mode #order_summary .undiscounted,
+.dialog-mode #order_summary .discount--annual,
+.dialog-mode #order_summary .discount--multisite {
+	display: none
+}
+
+.dialog-mode #order_summary>ul>li .amount.discounted {
+	text-decoration: none
+}
+
+.dialog-mode #license_actions {
+	padding: 15px 20px;
+	border-top: none;
+	border-bottom: 1px solid #e6eaeb;
+	background-color: #fff;
+	line-height: 27px
+}
+
+.dialog-mode #order_summary {
+	border-top: none;
+	padding: 20px 40px 0
+}
+
+.dialog-mode .step {
+	background: #f3f4f5
+}
+
+.dialog-mode #payment_chooser {
+	background-color: #e8eaeb;
+	border-top: 1px solid #e6eaeb
+}
+
+.dialog-mode #payment_chooser .col {
+	border-color: #e6eaeb;
+	background: #f1f1f3
+}
+
+.dialog-mode #payment_chooser.chosen .payment_methods .payment_method_cc .payment-details {
+	padding-left: 0
+}
+
+.dialog-mode #payment_chooser .payment-details .edit {
+	top: 0
+}
+
+.dialog-mode #trial_summary_notice {
+	background: #fef9df;
+	padding: 25px 40px !important;
+	border-bottom: none;
+	border-top: 1px solid #e6eaeb;
+	line-height: 1.2;
+	margin: 0 -40px
+}
+
+.dialog-mode #trial_payment_method_tip {
+	display: none
+}
+
+.dialog-mode #trial_payment_method_tip .tooltip {
+	left: 50%;
+	transform: translateX(-50%);
+	margin-left: 0;
+	background: #292928
+}
+
+.dialog-mode #trial_payment_method_tip .tooltip.top::after,
+.dialog-mode #trial_payment_method_tip .tooltip.bottom::after {
+	left: 50%;
+	margin-left: -5px;
+	border-top-color: #292928
+}
+
+.dialog-mode #account_details,
+.dialog-mode #cc_billing,
+.dialog-mode #paypal_billing,
+.dialog-mode #review_order,
+.dialog-mode #upsell,
+.dialog-mode #post_upgrade_message {
+	padding: 40px
+}
+
+.dialog-mode #paypal_billing,
+.dialog-mode #cc_billing {
+	padding: 40px;
+	box-shadow: none;
+	background: #f7f7f8
+}
+
+.dialog-mode #account_details {
+	padding: 40px 40px 22px;
+	box-shadow: none;
+	background: #f7f7f8;
+	border-top: 1px solid #e6eaeb
+}
+
+.dialog-mode #checkout_form #account_details .email-cart-notice {
+	margin-top: 15px;
+	display: none
+}
+
+.dialog-mode #payment_chooser .col {
+	width: 100%;
+	border-bottom: 1px solid #e7eaeb;
+	position: relative;
+	padding-left: 65px;
+	background: #fff;
+	padding-right: 40px
+}
+
+.dialog-mode #payment_chooser .col:last-child {
+	border-color: #e6eaeb
+}
+
+.dialog-mode #payment_chooser .col.selected {
+	border-color: #e7eaeb;
+	background: #fff;
+	box-shadow: none
+}
+
+.dialog-mode #payment_chooser .col.selected:last-child {
+	border-color: #e6eaeb
+}
+
+.dialog-mode #payment_chooser .col label.ng-hide {
+	display: inline-block !important;
+	font-weight: 700;
+	color: #666;
+	margin: 0 10px 0 0
+}
+
+.dialog-mode #payment_chooser .col.selected label.ng-hide {
+	color: #101014
+}
+
+.dialog-mode #payment_chooser .col input {
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	margin: -6px 0 0
+}
+
+.dialog-mode #payment_chooser .col .cards {
+	transform: scale(.75);
+	transform-origin: center left;
+	opacity: .75
+}
+
+.dialog-mode #payment_chooser .col.selected .cards {
+	opacity: 1
+}
+
+.dialog-mode #payment_chooser.chosen .col {
+	padding-left: 40px;
+	padding-right: 40px
+}
+
+.dialog-mode #payment_chooser.chosen .col label.ng-hide {
+	display: none !important
+}
+
+.dialog-mode .bundle-products-container {
+	display: none
+}
+
+.dialog-mode .bundle-products-container img {
+	display: none
+}
+
+.dialog-mode .bundle-products-container div>i::before {
+	content: "\2014";
+	margin: 0 5px 0 0;
+	font-style: normal
+}
+
+.dialog-mode #billing_cycles .billing-cycle .discount {
+	background: #22c4ac
+}
+
+.dialog-mode #billing_cycles .billing-cycle {
+	background: #f7f7f8;
+	border-color: #e6eaeb
+}
+
+.dialog-mode #billing_cycles .billing-cycle:hover {
+	border-color: #b5babf
+}
+
+.dialog-mode #billing_cycles .billing-cycle.selected {
+	background: #fff;
+	border-bottom-color: #D13334;
+	box-shadow: none
+}
+
+.dialog-mode #billing_cycles input {
+	display: none
+}
+
+.dialog-mode #billing_cycles label {
+	margin-top: 0;
+	color: #666
+}
+
+.dialog-mode #billing_cycles .billing-cycle.selected label {
+	color: #101014
+}
+
+.dialog-mode #exit_intent_popup h1 {
+	font-weight: 700;
+	text-transform: none;
+	font-size: 26px;
+	color: #5559da
+}
+
+.dialog-mode #exit_intent_popup h1 img {
+	display: none
+}
+
+.dialog-mode #exit_intent_popup .exit-intent-popup-fomo {
+	color: #e03a4e
+}
+
+.dialog-mode textarea,
+.dialog-mode select,
+.dialog-mode input[type="text"],
+.dialog-mode input[type="password"],
+.dialog-mode input[type="datetime"],
+.dialog-mode input[type="datetime-local"],
+.dialog-mode input[type="date"],
+.dialog-mode input[type="month"],
+.dialog-mode input[type="time"],
+.dialog-mode input[type="week"],
+.dialog-mode input[type="number"],
+.dialog-mode input[type="email"],
+.dialog-mode input[type="url"],
+.dialog-mode input[type="search"],
+.dialog-mode input[type="tel"],
+.dialog-mode input[type="color"] {
+	border: 1px solid #d7dbdb;
+	box-shadow: none;
+	outline: none
+}
+
+.dialog-mode textarea:hover,
+.dialog-mode select:hover,
+.dialog-mode input[type="text"]:hover,
+.dialog-mode input[type="password"]:hover,
+.dialog-mode input[type="datetime"]:hover,
+.dialog-mode input[type="datetime-local"]:hover,
+.dialog-mode input[type="date"]:hover,
+.dialog-mode input[type="month"]:hover,
+.dialog-mode input[type="time"]:hover,
+.dialog-mode input[type="week"]:hover,
+.dialog-mode input[type="number"]:hover,
+.dialog-mode input[type="email"]:hover,
+.dialog-mode input[type="url"]:hover,
+.dialog-mode input[type="search"]:hover,
+.dialog-mode input[type="tel"]:hover,
+.dialog-mode input[type="color"]:hover {
+	border-color: #afb6b6
+}
+
+.dialog-mode textarea:focus,
+.dialog-mode select:focus,
+.dialog-mode input[type="text"]:focus,
+.dialog-mode input[type="password"]:focus,
+.dialog-mode input[type="datetime"]:focus,
+.dialog-mode input[type="datetime-local"]:focus,
+.dialog-mode input[type="date"]:focus,
+.dialog-mode input[type="month"]:focus,
+.dialog-mode input[type="time"]:focus,
+.dialog-mode input[type="week"]:focus,
+.dialog-mode input[type="number"]:focus,
+.dialog-mode input[type="email"]:focus,
+.dialog-mode input[type="url"]:focus,
+.dialog-mode input[type="search"]:focus,
+.dialog-mode input[type="tel"]:focus,
+.dialog-mode input[type="color"]:focus {
+	border-color: #D13334;
+	box-shadow: 0 0 0 1px #D13334
+}
+
+.dialog-mode #vat_exemption {
+	padding-bottom: 0
+}
+
+.dialog-mode #vat_exemption .vat-input input:hover,
+.dialog-mode #vat_exemption .vat-input input:focus {
+	border-color: #ccc;
+	box-shadow: none;
+	outline: none
+}
+
+.dialog-mode #vat_exemption .trigger {
+	font-weight: 400;
+	padding: 0;
+	height: auto;
+	background: #fff;
+	border: none;
+	line-height: inherit;
+	vertical-align: inherit;
+	border-radius: 0;
+	font-size: inherit
+}
+
+.dialog-mode #vat_exemption .vat-input var {
+	color: #101014;
+	background: 0 0;
+	border-radius: 4px 0 0 4px;
+	border-color: #d8dbdb
+}
+
+.dialog-mode #vat_exemption .vat-input input {
+	color: #101014;
+	border-radius: 0 4px 4px 0;
+	border-color: #d8dbdb;
+	cursor: text
+}
+
+.dialog-mode #vat_exemption .vat-input a {
+	margin: 0 0 0 5px;
+	padding: 0;
+	border: none;
+	background: 0 0;
+	line-height: 25px
+}
+
+#vat_exemption .inline-error {
+	display: block
+}
+
+.dialog-mode #license_key_container {
+	text-align: center
+}
+
+.dialog-mode #license_actions #license_key_container input {
+	height: 27px;
+	padding: 4px 8px;
+	line-height: 19px;
+	margin: 0 4px;
+	width: 145px
+}
+
+.dialog-mode #license_actions #license_key_container input:focus {
+	border-color: #D13334
+}
+
+.dialog-mode .fulfillment-badge,
+.dialog-mode #secure_notice {
+	display: none !important
+}
+
+.dialog-mode .secure-label {
+	display: none !important
+}
+
+.dialog-mode #trial_reminder {
+	margin: 10px 0 20px;
+	line-height: 14px
+}
+
+.dialog-mode #trial_reminder input {
+	margin: 1px 10px 0 0;
+	display: inline-block;
+	float: left
+}
+
+.dialog-mode .inline-error {
+	font-size: 14px;
+	position: relative;
+	display: block
+}
+
+.dialog-mode #billing_details .inline-error,
+.dialog-mode #billing_details .inline-error * {
+	white-space: normal !important
+}
+
+.dialog-mode .cc.card.csc_small {
+	position: relative;
+	top: 0;
+	right: 0;
+	margin: -31px 4px 10px 0;
+	float: right
+}
+
+.dialog-mode #cc_container .cc.card {
+	float: right;
+	position: relative;
+	right: auto;
+	bottom: auto;
+	margin: -30px 5px 0 0
+}
+
+.dialog-mode #review_order .checkbox-container {
+	box-shadow: none;
+	border-color: #e7eaeb;
+	padding: 20px;
+	color: #434649
+}
+
+.dialog-mode .vat-change span:first-child {
+	display: none
+}
+
+.dialog-mode #user_email_confirmation {
+	padding-right: 28px;
+	text-overflow: ellipsis
+}
+
+@media screen and (max-width: 450px) {
+	.dialog-mode #account_details {
+		padding: 25px 20px 10px !important
+	}
+
+	#mode.dialog-mode #secure_notice {
+		display: none !important
+	}
+
+	#mode.dialog-mode #overlay #content,
+	#mode.dialog-mode.sandbox #overlay #content {
+		margin-top: 0 !important
+	}
+
+	.dialog-mode.badges-variant-1 #checkout_form,
+	.dialog-mode.badges-variant-2 #checkout_form {
+		padding-bottom: 0
+	}
+
+	.dialog-mode #paypal_billing,
+	.dialog-mode #cc_billing {
+		padding: 25px 20px
+	}
+
+	.dialog-mode #payment_chooser .col {
+		padding-left: 45px;
+		padding-right: 20px
+	}
+
+	.dialog-mode #payment_chooser .col input {
+		left: 20px
+	}
+
+	.dialog-mode #order_summary {
+		padding: 20px 20px 0
+	}
+
+	#mode.sandbox.dialog-mode #sandbox_notice {
+		display: none !important
+	}
+
+	.dialog-mode #account_details,
+	.dialog-mode #cc_billing,
+	.dialog-mode #paypal_billing,
+	.dialog-mode #review_order,
+	.dialog-mode #upsell,
+	.dialog-mode #post_upgrade_message {
+		padding: 25px 20px
+	}
+
+	.dialog-mode #payment_chooser.chosen .col {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+
+	.dialog-mode #checkout_form #user_email_confirmation_container label.email--verified .fa-check {
+		right: 6px
+	}
+
+	.dialog-mode #payment_chooser .col label.ng-hide {
+		display: none !important
+	}
+}
