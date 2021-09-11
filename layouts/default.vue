@@ -13,6 +13,7 @@
 body {
 	font-family: Graphik, sans-serif;
 	@apply bg-gray-100;
+	scroll-padding-top: 65px;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
 
 html {
 	scroll-behavior: smooth;
-	scroll-padding-top: 74px;
+	scroll-padding-top: 65px;
 }
 
 .max-layout {

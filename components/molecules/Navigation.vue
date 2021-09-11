@@ -31,7 +31,8 @@ nav.main {
 			@apply bg-red-500 transition-all;
 		}
 
-		&:hover {
+		&:hover,
+		&.nuxt-link-active {
 			&:before {
 				width: 100%;
 				visibility: visible;
@@ -45,9 +46,11 @@ nav.main {
 	}
 	.btn {
 		@apply h-10 px-5 text-[15px];
+
 		&.signin {
 			@apply border-2 rounded-sm border-dark-800 text-dark-800 inline-flex items-center hover:border-red-500 hover:text-red-500 transition-all;
 		}
+
 		&.register {
 			@apply border-2 rounded-sm border-dark-800 bg-dark-800 hover:bg-red-500 hover:border-red-500 text-white inline-flex items-center transition-all;
 		}

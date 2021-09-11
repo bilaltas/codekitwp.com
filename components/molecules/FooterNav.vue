@@ -18,6 +18,10 @@ export default {};
 .footer-nav {
 	& > a {
 		@apply text-dark-700 transition-all hover:text-red-500;
+
+		&.nuxt-link-active {
+			@apply text-red-500;
+		}
 	}
 }
 </style>
