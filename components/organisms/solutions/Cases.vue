@@ -1,8 +1,8 @@
 <template>
 	<section class="cases">
 		<div class="container">
-			<div class="grid items-center grid-cols-1 gap-20 pb-20 md:grid-cols-2">
-				<div class="case-content">
+			<div class="grid items-center grid-cols-1 gap-20 pb-10 md:grid-cols-2">
+				<div class="order-1 case-content">
 					<h4 class="text-[32px] leading-[38px] flex-1 md:text-[40px] font-bold md:leading-[1.2] tracking-tight text-dark-800">For Designers</h4>
 					<p class="flex-1 mt-4 text-[20px] md:text-[18px] leading-relaxed text-dark-600 ">Simply take charge and make adjustments according your vision and creativity on your website. No need to deal with technical stuff, implementation difficulties or code versioning.</p>
 					<ul class="check-list">
@@ -11,7 +11,7 @@
 						<li>Write device specific codes <strong>without having knowledge about media queries</strong></li>
 					</ul>
 				</div>
-				<div class="case-image">
+				<div class="order-2 case-image">
 					<svg class="w-full" id="b97f36cd-1417-4217-a7e5-07ee56e4a0b7" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="890.21488" height="504.94824" viewBox="0 0 890.21488 504.94824">
 						<rect x="374.69009" y="0.99996" width="514.52479" height="334.28522" fill="#fff" />
 						<path d="M1045.10744,533.811H528.58254V197.52588h516.5249Zm-514.5249-2h512.5249V199.52588H530.58254Z" transform="translate(-154.89256 -197.52588)" fill="#e4e4e4" />
@@ -66,8 +66,8 @@
 					</svg>
 				</div>
 			</div>
-			<div class="grid items-center grid-cols-1 gap-20 pb-20 md:grid-cols-2">
-				<div class="case-image">
+			<div class="grid items-center grid-cols-1 gap-20 pb-14 md:grid-cols-2">
+				<div class="order-2 case-image md:order-1">
 					<svg class="w-full" id="a57f6051-90d9-4b0f-831b-7c7398482616" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="878.63037" height="483" viewBox="0 0 878.63037 483">
 						<path d="M294.7164,621.20348c-19.51084,14.54436-25.04043,40.13465-25.04043,40.13465s26.10369,2.00928,45.61453-12.53511,25.04043-40.13465,25.04043-40.13465S314.22725,606.65916,294.7164,621.20348Z" transform="translate(-160.68481 -208.5)" fill="#f1f1f1" />
 						<path d="M302.84375,628.03207c-9.37708,22.45621-32.86178,34.02822-32.86178,34.02822s-8.28141-24.83665,1.09568-47.29286,32.86172-34.02822,32.86172-34.02822S312.22084,605.57587,302.84375,628.03207Z" transform="translate(-160.68481 -208.5)" fill="#f1f1f1" />
@@ -93,7 +93,7 @@
 						<path d="M679.55259,302.45164h-3.262c0-44.73-33.65638-81.12069-75.026-81.12069-41.36939,0-75.02605,36.3907-75.02605,81.12069h-3.262c0-46.6749,35.11988-84.64766,78.288-84.64766C644.433,217.804,679.55259,255.77677,679.55259,302.45164Z" transform="translate(-160.68481 -208.5)" fill="#ef4444" />
 					</svg>
 				</div>
-				<div class="case-content">
+				<div class="order-1 case-content md:order-2">
 					<h4 class="text-[32px] leading-[38px] flex-1 md:text-[40px] font-bold md:leading-[1.2] tracking-tight text-dark-800">For Developers</h4>
 					<p class="flex-1 mt-4 text-[20px] md:text-[18px] leading-relaxed text-dark-600 ">A small or urgent fix, that’s what you can totally depend on CodeKit to handle. Use the native IDE to deploy your fix, or even a PHP function, instantly. Your rules, your languages, your frameworks. All packed.</p>
 					<ul class="check-list">
@@ -103,7 +103,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="grid items-center grid-cols-1 gap-20 pb-8 md:grid-cols-2">
+			<div class="grid items-center grid-cols-1 gap-20 pb-24 md:grid-cols-2">
 				<div class="case-content">
 					<h4 class="text-[32px] leading-[38px] flex-1 md:text-[40px] font-bold md:leading-[1.2] tracking-tight text-dark-800">For Bloggers</h4>
 					<p class="flex-1 mt-4 text-[20px] md:text-[18px] leading-relaxed text-dark-600 ">Never ever bother for waiting your developer to handle your small requests and get job done when you need it most. With CodeKit, you can drastically reduce a dependency of a developer by simply copy/paste any code to any specific page just like you do for your posts.</p>
@@ -114,7 +114,7 @@
 					</ul>
 				</div>
 				<div class="case-image">
-					<svg class="w-full" id="a56d29c8-f85f-4cea-95e3-9a084c8a58d1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="766.06693" height="517" viewBox="0 0 766.06693 517">
+					<svg class="w-full mb-5 md:mb-0" id="a56d29c8-f85f-4cea-95e3-9a084c8a58d1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="766.06693" height="517" viewBox="0 0 766.06693 517">
 						<path d="M978.03346,618.5h-379a5.00573,5.00573,0,0,1-5-5v-417a5.00573,5.00573,0,0,1,5-5h379a5.00573,5.00573,0,0,1,5,5v417A5.00573,5.00573,0,0,1,978.03346,618.5Zm-379-425a3.00328,3.00328,0,0,0-3,3v417a3.00328,3.00328,0,0,0,3,3h379a3.00328,3.00328,0,0,0,3-3v-417a3.00328,3.00328,0,0,0-3-3Z" transform="translate(-216.96654 -191.5)" fill="#cacaca" />
 						<path d="M762.53346,350.5h-94a5.00573,5.00573,0,0,1-5-5v-94a5.00573,5.00573,0,0,1,5-5h94a5.00573,5.00573,0,0,1,5,5v94A5.00573,5.00573,0,0,1,762.53346,350.5Zm-94-102a3.00328,3.00328,0,0,0-3,3v94a3.00328,3.00328,0,0,0,3,3h94a3.00328,3.00328,0,0,0,3-3v-94a3.00328,3.00328,0,0,0-3-3Z" transform="translate(-216.96654 -191.5)" fill="#f2f2f2" />
 						<path d="M735.53346,362h-94a4.50508,4.50508,0,0,1-4.5-4.5v-94a4.50508,4.50508,0,0,1,4.5-4.5h94a4.50507,4.50507,0,0,1,4.5,4.5v94A4.50507,4.50507,0,0,1,735.53346,362Z" transform="translate(-216.96654 -191.5)" fill="#ef4444" />
@@ -148,8 +148,8 @@
 					</svg>
 				</div>
 			</div>
-			<div class="grid items-center grid-cols-1 gap-20 pb-20 md:grid-cols-2">
-				<div class="case-image">
+			<div class="grid items-center grid-cols-1 gap-20 pb-36 md:grid-cols-2">
+				<div class="order-2 case-image md:order-1">
 					<svg class="w-full" id="a27520da-4319-485c-96d7-e776d7397e13" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="876.27165" height="661.47277" viewBox="0 0 876.27165 661.47277">
 						<path d="M685.83423,138.6545c7.51624,15.99516-8.41069,20.5258-26.65516,29.099s-31.8977,17.94247-39.41393,1.94732-13.61474-47.74263,12.19523-59.87092C658.65953,97.2838,678.318,122.65934,685.83423,138.6545Z" transform="translate(-180.86417 -106.46046)" fill="#2f2e41" />
 						<circle cx="467.74627" cy="39.08912" r="24.56103" fill="#ffb8b8" />
@@ -212,7 +212,7 @@
 						<path d="M369.06364,432.04239q.20986.38415.38766.79029a10.38021,10.38021,0,0,1-6.39269,14.10854,9.72022,9.72022,0,0,1-.98807.24953l-19.09943,49.40482a8.06134,8.06134,0,0,1-8.16324,5.09887l-.096-.01816-41.39664-12.46211a8.89853,8.89853,0,1,1,5.28606-16.99313l29.29033,9.40382,22.6764-40.20175a9.87622,9.87622,0,0,1-.51127-1.28942,10.38005,10.38005,0,0,1,19.0069-8.0913Z" transform="translate(-180.86417 -106.46046)" fill="#a0616a" />
 					</svg>
 				</div>
-				<div class="case-content">
+				<div class="order-1 case-content md:order-2">
 					<h4 class="text-[32px] leading-[38px] flex-1 md:text-[40px] font-bold md:leading-[1.2] tracking-tight text-dark-800">For Agencies</h4>
 					<p class="flex-1 mt-4 text-[20px] md:text-[18px] leading-relaxed text-dark-600 ">Keep track all of the client’s customizations or requests right in the admin dashboard. Use your standard stack, include fonts, frameworks and deploy codes that is aligned with your standards. Track versions, order CSS deployments and use safe mode for fail-proof development.</p>
 					<ul class="check-list">
@@ -247,6 +247,12 @@ export default {};
 			position: absolute;
 			background-image: url("static/images/checkmark.svg");
 		}
+	}
+}
+
+.case-image {
+	svg {
+		@apply h-[200px] md:h-[520px];
 	}
 }
 </style>

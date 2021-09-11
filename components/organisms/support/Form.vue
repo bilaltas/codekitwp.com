@@ -5,7 +5,7 @@
 				<div class="w-full mx-auto space-y-4 lg:max-w-3xl">
 					<div class="flex flex-col overflow-hidden ">
 						<div class="flex flex-col justify-between flex-1 px-6 pt-16 space-y-8 md:px-0">
-							<form method="post" action="https://formsubmit.co/f895792a5da22345f54b88f52312e9de">
+							<form method="POST" action="https://formsubmit.co/f895792a5da22345f54b88f52312e9de">
 								<input type="hidden" name="_next" value="/thank-you" />
 								<input type="hidden" name="_honey" style="display: none" />
 								<div>
