@@ -34,7 +34,7 @@
 					</div>
 				</div>
 				<div class="flex-1">
-					<div class="my-10 text-white feature-block">
+					<div class="my-0 text-white md:my-10 feature-block">
 						<h4 class="flex items-center text-[22px] font-semibold tracking-tight text-dark-700">
 							<svg class="inline-flex mr-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" display="block" aria-hidden="true">
 								<rect x="3" y="3" width="7" height="7" rx="1" stroke="#c33030" />

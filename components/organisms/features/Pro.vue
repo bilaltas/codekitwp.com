@@ -37,7 +37,7 @@
 					</div>
 				</div>
 				<div class="flex-1">
-					<div class="my-10 text-white feature-block">
+					<div class="my-0 text-white md:my-10 feature-block">
 						<h4 class="flex items-center text-[22px] font-semibold tracking-tight text-dark-50">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M10 3H3V10H10V3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
