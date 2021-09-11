@@ -70,10 +70,10 @@ header.main {
 }
 
 .left-menu {
-	@apply block translate-x-full lg:hidden transition-all duration-300 transform-gpu;
+	@apply hidden translate-x-full lg:hidden transition-all duration-300 transform-gpu;
 
 	&.active {
-		@apply translate-x-0 transform-gpu;
+		@apply block translate-x-0 transform-gpu;
 	}
 }
 
