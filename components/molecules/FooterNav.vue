@@ -19,7 +19,7 @@ export default {};
 	& > a {
 		@apply text-dark-700 transition-all hover:text-red-500;
 
-		&.nuxt-link-active {
+		&.nuxt-link-exact-active {
 			@apply text-red-500;
 		}
 	}

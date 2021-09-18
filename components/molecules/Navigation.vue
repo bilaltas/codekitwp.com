@@ -32,7 +32,7 @@ nav.main {
 		}
 
 		&:hover,
-		&.nuxt-link-active {
+		&.nuxt-link-exact-active {
 			&:before {
 				width: 100%;
 				visibility: visible;
