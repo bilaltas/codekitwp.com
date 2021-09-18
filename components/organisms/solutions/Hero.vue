@@ -9,8 +9,8 @@
 			</AtomsHeroTitle>
 
 			<AtomsHeroSub>
-				No matter if you are a blogger or a WordPress Developer. <br class="hidden md:block" />
-				With CodeKit's breaking feature, you will benefit.
+				With CodeKit's time-saving features, you will easily integrate tools or deploy <br class="hidden md:block" />
+				codes no matter if you are a blogger or a developer.
 			</AtomsHeroSub>
 		</div>
 	</section>
