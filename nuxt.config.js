@@ -26,7 +26,7 @@ export default {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary_large_image',
+        content: 'summary',
       },
       { hid: 'twitter:site', name: 'twitter:site', content: '@CodeKitWP' },
       {
@@ -72,7 +72,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://www.codekitwp.com/codekit-card.png',
+        content: 'https://www.codekitwp.com/images/codekit-card.png',
       },
       {
         hid: 'og:image:secure_url',
