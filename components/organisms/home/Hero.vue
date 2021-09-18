@@ -9,8 +9,8 @@
 			</AtomsHeroTitle>
 
 			<AtomsHeroSub>
-				We know handling WordPress is hard and all the updates, mini-edits, <br class="hidden md:block" />
-				optimizations and backups are highly time consuming.
+				Meet the best way to add/edit/manage custom code blocks right in <br class="hidden md:block" />
+				your WordPress admin dashboard without ever dealing with built-in editor.
 			</AtomsHeroSub>
 
 			<AtomsBuyButtonLg>Give CodeKit a try</AtomsBuyButtonLg>

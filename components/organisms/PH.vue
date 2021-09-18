@@ -1,5 +1,5 @@
 <template>
-	<div v-if="promoActive" class="flex ph-bar">Hello Hunters! Grab your license with the <span class="code">MEOW20OFF</span> code and get %20 OFF on all packages. All we want in return to your valuable feedbacks! :)</div>
+	<div v-if="promoActive" class="ph-bar">Hello Hunters! Grab your license with the <span class="code">MEOW20OFF</span> code and get %20 OFF on all packages.</div>
 </template>
 
 <script>
@@ -11,7 +11,6 @@ export default {
 	},
 	mounted() {
 		const params = new URLSearchParams(window.location.search);
-		console.log("Test params" + params);
 		if (params.has("phpromo")) {
 			this.promoActive = true;
 		}
@@ -23,7 +22,7 @@ export default {
 .ph-bar {
 	background-color: #da552f;
 	color: #fff;
-	@apply px-5 font-semibold h-12 items-center text-[15px] text-center justify-center;
+	@apply px-5 font-semibold h-auto lg:h-[45px] items-center text-[15px] text-center justify-center md:block py-3 lg:py-0 lg:flex;
 }
 .code {
 	@apply inline-flex px-4 h-8 rounded-sm bg-black bg-opacity-20 text-center items-center mx-2;

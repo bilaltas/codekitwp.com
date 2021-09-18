@@ -114,7 +114,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // '@nuxtjs/google-analytics',
+    '@nuxtjs/google-analytics',
     // '@aceforth/nuxt-optimized-images',
     '@nuxtjs/html-validator'
   ],
