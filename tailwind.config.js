@@ -145,7 +145,7 @@ module.exports = {
         bgray: colors.blueGray,
         green: colors.green,
         indigo: colors.indigo,
-        'light-blue': colors.lightBlue,
+        'light-blue': colors.sky,
         lime: colors.lime,
         dark: {
           ...colors.gray,

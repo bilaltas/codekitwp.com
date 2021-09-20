@@ -60,30 +60,30 @@
 				</div>
 			</div>
 			<div class="grid grid-cols-3 gap-6 mt-6 screenshots">
-				<div class="overflow-hidden rounded-sm image-box h-54 screenshot">
+				<a href="images/screenshot-1.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-1.png" alt="CodeKit Feature 1" />
 					<span>All codes screen</span>
-				</div>
-				<div class="overflow-hidden rounded-sm image-box h-54 screenshot">
+				</a>
+				<a href="images/screenshot-2.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-2.png" alt="CodeKit Feature 2" />
 					<span>The code editor</span>
-				</div>
-				<div class="overflow-hidden rounded-sm image-box h-54 screenshot">
+				</a>
+				<a href="images/screenshot-3.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-3.png" alt="CodeKit Feature 3" />
 					<span>Sample PHP code</span>
-				</div>
-				<div class="overflow-hidden rounded-sm image-box h-54 screenshot">
+				</a>
+				<a href="images/screenshot-4.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-4.png" alt="CodeKit Feature 4" />
 					<span>Sample Javasript code</span>
-				</div>
-				<div class="overflow-hidden rounded-sm image-box h-54 screenshot">
+				</a>
+				<a href="images/screenshot-5.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-5.png" alt="CodeKit Feature 5" />
 					<span>Editor settings</span>
-				</div>
-				<div class="overflow-hidden rounded-sm image-box h-54 screenshot">
+				</a>
+				<a href="images/screenshot-6.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-6.png" alt="CodeKit Feature 6" />
 					<span>Style breakpoints</span>
-				</div>
+				</a>
 			</div>
 		</div>
 	</section>
