@@ -74,7 +74,7 @@
 				</a>
 				<a href="images/screenshot-4.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-4.png" alt="CodeKit Feature 4" />
-					<span>Sample Javasript code</span>
+					<span>Sample HTML code</span>
 				</a>
 				<a href="images/screenshot-5.png" target="_blank" class="overflow-hidden rounded-sm image-box h-54 screenshot">
 					<img src="~static/images/screenshot-5.png" alt="CodeKit Feature 5" />
