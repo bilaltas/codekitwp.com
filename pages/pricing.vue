@@ -101,7 +101,7 @@
 								</dd>
 							</div>
 						</dl>
-						<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/unlimited/" class="block p-3 mx-auto mt-8 text-base font-semibold text-center text-white transition-all bg-red-500 rounded-sm sm:mt-10 lg:mt-12 w-60 hover:bg-dark-800 focus:outline-none" @click.prevent="openPopup('1')">Get this package</a>
+						<a href="https://checkout.freemius.com/mode/dialog/plugin/7183/plan/12313/licenses/unlimited/" class="block p-3 mx-auto mt-8 text-base font-semibold text-center text-white transition-all bg-red-500 rounded-sm sm:mt-10 lg:mt-12 w-60 hover:bg-dark-800 focus:outline-none" @click.prevent="openPopup('unlimited')">Get this package</a>
 						<div class="lg:hidden h-0.5 mx-3 bg-gradient-to-r from-transparent via-dark-50 to-transparent opacity-30 mt-12"></div>
 					</div>
 					<div class="border-2 border-dark-200 rounded-sm flex flex-col lg:order-1 px-12 pt-12 lg:pt-14 pb-[5.25rem] lg:px-8">
