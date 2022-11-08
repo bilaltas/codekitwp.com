@@ -1,7 +1,7 @@
 <template>
 	<main id="support">
 		<OrganismsSupportHero />
-		<OrganismsSupportForm />
+		<!-- <OrganismsSupportForm /> -->
 		<OrganismsFAQ />
 	</main>
 </template>
