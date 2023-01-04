@@ -54,8 +54,6 @@
 				</div>
 			</div>
 		</main>
-		<globalCTA />
-		<globalFooter />
 	</div>
 </template>
 

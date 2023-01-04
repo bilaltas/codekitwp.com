@@ -5,7 +5,7 @@
 		<NuxtLink to="/pricing" aria-label="Pricing"><span>Pricing</span></NuxtLink>
 		<NuxtLink to="/pricing#faq" aria-label="Frequently Asked Questions"><span>FAQs</span></NuxtLink>
 		<NuxtLink to="/affiliates/" aria-label="Affiliates page">Affiliates</NuxtLink>
-		<NuxtLink to="/my-account/" aria-label="My Account">My Account</NuxtLink>
+		<NuxtLink to="/account/" aria-label="My Account">My Account</NuxtLink>
 		<NuxtLink to="/support" aria-label="Support"><span>Support</span></NuxtLink>
 	</nav>
 </template>

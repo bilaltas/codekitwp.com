@@ -33,7 +33,7 @@
 					<div class="p-6 mt-4 rounded-sm bg-dark-50">
 						<h3 class="mb-2 font-semibold text-dark-700 text-[18px] leading-[30px] md:text-[18px] md:leading-[24px]">How can I see all Pro features and grab my license?</h3>
 						<div class="text-[18px] leading-[30px] md:text-[16px] md:leading-[24px] text-dark-600">
-							<p>You can simply check our <NuxtLink to="/features/" class="text-red-900 underline">features page</NuxtLink> for all the Pro features and a comparison table. If you decided to grab a license, you can either proceed on this particular page or inside the plugin under CodeKit > Upgrade.</p>
+							<p>You can simply check our <NuxtLink to="/features/" class="text-red-900 underline">features page</NuxtLink> for all the Pro features and a comparison table. If you decided to grab a license, you can either proceed on this particular page or inside the plugin under CodeKit &gt; Upgrade.</p>
 						</div>
 					</div>
 					<div class="p-6 mt-4 rounded-sm bg-dark-50">

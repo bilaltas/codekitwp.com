@@ -1,5 +1,6 @@
 <template>
 	<main id="account">
+    <h1 style="display: none;">My Account</h1>
 		<div id="dashboard">
 			<div id="fs_dashboard_anchor"></div>
 		</div>

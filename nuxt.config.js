@@ -215,7 +215,7 @@ export default {
     hostname: 'https://codekitwp.com',
     gzip: true,
     exclude: ['/secret', '/admin/**', '/thank-you'],
-    routes: ['/', '/features', '/pricing', '/support', '/my-account', '/affiliates', '/policies/privacy-policy', '/policies/refund-policy', '/policies/terms-of-service'],
+    routes: ['/', '/features', '/pricing', '/support', '/account', '/affiliates', '/policies/privacy-policy', '/policies/refund-policy', '/policies/terms-of-service'],
   },
 
   googleAnalytics: {

@@ -17,7 +17,7 @@
 				<NuxtLink to="/features/" class="px-6">Features</NuxtLink>
 				<NuxtLink to="/pricing/" class="px-6">Pricing &amp; <abbr title="Frequently asked questions">FAQ</abbr></NuxtLink>
 				<NuxtLink to="/support/" class="px-6">Support</NuxtLink>
-				<NuxtLink to="/my-account/" class="px-6">My Account</NuxtLink>
+				<NuxtLink to="/account/" class="px-6">My Account</NuxtLink>
 				<NuxtLink to="/pricing/" class="inline-flex items-center justify-center h-12 px-4 mt-2 text-sm font-bold text-white transition bg-red-500 border-2 border-transparent rounded-none hover:text-white focus:outline-none sm:inline-flex">
 					Buy Pro
 					<svg width="11" height="10" fill="none" class="flex-none ml-1.5 text-white group-hover:text-teal-600">

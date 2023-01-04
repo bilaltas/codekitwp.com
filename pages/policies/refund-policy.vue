@@ -20,8 +20,6 @@
 				<p>To submit a refund request, please open a <a class="font-medium text-red-600 underline" href="/support">refund support ticket.</a></p>
 			</div>
 		</div>
-		<globalCTA />
-		<globalFooter />
 	</main>
 </template>
 
