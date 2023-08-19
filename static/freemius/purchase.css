@@ -562,7 +562,8 @@
 	float: right
 }
 
-.dialog-mode #cc_container .cc.card {
+.dialog-mode #cc_container .cc.card,
+.dialog-mode #fs_credit_card_container .cc.card {
 	float: right;
 	position: relative;
 	right: auto;
