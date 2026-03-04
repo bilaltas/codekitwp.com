@@ -214,6 +214,20 @@ export default {
 						public_key: "pk_4c4440eed53a6dd7637b96b2b82c0",
 						image: "https://ps.w.org/custom-codes/assets/icon.svg?rev=2446491"
 					});
+
+					// URL parametresine göre otomatik paket açma
+					const buyParam = this.$route.query.buy;
+					if (buyParam) {
+						const planMap = {
+							unlimited: "unlimited",
+							"single-site": "1",
+							"3-sites": "3"
+						};
+						const licenseType = planMap[buyParam];
+						if (licenseType) {
+							this.openPopup(licenseType);
+						}
+					}
 				})();
 			};
 
