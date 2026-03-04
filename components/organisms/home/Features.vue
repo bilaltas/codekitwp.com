@@ -10,6 +10,22 @@
 				</AtomsSectionContent>
 			</div>
 			<div class="grid grid-cols-1 gap-8 my-24 text-left feature-section lg:grid-cols-2 lg:gap-20 lg:my-20">
+				<div class="order-2 md:order-1">
+					<img v-lazy-load class="md:w-full rounded-2xl shadow-2xl" src="~static/images/ai-modal.png" alt="CodeKit AI Code Generation" />
+				</div>
+				<div class="flex items-center order-1 align-center md:order-1">
+					<div class="flex-1">
+						<AtomsSectionSub>Artificial Intelligence</AtomsSectionSub>
+						<AtomsSectionTitle>
+							AI Code Generation, <br class="hidden md:block" />
+							Fix & Optimization
+						</AtomsSectionTitle>
+						<AtomsSectionContent>CodeKit natively integrates advanced <strong>AI capabilities</strong> to write, debug, and optimize your code on the fly. Whether you need an entirely new feature written from scratch or a complex bug fixed in seconds, CodeKit's AI assistant is just a click away.</AtomsSectionContent>
+						<AtomsFeaturesLink />
+					</div>
+				</div>
+			</div>
+			<div class="grid grid-cols-1 gap-8 my-24 text-left feature-section lg:grid-cols-2 lg:gap-20 lg:my-20">
 				<div class="flex items-center order-1 align-center md:order-1">
 					<div class="flex-1">
 						<AtomsSectionSub>Editor</AtomsSectionSub>

@@ -45,65 +45,10 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="py-3 pl-6 text-lg font-medium text-left bg-white border rounded-sm shadow-sm border-dark-100 text-dark-800" colspan="3" scope="colgroup">Supported Languages</th>
+							<th class="py-3 pl-6 text-lg font-medium text-left bg-white border rounded-sm shadow-sm border-dark-100 text-dark-800" colspan="3" scope="colgroup">Editor Features</th>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">CSS</th>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">SCSS</th>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">JavaScript</th>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">HTML</th>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">PHP</th>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">LESS</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">AI Code Generation, Fix and Optimization</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -114,7 +59,10 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Stylus</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">
+								Advanced Code Release Locations <br />
+								<i class="text-xs">Page, Posts, Post Type, Categories / Terms, Archives / Taxonomies, Templates</i>
+							</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -125,7 +73,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">CoffeeScript</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Editor Code Folding</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -136,7 +84,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">PUG</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Custom Code Includes</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -146,23 +94,30 @@
 								<span class="sr-only">Included in PRO</span>
 							</td>
 						</tr>
-
 						<tr>
-							<th class="py-3 pl-6 text-lg font-medium text-left bg-white text-dark-800" colspan="3" scope="colgroup">Editor Features</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Custom Code Groups/Categories</th>
+							<td class="px-6 py-5">
+								<AtomsMinusIcon />
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Editor Code Hints</th>
+							<td class="px-6 py-5">
+								<AtomsMinusIcon />
+								<span class="sr-only">Not included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
 						</tr>
 						<tr>
 							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Save with Cmd/Ctrl + S</th>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Emmet Abbreviations</th>
 							<td class="px-6 py-5">
 								<AtomsCheckIcon />
 								<span class="sr-only">Included in Free</span>
@@ -198,10 +153,66 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">
-								Advanced Code Release Locations <br />
-								<i class="text-xs">Page, Posts, Post Type, Categories / Terms, Archives / Taxonomies, Templates</i>
-							</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Emmet Abbreviations</th>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+
+						<tr>
+							<th class="py-3 pl-6 text-lg font-medium text-left bg-white text-dark-800" colspan="3" scope="colgroup">Supported Languages</th>
+						</tr>
+						<tr>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">SASS/CSS Editor</th>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">JavaScript Editor</th>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">HTML Editor</th>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">PHP Editor</th>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in Free</span>
+							</td>
+							<td class="px-6 py-5">
+								<AtomsCheckIcon />
+								<span class="sr-only">Included in PRO</span>
+							</td>
+						</tr>
+						<tr>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">LESS Editor</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -212,7 +223,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Code Folding</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Stylus Editor</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -223,7 +234,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Code Hints</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">CoffeeScript Editor</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>
@@ -234,18 +245,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Code Includes</th>
-							<td class="px-6 py-5">
-								<AtomsMinusIcon />
-								<span class="sr-only">Not included in Free</span>
-							</td>
-							<td class="px-6 py-5">
-								<AtomsCheckIcon />
-								<span class="sr-only">Included in PRO</span>
-							</td>
-						</tr>
-						<tr>
-							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">Code Groups/Categories</th>
+							<th class="px-6 py-5 text-base font-medium text-left text-dark-500" scope="row">PUG Editor</th>
 							<td class="px-6 py-5">
 								<AtomsMinusIcon />
 								<span class="sr-only">Not included in Free</span>

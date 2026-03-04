@@ -10,7 +10,8 @@
 
 			<AtomsHeroSub>
 				Meet the best way to add/edit/manage custom code blocks right in <br class="hidden md:block" />
-				your WordPress admin dashboard without ever dealing with built-in editor.
+				your WordPress admin dashboard without ever dealing with built-in editor. <br class="hidden md:block" />
+				<span class="block mt-3 font-medium text-primary">Now with AI-powered Code Generation, Fix and Optimization!</span>
 			</AtomsHeroSub>
 
 			<AtomsBuyButtonLg>Give CodeKit a try</AtomsBuyButtonLg>
