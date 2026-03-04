@@ -204,6 +204,12 @@ export default {
   build: {
   },
 
+  watchers: {
+    webpack: {
+      ignored: /.git/
+    }
+  },
+
   sitemap: {
     hostname: 'https://codekitwp.com',
     gzip: true,
