@@ -114,15 +114,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
-    // '@aceforth/nuxt-optimized-images',
-    '@nuxtjs/html-validator'
+    '@nuxtjs/google-analytics'
   ],
-
-  optimizedImages: {
-    optimizeImages: true
-  },
-
   htmlValidator: {
     usePrettier: false,
     failOnError: false,
