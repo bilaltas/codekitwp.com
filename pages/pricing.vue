@@ -212,7 +212,7 @@ export default {
 						plugin_id: "7183",
 						plan_id: "12313",
 						public_key: "pk_4c4440eed53a6dd7637b96b2b82c0",
-						image: "https://ps.w.org/custom-codes/assets/icon.svg?rev=2446491"
+						image: "https://www.codekitwp.com/logo.svg"
 					});
 
 					// URL parametresine göre otomatik paket açma
@@ -236,7 +236,7 @@ export default {
 	},
 	methods: {
 		openPopup(licenseType) {
-			this.handler.open({
+			const checkoutOptions = {
 				name: "CodeKit",
 				licenses: licenseType,
 				// You can consume the response for after purchase logic.
@@ -246,7 +246,14 @@ export default {
 				success(response) {
 					// The logic here will be executed after the customer closes the checkout, after a successful purchase.             // alert(response.user.email);
 				}
-			});
+			};
+
+			const couponCode = this.$route.query.coupon;
+			if (couponCode) {
+				checkoutOptions.coupon = couponCode;
+			}
+
+			this.handler.open(checkoutOptions);
 		}
 	}
 };
